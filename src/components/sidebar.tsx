@@ -3,7 +3,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="hidden md:block pr-[100px]">
       <h1 className="font-bold text-xl">Drinks</h1>
       <div className="flex flex-col gap-3 mt-2 text-zinc-700">
         <Link href="/sdf" className="text-sm">
@@ -56,6 +56,27 @@ const Sidebar = () => {
         </Link>
         <Link href="/sdf" className="text-sm">
           VIA Instant
+        </Link>
+      </div>
+      <h1 className="font-bold text-xl mt-7">Merchandise</h1>
+      <div className="flex flex-col gap-3 mt-2 text-zinc-700">
+        <Link href="/sdf" className="text-sm">
+          Hot Breakfast
+        </Link>
+        <Link href="/sdf" className="text-sm">
+          Cold Cups
+        </Link>
+        <Link href="/sdf" className="text-sm">
+          Tumblers{" "}
+        </Link>
+        <Link href="/sdf" className="text-sm">
+          Mugs
+        </Link>
+        <Link href="/sdf" className="text-sm">
+          Water Bottles
+        </Link>
+        <Link href="/sdf" className="text-sm">
+          Other{" "}
         </Link>
       </div>
     </div>
