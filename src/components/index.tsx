@@ -659,7 +659,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" pt-3 pb-1 flex items-center inset-x-0 top-0 z-30 w-full border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
+    <nav className=" border-b-2 shadow-sm pt-3 pb-1 flex items-center inset-x-0 top-0 z-30 w-full border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between border-zinc-200">
           <Link href="/" className="flex text-2xl gap-4 z-40 font-bold">

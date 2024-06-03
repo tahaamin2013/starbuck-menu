@@ -2,9 +2,12 @@ import Sidebar from "@/components/sidebar";
 import Image from "next/image";
 import Link from "next/link";
 import { menuItems } from "../../lib/menuItems"; // Adjust the path according to your directory structure
+import SubMenu from "@/components/subMenu";
 
 export default function Home() {
   return (
+      <>
+      <SubMenu />
     <div className="flex px-5 md:px-[90px] my-9">
       <div>
         <Sidebar />
@@ -28,7 +31,7 @@ export default function Home() {
                       width={120}
                       height={120}
                       className="rounded-full"
-                    />
+                      />
                     <div>
                       <h1 className="text-xl">{item.name}</h1>
                     </div>
@@ -40,5 +43,6 @@ export default function Home() {
         ))}
       </div>
     </div>
+        </>
   );
 }
