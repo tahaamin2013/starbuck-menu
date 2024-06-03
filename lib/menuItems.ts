@@ -78,4 +78,23 @@ export const menuItems = [
       
     ],
   },
+
+
+  {
+    category: "At Home Coffee",
+    items: [
+      {
+        name: "Whole Bean",
+        image: "/Whole Bean.avif",
+        link: "hello",
+      },
+      {
+        name: "VIA® Instant",
+        image: "/VIA® Instant.avif",
+        link: "hello",
+      },
+
+      
+    ],
+  },
 ];
