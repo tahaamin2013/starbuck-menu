@@ -46,4 +46,36 @@ export const menuItems = [
       
     ],
   },
+  {
+    category: "Foods",
+    items: [
+      {
+        name: "Hot Breakfast",
+        image: "/Hot Breakfast.avif",
+        link: "hello",
+      },
+      {
+        name: "Oatmeal & Yogurt",
+        image: "/Oatmeal & Yogurt.avif",
+        link: "hello",
+      },
+      {
+        name: "Bakery",
+        image: "/Bakery.avif",
+        link: "hello",
+      },
+      {
+        name: "Lunch",
+        image: "/Lunch.avif",
+        link: "hello",
+      },
+      {
+        name: "Snacks & Sweets",
+        image: "/Snacks & Sweets.avif",
+        link: "hello",
+      },
+
+      
+    ],
+  },
 ];
