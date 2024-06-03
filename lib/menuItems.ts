@@ -97,4 +97,37 @@ export const menuItems = [
       
     ],
   },
+  {
+    category: "Merchandise",
+    items: [
+      {
+        name: "Cold Cups",
+        image: "/Cold Cups.avif",
+        link: "hello",
+      },
+      {
+        name: "Tumblers",
+        image: "/Tumblers.avif",
+        link: "hello",
+      },
+      {
+        name: "Mugs",
+        image: "/Mugs.avif",
+        link: "hello",
+      },
+      {
+        name: "Water Bottles",
+        image: "/Water Bottles.avif",
+        link: "hello",
+      },
+      {
+        name: "Other",
+        image: "/Other.avif",
+        link: "hello",
+      },
+      
+
+      
+    ],
+  },
 ];
