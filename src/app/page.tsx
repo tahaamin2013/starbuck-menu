@@ -15,7 +15,7 @@ export default function Home() {
         {menuItems.map((category, index) => (
           <div key={index} className="mt-[36px]">
             <h1 className="font-bold text-2xl mb-4">{category.category}</h1>
-            <div className="flex flex-wrap  gap-x-[100px] border-t pt-6 gap-y-[50px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 border-t pt-6 gap-y-[50px]">
               {category.items.map((item, idx) => (
                 <div key={idx} className="flex gap-8 flex-col md:flex-row">
                   <Link

@@ -14,15 +14,36 @@ export const menuItems = [
         link: "hello",
       },
       {
-        name: "Hot Coffees",
-        image: "/hot cofee.avif",
+        name: "Starbucks Refreshers® Beverages",
+        image: "/Starbucks Refreshers® Beverages.avif",
         link: "hello",
       },
       {
-        name: "Cold Coffees",
-        image: "/cold cofee.avif",
+        name: "Frappuccino® Blended Beverages",
+        image: "/Frappuccino® Blended Beverages.avif",
         link: "hello",
       },
+      {
+        name: "Iced Tea and Lemonade",
+        image: "/Iced Tea and Lemonade.avif",
+        link: "hello",
+      },
+      {
+        name: "Hot Teas",
+        image: "/Hot Teas.avif",
+        link: "hello",
+      },
+      {
+        name: "Milk, Juice & More",
+        image: "/Milk, Juice & More.avif",
+        link: "hello",
+      },
+      {
+        name: "Bottled Beverages",
+        image: "/Bottled Beverages.avif",
+        link: "hello",
+      },
+      
     ],
   },
 ];

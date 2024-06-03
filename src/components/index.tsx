@@ -668,7 +668,7 @@ const Navbar = () => {
               alt="Starbucks icon"
               width={90}
               height={90}
-              className="w-[90px] mt-1 h-[90px]"
+              className="w-[90px] mt-1 h-[80px]"
             ></Image>
           </Link>
           <MobileNav />
