@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const Navbar = () => {
   const isAuthenticated = false;
@@ -658,110 +659,37 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" h-16 inset-x-0 top-0 z-30 w-full border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
+    <nav className=" pt-3 pb-1 flex items-center inset-x-0 top-0 z-30 w-full border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between border-zinc-200">
-          <Link href="/" className="flex text-2xl z-40 font-bold">
-            Devkins
+          <Link href="/" className="flex text-2xl gap-4 z-40 font-bold">
+            <Image
+              src="/icon.svg"
+              alt="Starbucks icon"
+              width={90}
+              height={90}
+              className="w-[90px] mt-1 h-[90px]"
+            ></Image>
           </Link>
           <MobileNav />
-          <div className="hidden items-center space-x-4 sm:flex">
+          <div className="hidden text-lg gap-5 items-center space-x-4 sm:flex">
             <Link
               href="/"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
+
             >
-              Home
+              Menu
             </Link>
             <Link
               href="/about"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
+
             >
-              About Us
+              Cold Cofees{" "}
             </Link>
             <Link
               href="/portfolio"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-            >
-              Portfolio
-            </Link>
-            <div
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-            >
-              <DropdownMenu>
-                <DropdownMenuTrigger className="flex flex-row gap-2 items-center justify-center">
-                  Our Services <ChevronDown className="mt-0.5" size="16px" />
-                </DropdownMenuTrigger>
-                <DropdownMenuContent className="mt-[16px] overflow-auto grid grid-cols-3 gap-2  py-9  p-2  justify-between px-4 outline-none w-screen h-screen ">
-                  <div className="flex w-full justify-between">
-                    <div className="text-full text-left w-full">
-                      {data.map((item, index): any => (
-                        <div key={index} className="!text-left">
-                          <DropdownMenuItem
-                            onMouseEnter={() =>
-                              handleMouseEnter(item.description)
-                            }
-                            key={index}
-                            className="p-2 px-3 cursor-pointer h-fit flex flex-col w-full text-left relative opacity-100"
-                          >
-                            <Link
-                              href={item.link}
-                              className="w-full h-full text-left"
-                            >
-                              <Link href={item.link}>{item.title}</Link>
-                            </Link>
-                          </DropdownMenuItem>
-                        </div>
-                      ))}
-                    </div>
 
-                    <div className="bg-[#7c3aed] h-full rounded-full mx-2 w-[4.5px]"></div>
-                  </div>
-                  <div className=" col-span-2">
-                    {showDescription && <p>{showDescription}</p>}
-                  </div>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            </div>
-            <Link
-              href="/careers"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
             >
-              Careers
-            </Link>
-            <Link
-              href="/tools"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-            >
-              Tools
-            </Link>
-          </div>
-          <div className="hidden items-center text-white space-x-4 sm:flex">
-            <Link href="/talk">
-              <Button
-                className={buttonVariants({
-                  size: "sm",
-                })}
-              >
-                Let&apos;s Talk <MessagesSquare className="w-5 h-5 ml-2" />
-              </Button>
+              Hot Cofees
             </Link>
           </div>
         </div>
