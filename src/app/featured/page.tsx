@@ -5,8 +5,8 @@ import React from "react";
 const Featured = () => {
   return (
     <div>
-      <h1 className="font-bold text-6xl text-center mt-4">
-        We're on summertime
+      <h1 className="font-bold text-4xl md:text-6xl text-center mt-4">
+        We&lsquo;re on summertime
       </h1>
 
       <Feetured
@@ -26,11 +26,11 @@ const Featured = () => {
         color="#1e3932"
         direction="Right"
         imageSrc="/2.webp"
-        title="            New Summer-Berry Starbucks Refreshers® Beverages
+        title="            White Chocolate Macadamia Cream Cold Brew
+
 "
-        description="            Introducing the official drink of summer—a mix of berry 
-            flavors over bursting raspberry flavored pearls, enjoyed alon
-           or with lemonade or coconutmilk."
+        description="Smooth and lush, our White Chocolate Macadamia Cream Cold Brew is topped with toasted cookie crumbles.
+"
         bg="#d6e342"
       />
       <Feetured
@@ -38,11 +38,11 @@ const Featured = () => {
         color="#1e3932"
         direction="Left"
         imageSrc="/3.webp"
-        title="            New Summer-Berry Starbucks Refreshers® Beverages
+        title="            Caramel Ribbon Crunch Frappuccino® Blended Beverage
+
 "
-        description="            Introducing the official drink of summer—a mix of berry 
-            flavors over bursting raspberry flavored pearls, enjoyed alon
-           or with lemonade or coconutmilk."
+        description="Caramel syrup blended with coffee, milk and ice, topped with a dark caramel drizzle.
+"
         bg="#f8cdd1"
       />
       <Feetured
@@ -62,11 +62,11 @@ const Featured = () => {
         color="#1e3932"
         direction="Left"
         imageSrc="/5.webp"
-        title="            New Summer-Berry Starbucks Refreshers® Beverages
+        title="            New Pineapple Cloud Cake
+
 "
-        description="            Introducing the official drink of summer—a mix of berry 
-            flavors over bursting raspberry flavored pearls, enjoyed alon
-           or with lemonade or coconutmilk."
+        description="           An airy cake layered with lightweight pineapple cream and pineapple spread with whole fruit pieces.
+"
         bg="#fad4aa"
       />
     </div>

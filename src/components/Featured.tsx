@@ -66,7 +66,7 @@ const Feetured: React.FC<FeeturedProps> = ({
               </h1>
               <p className="mt-4 w-[450px]">{description}</p>
               <button
-                className="rounded-full md:mt-0 mt-3 px-4 md:mb-0 mb-4 py-1"
+                className="rounded-full mt-3 px-4 md:mb-0 mb-4 py-1"
                 style={{ border: `1px solid ${borderButton}` }} // Set button border color
               >
                 Order Now
