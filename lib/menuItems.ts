@@ -6,7 +6,7 @@ export const menuItems = [
       {
         name: "Hot Coffees",
         image: "/hot cofee.avif",
-        link: "hello",
+        link: "hot-cofees",
       },
       {
         name: "Cold Coffees",
@@ -130,4 +130,57 @@ export const menuItems = [
       
     ],
   },
+];
+
+
+// menuItems.js
+export const HotCofees = [
+  {
+    category: "Americanos",
+    items: [
+      {
+        name: "Caffè Americano",
+        image: "/hot cofee.avif",
+        calories:"15",
+      },
+     
+      
+    ],
+  },
+  
+   {
+    category: "Brewed Coffees",
+    items: [
+      {
+        name: "Veranda Blend® Clover Vertica™",
+        image: "/hot cofee.avif",
+        calories:"10",
+      },
+      {
+        name: "Featured Medium Roast Pike Place® Roast",
+        image: "/hot cofee.avif",
+        calories:"10",
+      },
+      {
+        name: "Starbucks Odyssey Blend® Clover Vertica™",
+        image: "/hot cofee.avif",
+        calories:"10",
+      },
+      {
+        name: "Featured Decaf Roast Decaf Pike Place® Roast",
+        image: "/hot cofee.avif",
+        calories:"10",
+      },
+      {
+        name: "Caffè Misto",
+        image: "/hot cofee.avif",
+        calories:"10",
+      },
+
+     
+      
+    ],
+  },
+  
+
 ];

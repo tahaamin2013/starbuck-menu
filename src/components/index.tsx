@@ -663,13 +663,12 @@ const Navbar = () => {
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between border-zinc-200">
           <Link href="/" className="flex text-2xl gap-4 z-40 font-bold">
-            <Image
+            <img
               src="/icon.svg"
               alt="Starbucks icon"
-              width={90}
-              height={90}
-              className="w-[90px] mt-1 h-[80px]"
-            ></Image>
+              width={80}
+              className="mt-1"
+            ></img>
           </Link>
           <MobileNav />
           <div className="hidden text-lg gap-5 items-center space-x-4 sm:flex">
