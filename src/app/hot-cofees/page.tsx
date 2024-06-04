@@ -47,7 +47,7 @@ const page = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue border-t pt-6 gap-y-[50px]">
                 {category.items.map((item, idx) => (
                   <div key={idx} className="flex gap-8 flex-col md:flex-row">
-                    <div className="flex flex-row items-center gap-5">
+                    <Link href={item.link} className="flex flex-row items-center gap-5">
                       <Image
                         src={item.image}
                         alt={item.name}
@@ -64,7 +64,7 @@ const page = () => {
                           </p>
                         </p>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 ))}
               </div>
