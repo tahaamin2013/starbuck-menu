@@ -11,7 +11,7 @@ export const menuItems = [
       {
         name: "Cold Coffees",
         image: "/cold cofee.avif",
-        link: "hello",
+        link: "cold-cofees",
       },
       {
         name: "Starbucks Refreshers® Beverages",
@@ -358,6 +358,42 @@ export const HotCofees = [
         image: "/Box.avif",
         calories: "5",
         price: "3.40",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const ColdCofees = [
+  {
+    category: "Cold Brews",
+    items: [
+      {
+        name: "White Chocolate Macadamia Cream Cold Brew",
+        image: "/White Chocolate Macadamia Cream Cold Brew.avif",
+        calories: "230",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Chocolate Cream Cold Brew",
+        image: "/to.avif",
+        calories: "250",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Caffè Americano",
+        image: "/to.avif",
+        calories: "15",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Caffè Americano",
+        image: "/to.avif",
+        calories: "15",
+        price: "3.45",
         link: "hello",
       },
     ],

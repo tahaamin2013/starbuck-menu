@@ -1,5 +1,5 @@
 import React from "react";
-import { HotCofees } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
+import { ColdCofees } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
 import Image from "next/image";
 import Link from "next/link";
 import SubMenu from "@/components/subMenu";
@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Slash } from "lucide-react";
 
-const HotCofee = () => {
+const ColdCofee = () => {
   return (
     <div>
       <SubMenu />
@@ -35,19 +35,22 @@ const HotCofee = () => {
                 <Slash />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/hot-cofees">Hot Cofees</BreadcrumbLink>
+                <BreadcrumbLink href="/cold-cofees">Cold Cofees</BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          <h1 className="font-bold text-2xl">Hot Cofees</h1>
+          <h1 className="font-bold text-2xl">Cold Cofees</h1>
 
-          {HotCofees.map((category, index) => (
+          {ColdCofees.map((category, index) => (
             <div key={index} className="mt-[36px]">
               <h1 className="font-bold text-2xl mb-4">{category.category}</h1>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue border-t pt-6 gap-y-[50px]">
                 {category.items.map((item, idx) => (
                   <div key={idx} className="flex gap-8 flex-col md:flex-row">
-                    <Link href={item.link} className="flex flex-row items-center gap-5">
+                    <Link
+                      href={item.link}
+                      className="flex flex-row items-center gap-5"
+                    >
                       <Image
                         src={item.image}
                         alt={item.name}
@@ -76,4 +79,4 @@ const HotCofee = () => {
   );
 };
 
-export default HotCofee;
+export default ColdCofee;

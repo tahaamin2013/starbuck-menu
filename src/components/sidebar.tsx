@@ -6,10 +6,10 @@ const Sidebar = () => {
     <div className="hidden md:block pr-[100px]">
       <h1 className="font-bold text-xl">Drinks</h1>
       <div className="flex flex-col gap-3 mt-2 text-zinc-700">
-        <Link href="/sdf" className="text-sm">
+        <Link href="/hot-cofees" className="text-sm">
           Hot Cofees{" "}
         </Link>
-        <Link href="/sdf" className="text-sm">
+        <Link href="/cold-cofees" className="text-sm">
           Cold Cofees{" "}
         </Link>
         <Link href="/sdf" className="text-sm">
