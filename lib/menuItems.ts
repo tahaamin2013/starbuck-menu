@@ -140,7 +140,7 @@ export const HotCofees = [
     items: [
       {
         name: "Caffè Americano",
-        image: "/hot cofee.avif",
+        image: "/to.avif",
         calories:"15",
       },
      
@@ -153,27 +153,27 @@ export const HotCofees = [
     items: [
       {
         name: "Veranda Blend® Clover Vertica™",
-        image: "/hot cofee.avif",
+        image: "/to.avif",
         calories:"10",
       },
       {
         name: "Featured Medium Roast Pike Place® Roast",
-        image: "/hot cofee.avif",
+        image: "/to.avif",
         calories:"10",
       },
       {
         name: "Starbucks Odyssey Blend® Clover Vertica™",
-        image: "/hot cofee.avif",
+        image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
         calories:"10",
       },
       {
         name: "Featured Decaf Roast Decaf Pike Place® Roast",
-        image: "/hot cofee.avif",
+        image: "/to.avif",
         calories:"10",
       },
       {
         name: "Caffè Misto",
-        image: "/hot cofee.avif",
+        image: "/Caffè Misto.avif",
         calories:"10",
       },
 
