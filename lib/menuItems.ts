@@ -43,7 +43,6 @@ export const menuItems = [
         image: "/Bottled Beverages.avif",
         link: "hello",
       },
-      
     ],
   },
   {
@@ -74,11 +73,8 @@ export const menuItems = [
         image: "/Snacks & Sweets.avif",
         link: "hello",
       },
-
-      
     ],
   },
-
 
   {
     category: "At Home Coffee",
@@ -93,8 +89,6 @@ export const menuItems = [
         image: "/VIA® Instant.avif",
         link: "hello",
       },
-
-      
     ],
   },
   {
@@ -125,13 +119,9 @@ export const menuItems = [
         image: "/Other.avif",
         link: "hello",
       },
-      
-
-      
     ],
   },
 ];
-
 
 // menuItems.js
 export const HotCofees = [
@@ -141,86 +131,106 @@ export const HotCofees = [
       {
         name: "Caffè Americano",
         image: "/to.avif",
-        calories:"15",
+        calories: "15",
+        price: "3.40",
       },
-     
-      
     ],
   },
-  
-   {
+
+  {
     category: "Brewed Coffees",
     items: [
       {
         name: "Veranda Blend® Clover Vertica™",
         image: "/to.avif",
-        calories:"10",
+        calories: "10",
+        price: "3.40",
       },
       {
         name: "Featured Medium Roast Pike Place® Roast",
         image: "/to.avif",
-        calories:"10",
+        calories: "10",
+        price: "3.40",
       },
       {
         name: "Starbucks Odyssey Blend® Clover Vertica™",
         image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
-        calories:"10",
+        calories: "10",
+        price: "3.40",
       },
       {
         name: "Featured Decaf Roast Decaf Pike Place® Roast",
         image: "/to.avif",
-        calories:"10",
+        calories: "10",
+        price: "3.40",
       },
       {
         name: "Caffè Misto",
         image: "/Caffè Misto.avif",
-        calories:"10",
+        calories: "10",
+        price: "3.40",
       },
       {
         name: "Featured Blonde Roast",
         image: "/to.avif",
-        calories:"5",
+        calories: "5",
+        price: "3.40",
       },
       {
         name: "Featured Medium Roast Pike Place® Roast",
         image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
-        calories:"10",
+        calories: "10",
+        price: "3.40",
       },
       {
         name: "Featured Dark Roast Caffè Verona®",
         image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
-        calories:"10",
+        calories: "10",
+        price: "3.40",
       },
 
-
-
-            {
+      {
         name: "Featured Dark Roast",
         image: "/Featured Dark Roast.avif",
-        calories:"5",
+        calories: "5",
+        price: "3.40",
       },
       {
         name: "Featured Decaf Roast Decaf Pike Place® Roast",
         image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
-        calories:"5",
+        calories: "5",
+        price: "3.40",
       },
-
-     
-      
     ],
   },
-  
-     {
+
+  {
     category: "Cappuccinos",
     items: [
       {
         name: "Cappuccino",
         image: "/Cappuccino.avif",
-        calories:"140",
+        calories: "140",
+        price: "3.40",
       },
-     
-      
     ],
   },
 
+  {
+    category: "Espresso Shots",
+    items: [
+      {
+        name: "Espresso",
+        image: "/Espresso.avif",
+        calories: "10",
+        price: "3.40",
+      },
+      {
+        name: "Espresso Con Panna",
+        image: "/Espresso Con Panna.avif",
+        calories: "35",
+        price: "3.40",
+      },
+    ],
+  },
 ];
