@@ -289,18 +289,48 @@ export const HotCofees = [
   },
 
   {
-    category: "Flat Whites",
+    category: "Mochas",
     items: [
       {
-        name: "Flat White",
-        image: "/Flat White.avif",
-        calories: "170",
+        name: "Caffè Mocha",
+        image: "/Caffè Mocha.avif",
+        calories: "370",
         price: "3.40",
       },
       {
-        name: "Honey Almondmilk Flat White",
-        image: "/Honey Almondmilk Flat White.avif",
-        calories: "120",
+        name: "White Chocolate Mocha",
+        image: "/White Chocolate Mocha.avif",
+        calories: "390",
+        price: "3.40",
+      },
+    ],
+  },
+
+  {
+    category: "Coffee Travelers",
+    items: [
+      {
+        name: "Coffee Traveler - Veranda Blend®",
+        image: "/Box.avif",
+        calories: "5",
+        price: "3.40",
+      },
+      {
+        name: "Coffee Traveler - Dark Roast",
+        image: "/Box.avif",
+        calories: "5",
+        price: "3.40",
+      },
+      {
+        name: "Coffee Traveler - Pike Place® Roast",
+        image: "/Box.avif",
+        calories: "5",
+        price: "3.40",
+      },
+      {
+        name: "Coffee Traveler - Decaf Pike Place® Roast",
+        image: "/Box.avif",
+        calories: "5",
         price: "3.40",
       },
     ],
