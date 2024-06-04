@@ -287,4 +287,22 @@ export const HotCofees = [
       },
     ],
   },
+
+  {
+    category: "Flat Whites",
+    items: [
+      {
+        name: "Flat White",
+        image: "/Flat White.avif",
+        calories: "170",
+        price: "3.40",
+      },
+      {
+        name: "Honey Almondmilk Flat White",
+        image: "/Honey Almondmilk Flat White.avif",
+        calories: "120",
+        price: "3.40",
+      },
+    ],
+  },
 ];
