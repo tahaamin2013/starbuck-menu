@@ -447,14 +447,14 @@ export const MilkJuceMore = [
     items: [
       {
         name: "Caramel Apple Spice",
-        image: "/Oatmeal & Yogurt.avif",
+        image: "/Caramel Apple Spice.avif",
         calories: "380",
         price: "3.45",
         link: "hello",
       },
       {
         name: "Steamed Apple Juice",
-        image: "/Berry Trio Parfaita.avif",
+        image: "/Steamed Apple Juice.avif",
         calories: "220",
         price: "3.45",
         link: "hello",
@@ -466,16 +466,24 @@ export const MilkJuceMore = [
     category: "Milk & Steamers",
     items: [
       {
-        name: "Rolled & Steel-Cut Oatmeal",
-        image: "/Oatmeal & Yogurt.avif",
-        calories: "160",
+        name: "Cold Milk",
+        image: "/Cold Milk.avif",
+        calories: "260",
         price: "3.45",
         link: "hello",
       },
       {
-        name: "Berry Trio Parfait",
-        image: "/Berry Trio Parfaita.avif",
-        calories: "240",
+        name: "Steamed Milk",
+        image: "/Steamed Milk.avif",
+        calories: "200",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Vanilla Crème",
+        image: "/Vanilla Crème.avif",
+        calories: "350",
         price: "3.45",
         link: "hello",
       },
