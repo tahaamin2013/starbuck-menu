@@ -102,22 +102,22 @@ export const menuItems = [
       {
         name: "Tumblers",
         image: "/Tumblers.avif",
-        link: "hello",
+        link: "tumblers",
       },
       {
         name: "Mugs",
         image: "/Mugs.avif",
-        link: "hello",
+        link: "mugs",
       },
       {
         name: "Water Bottles",
         image: "/Water Bottles.avif",
-        link: "hello",
+        link: "water-bottles",
       },
       {
         name: "Other",
         image: "/Other.avif",
-        link: "hello",
+        link: "other",
       },
     ],
   },
@@ -484,6 +484,80 @@ export const MilkJuceMore = [
         name: "Vanilla Crème",
         image: "/Vanilla Crème.avif",
         calories: "350",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const Tumblerss = [
+  {
+    category: "Tumblers",
+    items: [
+      {
+        name: "Siren Logo Plastic Hot Cup - 16 fl oz",
+        image: "/Tumblers.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const Mugss = [
+  {
+    category: "Mugs",
+    items: [
+      {
+        name: "Glass Mug - 16 fl oz",
+        image: "/Mugs.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const WaterBottless = [
+  {
+    category: "Water Bottles",
+    items: [
+      {
+        name: "Twist to Sip Stainless-Steel Water Bottle - 20 fl oz",
+        image: "/Water Bottles.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const Others = [
+  {
+    category: "Water Bottles",
+    items: [
+      {
+        name: "French Press",
+        image: "/Other.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Pour Over",
+        image: "/Pour Over.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Small Shopping Bag",
+        image: "/Small Shopping Bag.avif",
+        calories: "160",
         price: "3.45",
         link: "hello",
       },

@@ -679,13 +679,13 @@ const Navbar = () => {
               Menu
             </Link>
             <Link
-              href="/about"
+              href="/cold-cofees"
 
             >
               Cold Cofees{" "}
             </Link>
             <Link
-              href="/portfolio"
+              href="/hot-cofees"
 
             >
               Hot Cofees
