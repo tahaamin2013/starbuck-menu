@@ -36,7 +36,7 @@ export const menuItems = [
       {
         name: "Milk, Juice & More",
         image: "/Milk, Juice & More.avif",
-        link: "hello",
+        link: "milk-juice-and-more",
       },
       {
         name: "Bottled Beverages",
@@ -56,7 +56,7 @@ export const menuItems = [
       {
         name: "Oatmeal & Yogurt",
         image: "/Oatmeal & Yogurt.avif",
-        link: "hello",
+        link: "owatmeal-and-yougurt",
       },
       {
         name: "Bakery",
@@ -370,7 +370,7 @@ export const ColdCofees = [
     items: [
       {
         name: "White Chocolate Macadamia Cream Cold Brew",
-        image: "/White Chocolate Macadamia Cream Cold Brew.avif",
+        image: "/White Chocolate Macadamia Cream Cold Brew.jpg",
         calories: "230",
         price: "3.45",
         link: "hello",
@@ -393,6 +393,89 @@ export const ColdCofees = [
         name: "Caffè Americano",
         image: "/to.avif",
         calories: "15",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const Yougurt = [
+  {
+    category: "Oatmeal & Yogurt",
+    items: [
+      {
+        name: "Rolled & Steel-Cut Oatmeal",
+        image: "/Oatmeal & Yogurt.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Berry Trio Parfait",
+        image: "/Berry Trio Parfait.avif",
+        calories: "240",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const MilkJuceMore = [
+  {
+    category: "Hot Chocolates",
+    items: [
+      {
+        name: "Hot Chocolate",
+        image: "/Hot Chocolate.avif",
+        calories: "370",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "White Hot Chocolate",
+        image: "/White Hot Chocolate.avif",
+        calories: "400",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+  {
+    category: "Juice",
+    items: [
+      {
+        name: "Caramel Apple Spice",
+        image: "/Oatmeal & Yogurt.avif",
+        calories: "380",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Steamed Apple Juice",
+        image: "/Berry Trio Parfaita.avif",
+        calories: "220",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Milk & Steamers",
+    items: [
+      {
+        name: "Rolled & Steel-Cut Oatmeal",
+        image: "/Oatmeal & Yogurt.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Berry Trio Parfait",
+        image: "/Berry Trio Parfaita.avif",
+        calories: "240",
         price: "3.45",
         link: "hello",
       },
