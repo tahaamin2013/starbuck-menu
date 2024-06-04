@@ -210,5 +210,17 @@ export const HotCofees = [
     ],
   },
   
+     {
+    category: "Cappuccinos",
+    items: [
+      {
+        name: "Cappuccino",
+        image: "/Cappuccino.avif",
+        calories:"140",
+      },
+     
+      
+    ],
+  },
 
 ];
