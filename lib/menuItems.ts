@@ -233,4 +233,58 @@ export const HotCofees = [
       },
     ],
   },
+
+  {
+    category: "Flat Whites",
+    items: [
+      {
+        name: "Flat White",
+        image: "/Flat White.avif",
+        calories: "170",
+        price: "3.40",
+      },
+      {
+        name: "Honey Almondmilk Flat White",
+        image: "/Honey Almondmilk Flat White.avif",
+        calories: "120",
+        price: "3.40",
+      },
+    ],
+  },
+
+  {
+    category: "Lattes",
+    items: [
+      {
+        name: "Lavender Oatmilk Latte",
+        image: "/Lavender Oatmilk Latte.avif",
+        calories: "260",
+        price: "3.40",
+      },
+      {
+        name: "Oleato™ Caffé Latte with Oatmilk",
+        image: "/Oleato™ Caffé Latte with Oatmilk.avif",
+        calories: "330",
+        price: "3.40",
+      },
+      {
+        name: "Caffè Latte",
+        image: "/Caffè Latte.avif",
+        calories: "190",
+        price: "3.40",
+      },
+      {
+        name: "Cinnamon Dolce Latte",
+        image: "/Cinnamon Dolce Latte.avif",
+        calories: "340",
+        price: "3.40",
+      },
+      {
+        name: "Starbucks® Blonde Vanilla Latte",
+        image: "/Starbucks® Blonde Vanilla Latte.avif",
+        calories: "250",
+        price: "3.40",
+      },
+    ],
+  },
 ];
