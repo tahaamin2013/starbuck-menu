@@ -176,6 +176,34 @@ export const HotCofees = [
         image: "/Caffè Misto.avif",
         calories:"10",
       },
+      {
+        name: "Featured Blonde Roast",
+        image: "/to.avif",
+        calories:"5",
+      },
+      {
+        name: "Featured Medium Roast Pike Place® Roast",
+        image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
+        calories:"10",
+      },
+      {
+        name: "Featured Dark Roast Caffè Verona®",
+        image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
+        calories:"10",
+      },
+
+
+
+            {
+        name: "Featured Dark Roast",
+        image: "/Featured Dark Roast.avif",
+        calories:"5",
+      },
+      {
+        name: "Featured Decaf Roast Decaf Pike Place® Roast",
+        image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
+        calories:"5",
+      },
 
      
       
