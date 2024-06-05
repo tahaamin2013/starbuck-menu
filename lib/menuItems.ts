@@ -456,6 +456,68 @@ export const ColdCofees = [
       },
     ],
   },
+
+  {
+    category: "Iced Coffees",
+    items: [
+      {
+        name: "Starbucks® Iced Coffee Blend",
+        image: "/12.avif",
+        calories: "5",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Starbucks® Iced Coffee Blend Clover Vertica™",
+        image: "/12.avif",
+        calories: "5",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Espresso",
+        image: "/Iced Espresso.avif",
+        calories: "10",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Iced Shaken Espresso",
+    items: [
+      {
+        name: "Iced Hazelnut Oatmilk Shaken Espresso",
+        image: "/Iced Hazelnut Oatmilk Shaken Espresso.avif",
+        calories: "150",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Brown Sugar Oatmilk Shaken Espresso",
+        image: "/Iced Brown Sugar Oatmilk Shaken Espresso.avif",
+        calories: "120",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Oleato Golden Foam™ Iced Shaken Espresso with Toffeenut",
+        image: "/Oleato Golden Foam™ Iced Shaken Espresso with Toffeenut.avif",
+        calories: "360",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Iced Shaken Espresso",
+        image: "/Iced Shaken Espresso.avif",
+        calories: "100",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
 ];
 
 export const Yougurt = [
