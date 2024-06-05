@@ -50,11 +50,9 @@ const Featured = () => {
         color="#ececec"
         direction="Right"
         imageSrc="/4.jpg"
-        title="            New Summer-Berry Starbucks Refreshers® Beverages
+        title="New Orange Cream Cake Pop"
+        description="A mix of orange cream cake and buttercream, dipped in white-chocolaty icing with an orange slice design.
 "
-        description="            Introducing the official drink of summer—a mix of berry 
-            flavors over bursting raspberry flavored pearls, enjoyed alon
-           or with lemonade or coconutmilk."
         bg="#0021db"
       />
       <Feetured

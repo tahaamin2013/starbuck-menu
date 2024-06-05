@@ -370,28 +370,86 @@ export const ColdCofees = [
     items: [
       {
         name: "White Chocolate Macadamia Cream Cold Brew",
-        image: "/White Chocolate Macadamia Cream Cold Brew.jpg",
+        image: "/White Chocolate Macadamia Cream Cold Brew.avif",
         calories: "230",
         price: "3.45",
         link: "hello",
       },
       {
-        name: "Chocolate Cream Cold Brew",
-        image: "/to.avif",
+        name: "Cinnamon Caramel Cream Cold Brew",
+        image: "/Cinnamon Caramel Cream Cold Brew.avif",
         calories: "250",
         price: "3.45",
         link: "hello",
       },
       {
-        name: "Caffè Americano",
-        image: "/to.avif",
-        calories: "15",
+        name: "Salted Caramel Cream Cold Brew",
+        image: "/Salted Caramel Cream Cold Brew.avif",
+        calories: "240",
         price: "3.45",
         link: "hello",
       },
       {
-        name: "Caffè Americano",
-        image: "/to.avif",
+        name: "Chocolate Cream Cold Brew",
+        image: "/Chocolate Cream Cold Brew.avif",
+        calories: "250",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Vanilla Sweet Cream Cold Brew",
+        image: "/Vanilla Sweet Cream Cold Brew.avif",
+        calories: "110",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Starbucks® Cold Brew Coffee",
+        image: "/Starbucks® Cold Brew Coffee.avif",
+        calories: "5",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Nitro Cold Brews",
+    items: [
+      {
+        name: "Cinnamon Caramel Cream Nitro Cold Brew",
+        image: "/Cinnamon Caramel Cream Nitro Cold Brew.avif",
+        calories: "260",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Nitro Cold Brew",
+        image: "/Nitro Cold Brew.avif",
+        calories: "5",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Vanilla Sweet Cream Nitro Cold Brew",
+        image: "/Vanilla Sweet Cream Nitro Cold Brew.avif",
+        calories: "70",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Iced Americano",
+    items: [
+      {
+        name: "Iced Caffè Americano",
+        image: "/Iced Caffè Americano.avif",
         calories: "15",
         price: "3.45",
         link: "hello",
