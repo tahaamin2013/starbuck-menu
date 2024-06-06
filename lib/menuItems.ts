@@ -21,7 +21,7 @@ export const menuItems = [
       {
         name: "Frappuccino® Blended Beverages",
         image: "/Frappuccino® Blended Beverages.avif",
-        link: "hello",
+        link: "frappuccino-Blended-Beverages",
       },
       {
         name: "Iced Tea and Lemonade",
@@ -774,8 +774,6 @@ export const Others = [
   },
 ];
 
-
-
 export const StarbucksRefreshersBeberagese = [
   {
     category: "Seasonal Exclusives",
@@ -921,6 +919,149 @@ export const StarbucksRefreshersBeberagese = [
         name: "Pineapple Passionfruit Starbucks Refreshers® Beverage",
         image: "/Pineapple Passionfruit Starbucks Refreshers® Beverage.avif",
         calories: "100",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const FrappuccinoBlendedBeveragess = [
+  {
+    category: "Coffee Frappuccino®",
+    items: [
+      {
+        name: "Mocha Cookie Crumble Frappuccino®",
+        image: "/Mocha Cookie Crumble Frappuccino®.avif",
+        calories: "480",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Caramel Ribbon Crunch Frappuccino® Blended Beverage",
+        image: "/Caramel Ribbon Crunch Frappuccino® Blended Beverage.avif",
+        calories: "470",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Espresso Frappuccino® Blended Beverage",
+        image: "/Espresso Frappuccino® Blended Beverage.avif",
+        calories: "210",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Caffè Vanilla Frappuccino® Blended Beverage",
+        image: "/Caffè Vanilla Frappuccino® Blended Beverage.avif",
+        calories: "410",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Caramel Frappuccino® Blended Beverage",
+        image: "/Caramel Frappuccino® Blended Beverage.avif",
+        calories: "380",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Coffee Frappuccino® Blended Beverage",
+        image: "/Coffee Frappuccino® Blended Beverage.avif",
+        calories: "230",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Mocha Frappuccino® Blended Beverage",
+        image: "/Mocha Frappuccino® Blended Beverage.avif",
+        calories: "370",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Java Chip Frappuccino® Blended Beverage",
+        image: "/Java Chip Frappuccino® Blended Beverage.avif",
+        calories: "440",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "White Chocolate Mocha Frappuccino® Blended Beverage",
+        image: "/White Chocolate Mocha Frappuccino® Blended Beverage.avif",
+        calories: "370",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Creme Frappuccino®",
+    items: [
+      {
+        name: "Lavender Crème Frappuccino® Blended Beverage",
+        image: "/Lavender Crème Frappuccino® Blended Beverage.avif",
+        calories: "370",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Chocolate Cookie Crumble Crème Frappuccino®",
+        image: "/Chocolate Cookie Crumble Crème Frappuccino®.avif",
+        calories: "460",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage",
+        image:
+          "/Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage.avif",
+        calories: "420",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Strawberry Crème Frappuccino® Blended Beverage",
+        image: "/Strawberry Crème Frappuccino® Blended Beverage.avif",
+        calories: "370",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Chai Crème Frappuccino®",
+        image: "/Chai Crème Frappuccino®.avif",
+        calories: "340",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Double Chocolaty Chip Crème Frappuccino® Blended Beverage",
+        image:
+          "/Double Chocolaty Chip Crème Frappuccino® Blended Beverage.avif",
+        calories: "410",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Matcha Crème Frappuccino® Blended Beverage",
+        image: "/Matcha Crème Frappuccino® Blended Beverage.avif",
+        calories: "420",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Vanilla Bean Crème Frappuccino® Blended Crème",
+        image: "/Vanilla Bean Crème Frappuccino® Blended Crème.avif",
+        calories: "380",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "White Chocolate Crème Frappuccino® Blended Beverage",
+        image: "/White Chocolate Crème Frappuccino® Blended Beverage.avif",
+        calories: "350",
         price: "3.45",
         link: "hello",
       },
