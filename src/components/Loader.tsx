@@ -21,7 +21,7 @@ export default function Loader({ children }: { children: React.ReactNode }) {
       {loading ? (
         <div className="flex justify-center items-center h-screen w-screen">
           <Image
-            src="/loader.gif"
+            src="/Loader.gif"
             width={500}
             height={500}
             alt="Loader"
