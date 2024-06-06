@@ -1110,7 +1110,7 @@ export const IcedTeaAndLemonades = [
     items: [
       {
         name: "Iced Chai Tea Latte",
-        image: "/Iced Chai Tea Latte.jpg",
+        image: "/Iced Chai Tea Latte.avif",
         calories: "240",
         price: "3.45",
         link: "hello",
