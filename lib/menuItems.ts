@@ -774,28 +774,153 @@ export const Others = [
   },
 ];
 
+
+
 export const StarbucksRefreshersBeberagese = [
   {
-    category: "Water Bottles",
+    category: "Seasonal Exclusives",
     items: [
       {
-        name: "French Press",
-        image: "/Other.avif",
+        name: "Summer-Berry Lemonade Starbucks Refreshers® Beverage",
+        image: "/Summer-Berry Lemonade Starbucks Refreshers® Beverage.avif",
         calories: "160",
         price: "3.45",
         link: "hello",
       },
       {
-        name: "Pour Over",
-        image: "/Pour Over.avif",
+        name: "Summer Skies Drink Starbucks Refreshers® Beverage",
+        image: "/Summer Skies Drink Starbucks Refreshers® Beverage.avif",
+        calories: "150",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Summer-Berry Starbucks Refreshers® Beverage",
+        image: "/Summer-Berry Starbucks Refreshers® Beverage.avif",
+        calories: "110",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Lemonades and Frozen",
+    items: [
+      {
+        name: "Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
+        image: "/Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "140",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "140",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "140",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Frozen Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Frozen Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
         calories: "160",
         price: "3.45",
         link: "hello",
       },
       {
-        name: "Small Shopping Bag",
-        image: "/Small Shopping Bag.avif",
+        name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "150",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage.avif",
         calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Coconutmilk Collection",
+    items: [
+      {
+        name: "Pink Drink Starbucks Refreshers® Beverage",
+        image: "/Pink Drink Starbucks Refreshers® Beverage.avif",
+        calories: "140",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Dragon Drink® Starbucks Refreshers® Beverage",
+        image: "/Dragon Drink® Starbucks Refreshers® Beverage.avif",
+        calories: "130",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Paradise Drink Starbucks Refreshers® Beverage",
+        image: "/Paradise Drink Starbucks Refreshers® Beverage.avif",
+        calories: "140",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™",
+        image:
+          "/Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™.avif",
+        calories: "380",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™",
+        image:
+          "/Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™.avif",
+        calories: "390",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Classics",
+    items: [
+      {
+        name: "Strawberry Açaí Starbucks Refreshers® Beverage",
+        image: "/Strawberry Açaí Starbucks Refreshers® Beverage.avif",
+        calories: "100",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Mango Dragonfruit Starbucks Refreshers® Beverage",
+        image: "/Mango Dragonfruit Starbucks Refreshers® Beverage.avif",
+        calories: "90",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Pineapple Passionfruit Starbucks Refreshers® Beverage",
+        image: "/Pineapple Passionfruit Starbucks Refreshers® Beverage.avif",
+        calories: "100",
         price: "3.45",
         link: "hello",
       },

@@ -35,13 +35,15 @@ const StarbucksRefreshersBeberages = () => {
                 <Slash />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/milk-juice-and-more">
-                  Milk, Juice & More
+                <BreadcrumbLink href="/starbucks-refreshers-beverages">
+                  Starbucks Refreshers® Beverages
                 </BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          <h1 className="font-bold text-2xl">Milk, Juice & More</h1>
+          <h1 className="font-bold text-2xl">
+            Starbucks Refreshers® Beverages
+          </h1>
 
           {StarbucksRefreshersBeberagese.map((category, index) => (
             <div key={index} className="mt-[36px]">
