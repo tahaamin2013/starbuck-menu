@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import React, { useState, useEffect } from "react";
 
 export default function Loader({ children }: { children: React.ReactNode }) {
@@ -20,12 +19,14 @@ export default function Loader({ children }: { children: React.ReactNode }) {
     <div className="">
       {loading ? (
         <div className="flex justify-center items-center h-screen w-screen">
-          <Image
-            src="/loader.gif"
+          <video
+            src="/loader.mp4"
             width={500}
             height={500}
-            alt="Loader"
-          ></Image>
+            autoPlay
+            loop
+            muted
+          ></video>
         </div>
       ) : (
         <>{children}</>
