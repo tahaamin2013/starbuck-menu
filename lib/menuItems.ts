@@ -26,7 +26,7 @@ export const menuItems = [
       {
         name: "Iced Tea and Lemonade",
         image: "/Iced Tea and Lemonade.avif",
-        link: "hello",
+        link: "Iced-Tea-and-Lemonade",
       },
       {
         name: "Hot Teas",
@@ -1062,6 +1062,163 @@ export const FrappuccinoBlendedBeveragess = [
         name: "White Chocolate Crème Frappuccino® Blended Beverage",
         image: "/White Chocolate Crème Frappuccino® Blended Beverage.avif",
         calories: "350",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const IcedTeaAndLemonades = [
+  {
+    category: "Iced Black Teas",
+    items: [
+      {
+        name: "Iced Black Tea",
+        image: "/Iced Black Tea.avif",
+        calories: "0",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Black Tea Lemonade",
+        image: "/Iced Black Tea Lemonade.avif",
+        calories: "50",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Royal English Breakfast Tea Latte",
+        image: "/Iced Royal English Breakfast Tea Latte.avif",
+        calories: "140",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Iced London Fog Latte",
+        image: "/Iced London Fog Latte.avif",
+        calories: "140",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Iced Chai Teas",
+    items: [
+      {
+        name: "Iced Chai Tea Latte",
+        image: "/Iced Chai Tea Latte.jpg",
+        calories: "240",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Chai Tea Latte with Oleato Golden Foam™",
+        image: "/Iced Chai Tea Latte with Oleato Golden Foam™.avif",
+        calories: "510",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Iced Green Teas",
+    items: [
+      {
+        name: "Iced Lavender Cream Oatmilk Matcha",
+        image: "/Iced Lavender Cream Oatmilk Matcha.avif",
+        calories: "360",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Peach Green Tea",
+        image: "/Iced Peach Green Tea.avif",
+        calories: "60",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Peach Green Tea Lemonade",
+        image: "/Iced Peach Green Tea Lemonade.avif",
+        calories: "80",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Matcha Tea Latte",
+        image: "/Iced Matcha Tea Latte.avif",
+        calories: "200",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Green Tea",
+        image: "/Iced Green Tea.avif",
+        calories: "0",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Green Tea Lemonade",
+        image: "/Iced Green Tea Lemonade.avif",
+        calories: "50",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Matcha Lemonade",
+        image: "/Iced Matcha Lemonade.avif",
+        calories: "120",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Matcha Tea Latte with Oleato Golden Foam™",
+        image: "/Iced Matcha Tea Latte with Oleato Golden Foam™.avif",
+        calories: "410",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+  {
+    category: "Iced Herbal Teas",
+    items: [
+      {
+        name: "Iced Passion Tango® Tea",
+        image: "/Iced Passion Tango® Tea.avif",
+        calories: "0",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Passion Tango® Tea Lemonade",
+        image: "/Iced Passion Tango® Tea Lemonade.avif",
+        calories: "50",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+  {
+    category: "Lemonades",
+    items: [
+      {
+        name: "Lemonade",
+        image: "/Lemonade.avif",
+        calories: "120",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Blended Strawberry Lemonade",
+        image: "/Blended Strawberry Lemonade.avif",
+        calories: "190",
         price: "3.45",
         link: "hello",
       },
