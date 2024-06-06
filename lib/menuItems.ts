@@ -518,6 +518,95 @@ export const ColdCofees = [
       },
     ],
   },
+
+  {
+    category: "Iced Flat Whites",
+    items: [
+      {
+        name: "Iced Flat White",
+        image: "/Iced Flat White.avif",
+        calories: "110",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Iced Honey Almondmilk Flat White",
+        image: "/Iced Honey Almondmilk Flat White.avif",
+        calories: "100",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Iced Lattes",
+    items: [
+      {
+        name: "Iced Lavender Oatmilk Latte",
+        image: "/Iced Lavender Oatmilk Latte.avif",
+        calories: "210",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Starbucks® Blonde Vanilla Latte",
+        image: "/Iced Starbucks® Blonde Vanilla Latte.avif",
+        calories: "190",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Caffè Latte",
+        image: "/Iced Caffè Latte.avif",
+        calories: "130",
+        price: "3.45",
+        link: "hello",
+      },
+
+      {
+        name: "Iced Cinnamon Dolce Latte",
+        image: "/Iced Cinnamon Dolce Latte.avif",
+        calories: "300",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Iced Macchiatos",
+    items: [
+      {
+        name: "Iced Caramel Macchiato",
+        image: "/Iced Caramel Macchiato.avif",
+        calories: "250",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Iced Mochas",
+    items: [
+      {
+        name: "Iced White Chocolate Mocha",
+        image: "/Iced White Chocolate Mocha.avif",
+        calories: "390",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Iced Caffè Mocha",
+        image: "/Iced Caffè Mocha.avif",
+        calories: "350",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
 ];
 
 export const Yougurt = [
