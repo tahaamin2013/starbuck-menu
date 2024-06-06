@@ -1,4 +1,4 @@
-"use clent";
+"use client";
 import React from "react";
 import { MilkJuceMore } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
 import Image from "next/image";
