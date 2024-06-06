@@ -12,7 +12,7 @@ const Sidebar = () => {
         <Link href="/cold-cofees" className="text-sm">
           Cold Cofees{" "}
         </Link>
-        <Link href="/sdf" className="text-sm">
+        <Link href="/starbucks-refreshers-beverages" className="text-sm">
           StarBucks <br /> Refreshers <br /> Beverages
         </Link>
         <Link href="/sdf" className="text-sm">
@@ -24,7 +24,7 @@ const Sidebar = () => {
         <Link href="/sdf" className="text-sm">
           Hot Teas
         </Link>
-        <Link href="/sdf" className="text-sm">
+        <Link href="/milk-juice-and-more" className="text-sm">
           Milk, Juice & More
         </Link>
         <Link href="/sdf" className="text-sm">
@@ -36,7 +36,7 @@ const Sidebar = () => {
         <Link href="/sdf" className="text-sm">
           Hot Breakfast
         </Link>
-        <Link href="/sdf" className="text-sm">
+        <Link href="/owatmeal-and-yougurt" className="text-sm">
           Oatmeal & Yogurt
         </Link>
         <Link href="/sdf" className="text-sm">
@@ -61,21 +61,18 @@ const Sidebar = () => {
       <h1 className="font-bold text-xl mt-7">Merchandise</h1>
       <div className="flex flex-col gap-3 mt-2 text-zinc-700">
         <Link href="/sdf" className="text-sm">
-          Hot Breakfast
-        </Link>
-        <Link href="/sdf" className="text-sm">
           Cold Cups
         </Link>
-        <Link href="/sdf" className="text-sm">
+        <Link href="/tumblers" className="text-sm">
           Tumblers{" "}
         </Link>
-        <Link href="/sdf" className="text-sm">
+        <Link href="/mugs" className="text-sm">
           Mugs
         </Link>
-        <Link href="/sdf" className="text-sm">
+        <Link href="/water-bottles" className="text-sm">
           Water Bottles
         </Link>
-        <Link href="/sdf" className="text-sm">
+        <Link href="/other" className="text-sm">
           Other{" "}
         </Link>
       </div>

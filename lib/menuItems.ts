@@ -16,7 +16,7 @@ export const menuItems = [
       {
         name: "Starbucks Refreshers® Beverages",
         image: "/Starbucks Refreshers® Beverages.avif",
-        link: "hello",
+        link: "starbucks-refreshers-beverages",
       },
       {
         name: "Frappuccino® Blended Beverages",
@@ -746,6 +746,35 @@ export const WaterBottless = [
 ];
 
 export const Others = [
+  {
+    category: "Water Bottles",
+    items: [
+      {
+        name: "French Press",
+        image: "/Other.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Pour Over",
+        image: "/Pour Over.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+      {
+        name: "Small Shopping Bag",
+        image: "/Small Shopping Bag.avif",
+        calories: "160",
+        price: "3.45",
+        link: "hello",
+      },
+    ],
+  },
+];
+
+export const StarbucksRefreshersBeberagese = [
   {
     category: "Water Bottles",
     items: [
