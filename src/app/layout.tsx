@@ -7,11 +7,13 @@ import Loader from "@/components/Loader";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Starbucks Menu With Price",
+  title: "Emirates Visa",
   description:
     "Seamless Emirates visa solutions: Easy applications, essential info, stress-free travel.",
   icons: {
-    icon: ["/favicon.ico"],
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/favicon.io?v=4"],
+    shortcut: ["favicon.io"],
   },
 };
 
