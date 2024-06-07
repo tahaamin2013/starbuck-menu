@@ -1,12 +1,17 @@
 "use client";
 import React from "react";
-import { StarbucksRefreshersBeberagese } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
+import { Bakerys } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
 import Image from "next/image";
 import Link from "next/link";
 import SubMenu from "@/components/subMenu";
 import Sidebar from "@/components/sidebar";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+
+const variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 },
+};
 
 import {
   Breadcrumb,
@@ -17,16 +22,10 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Slash } from "lucide-react";
 
-const variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 },
-};
-
-const StarbucksRefreshersBeberages = () => {
+const Bakery = () => {
   return (
     <div>
       <SubMenu />
-
       <div className="flex px-5 md:px-[90px] my-9">
         <Sidebar />
         <div className="ml-5 w-full">
@@ -39,13 +38,12 @@ const StarbucksRefreshersBeberages = () => {
                 <Slash />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/starbucks-refreshers-beverages">
-                  Starbucks Refreshers® Beverages
-                </BreadcrumbLink>
+                <BreadcrumbLink href="/cold-cofees">Cold Cofees</BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          {StarbucksRefreshersBeberagese.map((category, index) => (
+          <h1 className="font-bold text-2xl">Cold Cofees</h1>
+          {Bakerys.map((category, index) => (
             <CategorySection key={index} category={category} />
           ))}
         </div>
@@ -122,4 +120,4 @@ function AnimatedLink({ item, delay }: any) {
   );
 }
 
-export default StarbucksRefreshersBeberages;
+export default Bakery;

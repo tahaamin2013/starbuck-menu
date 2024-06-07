@@ -95,16 +95,28 @@ function AnimatedLink({ item, delay }: any) {
           <Image
             src={item.image}
             alt={item.name}
-            width={120}
-            height={120}
+            width={140}
+            height={140}
             className="rounded-full"
           />
           <div>
             <h1 className="text-xl">{item.name}</h1>
-            <p className="font-bold text-zinc-700">
-              {item.calories} Calories
-              <p className="text-[#1e3932] font-bold">${item.price}</p>
-            </p>
+            <p className="font-bold text-zinc-700">{item.calories} Calories</p>
+            <h1 className="font-bold text-black ">Size Options</h1>
+            <div className="font-bold pr-4 border-t border-black flex gap-5 text-center">
+              <p className="text-[#1e3932] font-bold">
+                <h1 className="text-black">Short</h1>${item.shortPrice}
+              </p>
+              <p className="text-[#1e3932] font-bold">
+                <h1 className="text-black">Tall</h1>${item.Tallprice}
+              </p>
+              <p className="text-[#1e3932] font-bold">
+                <h1 className="text-black">Grande</h1>${item.Grandeprice}
+              </p>
+              <p className="text-[#1e3932] font-bold">
+                <h1 className="text-black">Venti</h1>${item.Ventiprice}
+              </p>
+            </div>
           </div>
         </motion.div>
       </Link>

@@ -93,16 +93,53 @@ function AnimatedLink({ item, delay }: any) {
           <Image
             src={item.image}
             alt={item.name}
-            width={120}
-            height={120}
+            width={140}
+            height={140}
             className="rounded-full"
           />
-          <div>
+          <div className="bg-red-500">
             <h1 className="text-xl">{item.name}</h1>
-            <p className="font-bold text-zinc-700">
-              {item.calories} Calories
-              <p className="text-[#1e3932] font-bold">${item.price}</p>
-            </p>
+            <h1 className="font-bold text-black">Size Options</h1>
+
+            <div className="flex flex-col border-t border-black">
+              <div className="flex text-center justify-between">
+                <h1 className="text-black text-center">Short</h1>
+                <h1 className="text-black text-center">Tall</h1>
+                <h1 className="text-black text-center">Grande</h1>
+                <h1 className="text-black text-center">Venti</h1>
+              </div>
+
+              <div className="flex flex-col justify-between">
+                <div className="flex flex-row bg-green-400 w-full">
+                  <p className="text-black">5 calories</p>
+                  <p className="text-black">5 calories</p>
+                  <p className="text-black">5 calories</p>
+                  <p className="text-black">5 calories</p>
+                </div>
+                {/* <div className="text-center">
+                  <p>8 fl oz</p>
+                  <p className="font-bold">$ {item.shortPrice}</p>
+                </div>
+
+                <div className="w-[60px] text-center">
+                  <h1 className="text-black">10 calories</h1>
+                  <p>8 fl oz</p>
+                  <p className="font-bold">${item.Tallprice}</p>
+                </div>
+
+                <div className="w-[60px] text-center">
+                  <h1 className="text-black">15 calories</h1>
+                  <p>8 fl oz</p>
+                  <p className="font-bold">${item.Grandeprice}</p>
+                </div>
+
+                <div className="w-[60px] text-center">
+                  <h1 className="text-black">15 calories</h1>
+                  <p>8 fl oz</p>
+                  <p className="font-bold">${item.Ventiprice}</p>
+                </div> */}
+              </div>
+            </div>
           </div>
         </motion.div>
       </Link>
