@@ -107,7 +107,7 @@ function AnimatedLink({ item, delay }: any) {
             alt={item.name}
             width={118}
             height={118}
-            className="rounded-full"
+            className="rounded-full max-w-[120rem] max-h-[118px]"
           />
         </Link>
         <div>
