@@ -134,12 +134,14 @@ export const HotCofees = [
       {
         name: "Caffè Americano",
         image: "/to.avif",
-        calories: "1",
-        shortPrice: "3.65",
-        Tallprice: "3.75",
-        Grandeprice: "3.95",
-        Ventiprice: "4.25",
         link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
       },
     ],
   },
@@ -150,104 +152,124 @@ export const HotCofees = [
       {
         name: "Veranda Blend® Clover Vertica™",
         image: "/to.avif",
-        calories: "10",
-        shortPrice: "3.35",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "3.85",
-        link: "hello",
-      },
+         link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
       {
         name: "Featured Medium Roast Pike Place® Roast",
         image: "/to.avif",
-        calories: "10",
-        shortPrice: "3.35",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "3.85",
-        link: "hello",
-      },
+         link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
       {
         name: "Starbucks Odyssey Blend® Clover Vertica™",
         image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
-        calories: "10",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+           link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Featured Decaf Roast Decaf Pike Place® Roast",
         image: "/to.avif",
-        calories: "10",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+           link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Caffè Misto",
         image: "/Caffè Misto.avif",
-        calories: "10",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+           link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Featured Blonde Roast",
         image: "/to.avif",
-        calories: "5",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+          link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
       {
         name: "Featured Medium Roast Pike Place® Roast",
         image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
-        calories: "10",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+           link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Featured Dark Roast Caffè Verona®",
         image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
-        calories: "10",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+           link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
 
       {
         name: "Featured Dark Roast",
         image: "/Featured Dark Roast.avif",
-        calories: "5",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+          link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
       {
         name: "Featured Decaf Roast Decaf Pike Place® Roast",
         image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
-        calories: "5",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+          link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
     ],
   },
 
@@ -257,13 +279,15 @@ export const HotCofees = [
       {
         name: "Cappuccino",
         image: "/Cappuccino.avif",
-        calories: "140",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
     ],
   },
 
@@ -273,23 +297,27 @@ export const HotCofees = [
       {
         name: "Espresso",
         image: "/Espresso.avif",
-        calories: "10",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+           link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Espresso Con Panna",
         image: "/Espresso Con Panna.avif",
-        calories: "35",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+           link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
     ],
   },
 
@@ -299,23 +327,27 @@ export const HotCofees = [
       {
         name: "Flat White",
         image: "/Flat White.avif",
-        calories: "170",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Honey Almondmilk Flat White",
         image: "/Honey Almondmilk Flat White.avif",
-        calories: "120",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
     ],
   },
 
@@ -325,54 +357,64 @@ export const HotCofees = [
       {
         name: "Lavender Oatmilk Latte",
         image: "/Lavender Oatmilk Latte.avif",
-        calories: "260",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Oleato™ Caffé Latte with Oatmilk",
         image: "/Oleato™ Caffé Latte with Oatmilk.avif",
-        calories: "330",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Caffè Latte",
         image: "/Caffè Latte.avif",
-        calories: "190",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "Cinnamon Dolce Latte",
         image: "/Cinnamon Dolce Latte.avif",
-        calories: "340",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
-      
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
+
       {
         name: "Starbucks® Blonde Vanilla Latte",
         image: "/Starbucks® Blonde Vanilla Latte.avif",
-        calories: "250",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
     ],
   },
 
@@ -382,23 +424,27 @@ export const HotCofees = [
       {
         name: "Caffè Mocha",
         image: "/Caffè Mocha.avif",
-        calories: "370",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
       {
         name: "White Chocolate Mocha",
         image: "/White Chocolate Mocha.avif",
-        calories: "390",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+            link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+          },
     ],
   },
 
@@ -408,43 +454,51 @@ export const HotCofees = [
       {
         name: "Coffee Traveler - Veranda Blend®",
         image: "/Box.avif",
-        calories: "5",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+          link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
       {
         name: "Coffee Traveler - Dark Roast",
         image: "/Box.avif",
-        calories: "5",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+          link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
       {
         name: "Coffee Traveler - Pike Place® Roast",
         image: "/Box.avif",
-        calories: "5",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+          link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
       {
         name: "Coffee Traveler - Decaf Pike Place® Roast",
         image: "/Box.avif",
-        calories: "5",
-        shortPrice: "3.45",
-        Tallprice: "3.45",
-        Grandeprice: "3.65",
-        Ventiprice: "322.45",
-        link: "hello",
-      },
+          link: "hello",
+             sizes: [
+               { size: "Tall", calories: 15, price: "$2.95" },
+          { size: "Short", calories: 10, price: "$2.45" },
+          { size: "Grande", calories: 20, price: "$3.45" },
+          { size: "Venti", calories: 25, price: "$3.95" }
+        ]
+
+        },
     ],
   },
 ];

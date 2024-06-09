@@ -1,13 +1,23 @@
 "use client";
-import React from "react";
-import { HotCofees } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
+
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import SubMenu from "@/components/subMenu";
-import Sidebar from "@/components/sidebar";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { HotCofees } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
+import SubMenu from "@/components/subMenu";
+import Sidebar from "@/components/sidebar";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -15,7 +25,8 @@ import {
   BreadcrumbList,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { Slash } from "lucide-react";
+import { ChevronDown } from "lucide-react";
+import { ChevronsDown, Slash } from "lucide-react";
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
@@ -27,9 +38,9 @@ const HotCofee = () => {
     <div>
       <SubMenu />
 
-      <div className="flex px-5 md:px-[90px] my-9">
+      <div className="flex px-5 pl-5 md:pl-[30px] my-9">
         <Sidebar />
-        <div className="ml-5 w-full">
+        <div className="w-full">
           <Breadcrumb className="mb-3">
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -58,7 +69,7 @@ function CategorySection({ category }: any) {
   return (
     <div className="mt-[36px]">
       <h1 className="font-bold text-2xl mb-4">{category.category}</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue border-t pt-6 gap-y-[50px]">
+      <div className="flex flex-wrap gap-x-[40px] gap-y-[50px] w-full border-t pt-6">
         {category.items.map((item: any, idx: any) => (
           <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
         ))}
@@ -72,6 +83,7 @@ function AnimatedLink({ item, delay }: any) {
     triggerOnce: true,
     threshold: 0.1,
   });
+  const [selectedSize, setSelectedSize] = useState(item.sizes[0]);
 
   return (
     <motion.div
@@ -82,67 +94,69 @@ function AnimatedLink({ item, delay }: any) {
       transition={{ duration: 0.3, delay }}
       className="flex gap-8 flex-col md:flex-row"
     >
-      <Link href={item.link} className="flex flex-row items-center gap-5">
-        <motion.div
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          variants={variants}
-          transition={{ duration: 0.3, delay }}
-          className="flex flex-row items-center gap-5"
-        >
+      <motion.div
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        variants={variants}
+        transition={{ duration: 0.3, delay }}
+        className="flex flex-row items-center gap-5"
+      >
+        <Link href={item.link} className="flex flex-row items-center gap-5">
           <Image
             src={item.image}
             alt={item.name}
-            width={140}
-            height={140}
+            width={118}
+            height={118}
             className="rounded-full"
           />
-          <div className="bg-red-500">
-            <h1 className="text-xl">{item.name}</h1>
-            <h1 className="font-bold text-black">Size Options</h1>
-
-            <div className="flex flex-col border-t border-black">
-              <div className="flex text-center justify-between">
-                <h1 className="text-black text-center">Short</h1>
-                <h1 className="text-black text-center">Tall</h1>
-                <h1 className="text-black text-center">Grande</h1>
-                <h1 className="text-black text-center">Venti</h1>
-              </div>
-
-              <div className="flex flex-col justify-between">
-                <div className="flex flex-row bg-green-400 w-full">
-                  <p className="text-black">5 calories</p>
-                  <p className="text-black">5 calories</p>
-                  <p className="text-black">5 calories</p>
-                  <p className="text-black">5 calories</p>
-                </div>
-                {/* <div className="text-center">
-                  <p>8 fl oz</p>
-                  <p className="font-bold">$ {item.shortPrice}</p>
-                </div>
-
-                <div className="w-[60px] text-center">
-                  <h1 className="text-black">10 calories</h1>
-                  <p>8 fl oz</p>
-                  <p className="font-bold">${item.Tallprice}</p>
-                </div>
-
-                <div className="w-[60px] text-center">
-                  <h1 className="text-black">15 calories</h1>
-                  <p>8 fl oz</p>
-                  <p className="font-bold">${item.Grandeprice}</p>
-                </div>
-
-                <div className="w-[60px] text-center">
-                  <h1 className="text-black">15 calories</h1>
-                  <p>8 fl oz</p>
-                  <p className="font-bold">${item.Ventiprice}</p>
-                </div> */}
-              </div>
+        </Link>
+        <div>
+          <h1 className="text-xl mb-1">{item.name}</h1>
+          <div className="w-44 flex gap-6 justify-between items-center">
+            <div className="h-full font-bold flex justify-between flex-col">
+              <h1>Size:</h1>
+              <h1>Calories:</h1>
+              <h1>Price:</h1>
+            </div>
+            <div>
+              <DropdownMenu>
+                <DropdownMenuTrigger
+                  className="w-fit cursor-pointer outline-none"
+                  asChild
+                >
+                  <div className="border justify-between w-[110px] flex gap-1 rounded-lg px-3">
+                    {selectedSize.size} <ChevronsDown className="w-4" />
+                  </div>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-56 mt-3">
+                  <DropdownMenuLabel>Size Options</DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuRadioGroup
+                    value={selectedSize.size}
+                    onValueChange={(size) =>
+                      setSelectedSize(item.sizes.find((s)  => s.size === size))
+                    }
+                  >
+                    {item.sizes.map((sizeOption, index) => (
+                      <DropdownMenuRadioItem
+                        className="cursor-pointer outline-none"
+                        key={index}
+                        value={sizeOption.size}
+                      >
+                        {sizeOption.size}
+                      </DropdownMenuRadioItem>
+                    ))}
+                  </DropdownMenuRadioGroup>
+                </DropdownMenuContent>
+              </DropdownMenu>
+              <p>{selectedSize.calories}</p>
+              <p>
+                <span>{selectedSize.price}</span>
+              </p>
             </div>
           </div>
-        </motion.div>
-      </Link>
+        </div>
+      </motion.div>
     </motion.div>
   );
 }
