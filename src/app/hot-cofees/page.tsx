@@ -117,6 +117,7 @@ function AnimatedLink({ item, delay }: any) {
               <h1>Size:</h1>
               <h1>Calories:</h1>
               <h1>Price:</h1>
+              <h1>Size2:</h1>
             </div>
             <div className="flex flex-col gap-1 ">
               <DropdownMenu>
@@ -124,7 +125,7 @@ function AnimatedLink({ item, delay }: any) {
                   className="w-fit cursor-pointer outline-none"
                   asChild
                 >
-                  <div className="border justify-between w-[110] md:w-[160px] flex gap-1 rounded-lg px-3">
+                  <div className="border justify-between w-[110] flex gap-1 rounded-lg px-3">
                     {selectedSize.size} <ChevronsDown className="w-4" />
                   </div>
                 </DropdownMenuTrigger>
@@ -152,8 +153,9 @@ function AnimatedLink({ item, delay }: any) {
                 </DropdownMenuContent>
               </DropdownMenu>
               <p>{selectedSize.calories}</p>
+              <p>{selectedSize.calories}</p>
               <p>
-                <span>{selectedSize.price}</span>
+                <span>{selectedSize.size2}</span>
               </p>
             </div>
           </div>
