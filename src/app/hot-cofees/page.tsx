@@ -134,10 +134,12 @@ function AnimatedLink({ item, delay }: any) {
                   <DropdownMenuRadioGroup
                     value={selectedSize.size}
                     onValueChange={(size) =>
-                      setSelectedSize(item.sizes.find((s)  => s.size === size))
+                      setSelectedSize(
+                        item.sizes.find((s: any) => s.size === size)
+                      )
                     }
                   >
-                    {item.sizes.map((sizeOption, index) => (
+                    {item.sizes.map((sizeOption: any, index: any) => (
                       <DropdownMenuRadioItem
                         className="cursor-pointer outline-none"
                         key={index}
