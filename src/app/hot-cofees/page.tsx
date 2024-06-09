@@ -154,7 +154,7 @@ function AnimatedLink({ item, delay }: any) {
               </DropdownMenu>
                 <span>{selectedSize.size2}</span>
               <p>{selectedSize.calories}</p>
-              <p>{selectedSize.calories}</p>
+              <p>{selectedSize.price}</p>
               <p>
               </p>
             </div>
