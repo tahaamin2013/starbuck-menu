@@ -124,7 +124,7 @@ function AnimatedLink({ item, delay }: any) {
                   className="w-fit cursor-pointer outline-none"
                   asChild
                 >
-                  <div className="border justify-between w-[110px] flex gap-1 rounded-lg px-3">
+                  <div className="border justify-between w-[110] md:w-[160px] flex gap-1 rounded-lg px-3">
                     {selectedSize.size} <ChevronsDown className="w-4" />
                   </div>
                 </DropdownMenuTrigger>
