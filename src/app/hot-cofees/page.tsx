@@ -111,7 +111,7 @@ function AnimatedLink({ item, delay }: any) {
           />
         </Link>
         <div>
-          <h1 className="text-xl mb-1">{item.name}</h1>
+          <h1 className="text-xl mb-1 w-full md:w-[340px]">{item.name}</h1>
           <div className="w-44 flex gap-6 justify-between items-center">
             <div className="h-full font-bold flex justify-between flex-col">
               <h1>Size:</h1>
