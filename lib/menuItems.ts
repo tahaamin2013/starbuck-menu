@@ -313,23 +313,23 @@ export const HotCofees = [
       {
         name: "Flat White",
         image: "/Flat White.avif",
-        link: "hello",
+        link: "",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$4.85", calories: 110, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 170, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.65", calories: 220, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.85", calories: 290, size2: "20 fl oz" },
         ],
       },
       {
         name: "Honey Almondmilk Flat White",
         image: "/Honey Almondmilk Flat White.avif",
-        link: "hello",
+        link: "",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$5.15", calories: 80, size2: "8 fl oz" },
+          { size: "Tall", price: "$5.25", calories: 120, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.75", calories: 170, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.25", calories: 210, size2: "20 fl oz" },
         ],
       },
     ],
@@ -341,40 +341,40 @@ export const HotCofees = [
       {
         name: "Lavender Oatmilk Latte",
         image: "/Lavender Oatmilk Latte.avif",
-        link: "hello",
+        link: "",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$5.15", calories: 110, size2: "8 fl oz" },
+          { size: "Tall", price: "$5.25", calories: 180, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.75", calories: 260, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.25", calories: 320, size2: "20 fl oz" },
         ],
       },
       {
         name: "Oleato™ Caffé Latte with Oatmilk",
         image: "/Oleato™ Caffé Latte with Oatmilk.avif",
-        link: "hello",
+        link: "",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$5.35", calories: 210, size2: "8 fl oz" },
+          { size: "Tall", price: "$5.45", calories: 270, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.95", calories: 330, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.45", calories: 410, size2: "20 fl oz" },
         ],
       },
       {
         name: "Caffè Latte",
         image: "/Caffè Latte.avif",
-        link: "hello",
+        link: "",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$4.35", calories: 100, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.45", calories: 150, size2: "12 fl oz" },
+          { size: "Grande", price: "$4.95", calories: 190, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.45", calories: 250, size2: "20 fl oz" },
         ],
       },
       {
         name: "Cinnamon Dolce Latte",
         image: "/Cinnamon Dolce Latte.avif",
-        link: "hello",
+        link: "",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
@@ -386,7 +386,7 @@ export const HotCofees = [
       {
         name: "Starbucks® Blonde Vanilla Latte",
         image: "/Starbucks® Blonde Vanilla Latte.avif",
-        link: "hello",
+        link: "",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
@@ -403,7 +403,7 @@ export const HotCofees = [
       {
         name: "Caffè Mocha",
         image: "/Caffè Mocha.avif",
-        link: "hello",
+        link: "",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
@@ -414,7 +414,7 @@ export const HotCofees = [
       {
         name: "White Chocolate Mocha",
         image: "/White Chocolate Mocha.avif",
-        link: "hello",
+        link: "",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
@@ -431,7 +431,7 @@ export const HotCofees = [
       {
         name: "Coffee Traveler - Veranda Blend®",
         image: "/Box.avif",
-        link: "hello",
+        link: "",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
@@ -442,7 +442,7 @@ export const HotCofees = [
       {
         name: "Coffee Traveler - Dark Roast",
         image: "/Box.avif",
-        link: "hello",
+        link: "",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
@@ -453,7 +453,7 @@ export const HotCofees = [
       {
         name: "Coffee Traveler - Pike Place® Roast",
         image: "/Box.avif",
-        link: "hello",
+        link: "",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
@@ -464,7 +464,7 @@ export const HotCofees = [
       {
         name: "Coffee Traveler - Decaf Pike Place® Roast",
         image: "/Box.avif",
-        link: "hello",
+        link: "",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
@@ -490,7 +490,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
       {
         name: "Cinnamon Caramel Cream Cold Brew",
@@ -502,7 +502,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
       {
         name: "Salted Caramel Cream Cold Brew",
@@ -513,7 +513,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
       {
         name: "Chocolate Cream Cold Brew",
@@ -525,7 +525,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
 
       {
@@ -538,7 +538,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
 
       {
@@ -551,7 +551,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
     ],
   },
@@ -569,7 +569,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
 
       {
@@ -582,7 +582,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
 
       {
@@ -595,7 +595,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
     ],
   },
@@ -613,7 +613,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
     ],
   },
@@ -631,7 +631,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
       {
         name: "Starbucks® Iced Coffee Blend Clover Vertica™",
@@ -643,7 +643,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
       {
         name: "Iced Espresso",
@@ -655,7 +655,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
     ],
   },
@@ -673,7 +673,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
       {
         name: "Iced Brown Sugar Oatmilk Shaken Espresso",
@@ -685,7 +685,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
       {
         name: "Oleato Golden Foam™ Iced Shaken Espresso with Toffeenut",
@@ -697,7 +697,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
 
       {
@@ -710,7 +710,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
     ],
   },
@@ -728,7 +728,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
 
       {
@@ -741,7 +741,7 @@ export const ColdCofees = [
           { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
-        link: "hello",
+        link: "",
       },
     ],
   },
