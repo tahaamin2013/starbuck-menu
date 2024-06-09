@@ -115,9 +115,9 @@ function AnimatedLink({ item, delay }: any) {
           <div className="w-44 flex gap-6 justify-between items-center">
             <div className="h-full gap-1 font-bold flex justify-between flex-col">
               <h1>Size:</h1>
+              <h1 className="text-white">.</h1>
               <h1>Calories:</h1>
               <h1>Price:</h1>
-              <h1>Size2:</h1>
             </div>
             <div className="flex flex-col gap-1 ">
               <DropdownMenu>
@@ -152,10 +152,10 @@ function AnimatedLink({ item, delay }: any) {
                   </DropdownMenuRadioGroup>
                 </DropdownMenuContent>
               </DropdownMenu>
+                <span>{selectedSize.size2}</span>
               <p>{selectedSize.calories}</p>
               <p>{selectedSize.calories}</p>
               <p>
-                <span>{selectedSize.size2}</span>
               </p>
             </div>
           </div>
