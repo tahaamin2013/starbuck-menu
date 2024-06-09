@@ -38,7 +38,7 @@ const HotCofee = () => {
     <div>
       <SubMenu />
 
-      <div className="flex px-5 pl-5 md:pl-[30px] my-9">
+      <div className="flex px-5 pl-5 md:pl-[50px] my-9">
         <Sidebar />
         <div className="w-full">
           <Breadcrumb className="mb-3">
@@ -113,12 +113,12 @@ function AnimatedLink({ item, delay }: any) {
         <div>
           <h1 className="text-xl mb-1 w-full md:w-[340px]">{item.name}</h1>
           <div className="w-44 flex gap-6 justify-between items-center">
-            <div className="h-full font-bold flex justify-between flex-col">
+            <div className="h-full gap-1 font-bold flex justify-between flex-col">
               <h1>Size:</h1>
               <h1>Calories:</h1>
               <h1>Price:</h1>
             </div>
-            <div>
+            <div className="flex flex-col gap-1 ">
               <DropdownMenu>
                 <DropdownMenuTrigger
                   className="w-fit cursor-pointer outline-none"
