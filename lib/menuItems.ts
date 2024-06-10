@@ -1434,36 +1434,142 @@ export const IcedTeaAndLemonades = [
     ],
   },
 ];
-
-export const Yougurt = [
+export const HotTeas = [
   {
-    category: "Oatmeal & Yogurt",
+    category: "Chai Teas",
     items: [
       {
-        name: "Rolled & Steel-Cut Oatmeal",
-        image: "/Oatmeal & Yogurt.avif",
+        name: "Chai Tea Latte",
+        image: "/Chai Tea Latte.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$4.85", calories: 120, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 190, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 240, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.65", calories: 310, size2: "20 fl oz" },
         ],
         link: "",
       },
       {
-        name: "Berry Trio Parfait",
-        image: "/Berry Trio Parfait.avif",
+        name: "Chai Tea",
+        image: "/Chai Tea.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Black Teas",
+    items: [
+      {
+        name: "Earl Grey Tea",
+        image: "/Earl Grey Tea.avif",
+        sizes: [
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Teavana London Fog Tea Latte",
+        image: "/Teavana London Fog Tea Latte.avif",
+        sizes: [
+          { size: "Short", price: "$4.85", calories: 90, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 140, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 180, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.65", calories: 230, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Royal English Breakfast Tea",
+        image: "/Royal English Breakfast Tea.avif",
+        sizes: [
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Royal English breakfast tea latte",
+        image: "/Royal English breakfast tea latte.avif",
+        sizes: [
+          { size: "Short", price: "$4.85", calories: 80, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 110, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 150, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.65", calories: 190, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Green Teas",
+    items: [
+      {
+        name: "Emperor's Clouds & Mist",
+        image: "/Emperor’s Clouds & Mist®.avif",
+        sizes: [
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Matcha Tea Latte",
+        image: "/Matcha Tea Latte.avif",
+        sizes: [
+          { size: "Short", price: "$4.85", calories: 110, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 190, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 240, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.65", calories: 320, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Honey Citrus Mint Tea",
+        image: "/Honey Citrus Mint Tea.avif",
+        sizes: [
+          { size: "Short", price: "$3.65", calories: 70, size2: "8 fl oz" },
+          { size: "Tall", price: "$3.75", calories: 90, size2: "12 fl oz" },
+          { size: "Grande", price: "$4.25", calories: 130, size2: "16 fl oz" },
+          { size: "Venti", price: "$4.25", calories: 150, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Herbal Teas",
+    items: [
+      {
+        name: "Mint Majesty",
+        image: "/Chai Tea.avif",
+        sizes: [
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
         ],
         link: "",
       },
     ],
   },
 ];
+
 
 export const MilkJuceMore = [
   {
@@ -1561,6 +1667,37 @@ export const MilkJuceMore = [
     ],
   },
 ];
+export const Yougurt = [
+  {
+    category: "Oatmeal & Yogurt",
+    items: [
+      {
+        name: "Rolled & Steel-Cut Oatmeal",
+        image: "/Oatmeal & Yogurt.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Berry Trio Parfait",
+        image: "/Berry Trio Parfait.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+];
+
+
 
 export const Tumblerss = [
   {
@@ -1953,38 +2090,133 @@ export const Bakerys = [
 
 export const HotTeas = [
   {
-    category: "Water Bottles",
+    category: "Chai Teas",
     items: [
       {
-        name: "French Press",
-        image: "/Other.avif",
+        name: "Chai Tea Latte",
+        image: "/Chai Tea Latte.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$4.85", calories: 120, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 190, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 240, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.65", calories: 310, size2: "20 fl oz" },
         ],
         link: "",
       },
       {
-        name: "Pour Over",
-        image: "/Pour Over.avif",
+        name: "Chai Tea",
+        image: "/Chai Tea.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Black Teas",
+    items: [
+      {
+        name: "Earl Grey Tea",
+        image: "/Earl Grey Tea.avif",
+        sizes: [
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
         ],
         link: "",
       },
       {
-        name: "Small Shopping Bag",
-        image: "/Small Shopping Bag.avif",
+        name: "Teavana London Fog Tea Latte",
+        image: "/Teavana London Fog Tea Latte.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Short", price: "$4.85", calories: 90, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 140, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 180, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.65", calories: 230, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Royal English Breakfast Tea",
+        image: "/Royal English Breakfast Tea.avif",
+        sizes: [
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Royal English breakfast tea latte",
+        image: "/Royal English breakfast tea latte.avif",
+        sizes: [
+          { size: "Short", price: "$4.85", calories: 80, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 110, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 150, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.65", calories: 190, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Green Teas",
+    items: [
+      {
+        name: "Emperor's Clouds & Mist",
+        image: "/Emperor’s Clouds & Mist®.avif",
+        sizes: [
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Matcha Tea Latte",
+        image: "/Matcha Tea Latte.avif",
+        sizes: [
+          { size: "Short", price: "$4.85", calories: 110, size2: "8 fl oz" },
+          { size: "Tall", price: "$4.95", calories: 190, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 240, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.65", calories: 320, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Honey Citrus Mint Tea",
+        image: "/Honey Citrus Mint Tea.avif",
+        sizes: [
+          { size: "Short", price: "$3.65", calories: 70, size2: "8 fl oz" },
+          { size: "Tall", price: "$3.75", calories: 90, size2: "12 fl oz" },
+          { size: "Grande", price: "$4.25", calories: 130, size2: "16 fl oz" },
+          { size: "Venti", price: "$4.25", calories: 150, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Herbal Teas",
+    items: [
+      {
+        name: "Mint Majesty",
+        image: "/Chai Tea.avif",
+        sizes: [
+          { size: "Short", price: "$2.85", calories: 0, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 0, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 0, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.85", calories: 0, size2: "20 fl oz" },
         ],
         link: "",
       },
