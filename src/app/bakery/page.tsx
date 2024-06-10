@@ -47,11 +47,11 @@ const Bakery = () => {
                 <Slash />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/cold-cofees">Cold Cofees</BreadcrumbLink>
+                <BreadcrumbLink href="/bakery">Bakery</BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          <h1 className="font-bold text-2xl">Cold Cofees</h1>
+          <h1 className="font-bold text-2xl">Bakery</h1>
           {Bakerys.map((category, index) => (
             <CategorySection key={index} category={category} />
           ))}

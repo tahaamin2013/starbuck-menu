@@ -851,8 +851,8 @@ export const StarbucksRefreshersBeberagese = [
     category: "Lemonades and Frozen",
     items: [
       {
-        name: "Açaí Lemonade Starbucks Refreshers® Beverage",
-        image: "/Açaí Lemonade Starbucks Refreshers® Beverage.avif",
+        name: "Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
+        image: "/Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
         sizes: [
           { size: "Tall", price: "$5.25", calories: 110, size2: "12 fl oz" },
           { size: "Grande", price: "$5.75", calories: 140, size2: "16 fl oz" },
@@ -900,8 +900,9 @@ export const StarbucksRefreshersBeberagese = [
 
       //DS
       {
-        name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers",
-        image: "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers®.avif",
+        name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
         sizes: [
           { size: "Tall", price: "$5.75", calories: 200, size2: "12 fl oz" },
           { size: "Grande", price: "$6.25", calories: 200, size2: "16 fl oz" },
@@ -1005,242 +1006,16 @@ export const StarbucksRefreshersBeberagese = [
         name: "Pineapple Passionfruit Starbucks Refreshers® Beverage",
         image: "/Pineapple Passionfruit Starbucks Refreshers® Beverage.avif",
         sizes: [
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-          { size: "Trenta", price: "$3.95", calories: 25, size2: "30 fl oz" },
+          { size: "Tall", price: "$4.75", calories: 100, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 100, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.75", calories: 140, size2: "20 fl oz" },
+          { size: "Trenta", price: "$5.95", calories: 190, size2: "30 fl oz" },
         ],
         link: "",
       },
     ],
   },
 ];
-
-export const Yougurt = [
-  {
-    category: "Oatmeal & Yogurt",
-    items: [
-      {
-        name: "Rolled & Steel-Cut Oatmeal",
-        image: "/Oatmeal & Yogurt.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-      {
-        name: "Berry Trio Parfait",
-        image: "/Berry Trio Parfait.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-    ],
-  },
-];
-
-export const MilkJuceMore = [
-  {
-    category: "Hot Chocolates",
-    items: [
-      {
-        name: "Hot Chocolate",
-        image: "/Hot Chocolate.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-      {
-        name: "White Hot Chocolate",
-        image: "/White Hot Chocolate.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-    ],
-  },
-  {
-    category: "Juice",
-    items: [
-      {
-        name: "Caramel Apple Spice",
-        image: "/Caramel Apple Spice.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-      {
-        name: "Steamed Apple Juice",
-        image: "/Steamed Apple Juice.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-    ],
-  },
-
-  {
-    category: "Milk & Steamers",
-    items: [
-      {
-        name: "Cold Milk",
-        image: "/Cold Milk.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-      {
-        name: "Steamed Milk",
-        image: "/Steamed Milk.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-
-      {
-        name: "Vanilla Crème",
-        image: "/Vanilla Crème.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-    ],
-  },
-];
-
-export const Tumblerss = [
-  {
-    category: "Tumblers",
-    items: [
-      {
-        name: "Siren Logo Plastic Hot Cup - 16 fl oz",
-        image: "/Tumblers.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-    ],
-  },
-];
-
-export const Mugss = [
-  {
-    category: "Mugs",
-    items: [
-      {
-        name: "Glass Mug - 16 fl oz",
-        image: "/Mugs.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-    ],
-  },
-];
-
-export const WaterBottless = [
-  {
-    category: "Water Bottles",
-    items: [
-      {
-        name: "Twist to Sip Stainless-Steel Water Bottle - 20 fl oz",
-        image: "/Water Bottles.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-    ],
-  },
-];
-
-export const Others = [
-  {
-    category: "Water Bottles",
-    items: [
-      {
-        name: "French Press",
-        image: "/Other.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-      {
-        name: "Pour Over",
-        image: "/Pour Over.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-      {
-        name: "Small Shopping Bag",
-        image: "/Small Shopping Bag.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-    ],
-  },
-];
-
 export const FrappuccinoBlendedBeveragess = [
   {
     category: "Coffee Frappuccino®",
@@ -1249,10 +1024,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Mocha Cookie Crumble Frappuccino®",
         image: "/Mocha Cookie Crumble Frappuccino®.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.45", calories: 350, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.95", calories: 480, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.45", calories: 590, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1260,10 +1034,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Caramel Ribbon Crunch Frappuccino® Blended Beverage",
         image: "/Caramel Ribbon Crunch Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.45", calories: 330, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.95", calories: 470, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.45", calories: 570, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1271,33 +1044,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Espresso Frappuccino® Blended Beverage",
         image: "/Espresso Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-
-      {
-        name: "Caffè Vanilla Frappuccino® Blended Beverage",
-        image: "/Caffè Vanilla Frappuccino® Blended Beverage.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-      {
-        name: "Caramel Frappuccino® Blended Beverage",
-        image: "/Caramel Frappuccino® Blended Beverage.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$6.00", calories: 140, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.50", calories: 210, size2: "16 fl oz" },
+          { size: "Venti", price: "$7.00", calories: 290, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1305,21 +1054,40 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Coffee Frappuccino® Blended Beverage",
         image: "/Coffee Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$4.75", calories: 160, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 230, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.75", calories: 310, size2: "20 fl oz" },
         ],
         link: "",
       },
       {
+        name: "Caffè Vanilla Frappuccino® Blended Beverage",
+        image: "/Caffè Vanilla Frappuccino® Blended Beverage.avif",
+        sizes: [
+          { size: "Tall", price: "$5.25", calories: 280, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.65", calories: 410, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.25", calories: 510, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Caramel Frappuccino® Blended Beverage",
+        image: "/Caramel Frappuccino® Blended Beverage.avif",
+        sizes: [
+          { size: "Tall", price: "$5.95", calories: 260, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.45", calories: 380, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.85", calories: 470, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+
+      {
         name: "Mocha Frappuccino® Blended Beverage",
         image: "/Mocha Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.95", calories: 250, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.45", calories: 370, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.85", calories: 470, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1327,10 +1095,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Java Chip Frappuccino® Blended Beverage",
         image: "/Java Chip Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.95", calories: 320, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.45", calories: 440, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.85", calories: 200, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1338,10 +1105,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "White Chocolate Mocha Frappuccino® Blended Beverage",
         image: "/White Chocolate Mocha Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.95", calories: 260, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.45", calories: 370, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.85", calories: 460, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1355,10 +1121,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Lavender Crème Frappuccino® Blended Beverage",
         image: "/Lavender Crème Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$6.25", calories: 260, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.75", calories: 370, size2: "16 fl oz" },
+          { size: "Venti", price: "$7.25", calories: 450, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1366,10 +1131,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Chocolate Cookie Crumble Crème Frappuccino®",
         image: "/Chocolate Cookie Crumble Crème Frappuccino®.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$6.25", calories: 330, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.75", calories: 460, size2: "16 fl oz" },
+          { size: "Venti", price: "$7.25", calories: 560, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1378,10 +1142,9 @@ export const FrappuccinoBlendedBeveragess = [
         image:
           "/Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$6.25", calories: 300, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.75", calories: 420, size2: "16 fl oz" },
+          { size: "Venti", price: "$7.25", calories: 510, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1389,10 +1152,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Strawberry Crème Frappuccino® Blended Beverage",
         image: "/Strawberry Crème Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.95", calories: 250, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.45", calories: 370, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.85", calories: 460, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1400,10 +1162,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Chai Crème Frappuccino®",
         image: "/Chai Crème Frappuccino®.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$6.25", calories: 230, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.65", calories: 340, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.95", calories: 420, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1412,10 +1173,9 @@ export const FrappuccinoBlendedBeveragess = [
         image:
           "/Double Chocolaty Chip Crème Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.25", calories: 260, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.65", calories: 410, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.25", calories: 510, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1423,10 +1183,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Matcha Crème Frappuccino® Blended Beverage",
         image: "/Matcha Crème Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.25", calories: 300, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.65", calories: 420, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.25", calories: 520, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1434,10 +1193,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "Vanilla Bean Crème Frappuccino® Blended Crème",
         image: "/Vanilla Bean Crème Frappuccino® Blended Crème.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$4.75", calories: 260, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.25", calories: 380, size2: "16 fl oz" },
+          { size: "Venti", price: "$5.75", calories: 470, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1445,10 +1203,9 @@ export const FrappuccinoBlendedBeveragess = [
         name: "White Chocolate Crème Frappuccino® Blended Beverage",
         image: "/White Chocolate Crème Frappuccino® Blended Beverage.avif",
         sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+          { size: "Tall", price: "$5.25", calories: 240, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.65", calories: 350, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.25", calories: 400, size2: "20 fl oz" },
         ],
         link: "",
       },
@@ -1685,6 +1442,231 @@ export const IcedTeaAndLemonades = [
   },
 ];
 
+export const Yougurt = [
+  {
+    category: "Oatmeal & Yogurt",
+    items: [
+      {
+        name: "Rolled & Steel-Cut Oatmeal",
+        image: "/Oatmeal & Yogurt.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Berry Trio Parfait",
+        image: "/Berry Trio Parfait.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+];
+
+export const MilkJuceMore = [
+  {
+    category: "Hot Chocolates",
+    items: [
+      {
+        name: "Hot Chocolate",
+        image: "/Hot Chocolate.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "White Hot Chocolate",
+        image: "/White Hot Chocolate.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+  {
+    category: "Juice",
+    items: [
+      {
+        name: "Caramel Apple Spice",
+        image: "/Caramel Apple Spice.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Steamed Apple Juice",
+        image: "/Steamed Apple Juice.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Milk & Steamers",
+    items: [
+      {
+        name: "Cold Milk",
+        image: "/Cold Milk.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Steamed Milk",
+        image: "/Steamed Milk.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+
+      {
+        name: "Vanilla Crème",
+        image: "/Vanilla Crème.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+];
+
+export const Tumblerss = [
+  {
+    category: "Tumblers",
+    items: [
+      {
+        name: "Siren Logo Plastic Hot Cup - 16 fl oz",
+        image: "/Tumblers.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+];
+
+export const Mugss = [
+  {
+    category: "Mugs",
+    items: [
+      {
+        name: "Glass Mug - 16 fl oz",
+        image: "/Mugs.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+];
+
+export const WaterBottless = [
+  {
+    category: "Water Bottles",
+    items: [
+      {
+        name: "Twist to Sip Stainless-Steel Water Bottle - 20 fl oz",
+        image: "/Water Bottles.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+];
+
+export const Others = [
+  {
+    category: "Water Bottles",
+    items: [
+      {
+        name: "French Press",
+        image: "/Other.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Pour Over",
+        image: "/Pour Over.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+      {
+        name: "Small Shopping Bag",
+        image: "/Small Shopping Bag.avif",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "",
+      },
+    ],
+  },
+];
+
 export const Bakerys = [
   {
     category: "Bagels",
@@ -1752,7 +1734,7 @@ export const Bakerys = [
       },
       {
         name: "Birthday Cake Pop",
-        image: "/Birthday Cake Pop.jpg",
+        image: "/Birthday Cake Pop.avif",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
