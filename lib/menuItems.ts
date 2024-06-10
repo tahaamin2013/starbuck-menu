@@ -833,6 +833,230 @@ export const ColdCofees = [
   },
 ];
 
+export const StarbucksRefreshersBeberagese = [
+  {
+    category: "Seasonal Exclusives",
+    items: [
+      {
+        name: "Summer-Berry Lemonade Starbucks Refreshers® Beverage",
+        image: "/Summer-Berry Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "160",
+        sizes: [
+          { size: "Short", price: "$6.25", calories: 110, size2: "8 fl oz" },
+          { size: "Tall", price: "$6.75", calories: 160, size2: "12 fl oz" },
+          { size: "Grande", price: "$7.25", calories: 240, size2: "16 fl oz" },
+          { size: "Venti", price: "$7.45", calories: 290, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Summer Skies Drink Starbucks Refreshers® Beverage",
+        image: "/Summer Skies Drink Starbucks Refreshers® Beverage.avif",
+        calories: "150",
+        sizes: [
+          { size: "Short", price: "$6.25", calories: 100, size2: "8 fl oz" },
+          { size: "Tall", price: "$6.75", calories: 150, size2: "12 fl oz" },
+          { size: "Grande", price: "$7.25", calories: 220, size2: "16 fl oz" },
+          { size: "Venti", price: "$7.45", calories: 280, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Summer-Berry Starbucks Refreshers® Beverage",
+        image: "/Summer-Berry Starbucks Refreshers® Beverage.avif",
+        calories: "110",
+        sizes: [
+          { size: "Short", price: "$5.75", calories: 70, size2: "8 fl oz" },
+          { size: "Tall", price: "$6.25", calories: 110, size2: "12 fl oz" },
+          { size: "Grande", price: "$6.75", calories: 160, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.95", calories: 190, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+    ],
+  },
+  {
+    category: "Lemonades and Frozen",
+    items: [
+      {
+        name: "Açaí Lemonade Starbucks Refreshers® Beverage",
+        image: "/Açaí Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "140",
+        sizes: [
+          { size: "Short", price: "$5.25", calories: 110, size2: "8 fl oz" },
+          { size: "Tall", price: "$5.75", calories: 140, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.95", calories: 210, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.25", calories: 290, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "150",
+        sizes: [
+          { size: "Short", price: "$5.25", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$5.75", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$5.95", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$6.25", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "160",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Frozen Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
+        image:
+          "/Frozen Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
+        calories: "160",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+
+      //DS
+      {
+        name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers",
+        image: "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers®.avif",
+        calories: "150",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Coconutmilk Collection",
+    items: [
+      {
+        name: "Pink Drink Starbucks Refreshers® Beverage",
+        image: "/Pink Drink Starbucks Refreshers® Beverage.avif",
+        calories: "140",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Dragon Drink® Starbucks Refreshers® Beverage",
+        image: "/Dragon Drink® Starbucks Refreshers® Beverage.avif",
+        calories: "130",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Paradise Drink Starbucks Refreshers® Beverage",
+        image: "/Paradise Drink Starbucks Refreshers® Beverage.avif",
+        calories: "140",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™",
+        image:
+          "/Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™.avif",
+        calories: "380",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™",
+        image:
+          "/Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™.avif",
+        calories: "390",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+    ],
+  },
+
+  {
+    category: "Classics",
+    items: [
+      {
+        name: "Strawberry Açaí Starbucks Refreshers® Beverage",
+        image: "/Strawberry Açaí Starbucks Refreshers® Beverage.avif",
+        calories: "100",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Mango Dragonfruit Starbucks Refreshers® Beverage",
+        image: "/Mango Dragonfruit Starbucks Refreshers® Beverage.avif",
+        calories: "90",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+      {
+        name: "Pineapple Passionfruit Starbucks Refreshers® Beverage",
+        image: "/Pineapple Passionfruit Starbucks Refreshers® Beverage.avif",
+        calories: "100",
+        sizes: [
+          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
+          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
+          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
+        ],
+        link: "hello",
+      },
+    ],
+  },
+];
+
 export const Yougurt = [
   {
     category: "Oatmeal & Yogurt",
@@ -844,7 +1068,7 @@ export const Yougurt = [
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20                                               , size2: "16 fl oz" },
+          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
           { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
         ],
         link: "hello",
@@ -1061,243 +1285,6 @@ export const Others = [
         name: "Small Shopping Bag",
         image: "/Small Shopping Bag.avif",
         calories: "160",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-    ],
-  },
-];
-
-export const StarbucksRefreshersBeberagese = [
-  {
-    category: "Seasonal Exclusives",
-    items: [
-      {
-        name: "Summer-Berry Lemonade Starbucks Refreshers® Beverage",
-        image: "/Summer-Berry Lemonade Starbucks Refreshers® Beverage.avif",
-        calories: "160",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Summer Skies Drink Starbucks Refreshers® Beverage",
-        image: "/Summer Skies Drink Starbucks Refreshers® Beverage.avif",
-        calories: "150",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Summer-Berry Starbucks Refreshers® Beverage",
-        image: "/Summer-Berry Starbucks Refreshers® Beverage.avif",
-        calories: "110",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-    ],
-  },
-
-  {
-    category: "Lemonades and Frozen",
-    items: [
-      {
-        name: "Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
-        image: "/Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
-        calories: "140",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
-        image:
-          "/Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
-        calories: "140",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage",
-        image:
-          "/Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage.avif",
-        calories: "140",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Frozen Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
-        image:
-          "/Frozen Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
-        calories: "160",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage",
-        image:
-          "/Frozen Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage.avif",
-        calories: "150",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage",
-        image:
-          "/Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers® Beverage.avif",
-        calories: "160",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-    ],
-  },
-
-  {
-    category: "Coconutmilk Collection",
-    items: [
-      {
-        name: "Pink Drink Starbucks Refreshers® Beverage",
-        image: "/Pink Drink Starbucks Refreshers® Beverage.avif",
-        calories: "140",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Dragon Drink® Starbucks Refreshers® Beverage",
-        image: "/Dragon Drink® Starbucks Refreshers® Beverage.avif",
-        calories: "130",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Paradise Drink Starbucks Refreshers® Beverage",
-        image: "/Paradise Drink Starbucks Refreshers® Beverage.avif",
-        calories: "140",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™",
-        image:
-          "/Dragon Drink® Starbucks Refreshers® Beverage with Oleato Golden Foam™.avif",
-        calories: "380",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™",
-        image:
-          "/Paradise Drink Starbucks Refreshers® Beverage with Oleato Golden Foam™.avif",
-        calories: "390",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-    ],
-  },
-
-  {
-    category: "Classics",
-    items: [
-      {
-        name: "Strawberry Açaí Starbucks Refreshers® Beverage",
-        image: "/Strawberry Açaí Starbucks Refreshers® Beverage.avif",
-        calories: "100",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Mango Dragonfruit Starbucks Refreshers® Beverage",
-        image: "/Mango Dragonfruit Starbucks Refreshers® Beverage.avif",
-        calories: "90",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "hello",
-      },
-      {
-        name: "Pineapple Passionfruit Starbucks Refreshers® Beverage",
-        image: "/Pineapple Passionfruit Starbucks Refreshers® Beverage.avif",
-        calories: "100",
         sizes: [
           { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
           { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
