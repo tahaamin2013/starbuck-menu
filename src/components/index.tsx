@@ -15,6 +15,7 @@ import {
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Goy from "./goy";
 
 const Navbar = () => {
   const isAuthenticated = false;
@@ -672,10 +673,10 @@ const Navbar = () => {
           </Link>
           <MobileNav />
           <div className="hidden text-lg gap-5 items-center space-x-4 sm:flex">
-            <Link href="/">Drinks</Link>
-            <Link href="/cold-cofees">Food </Link>
-            <Link href="/cold-cofees">At Home Cofee</Link>
-            <Link href="/cold-cofees">Merchandise </Link>
+            <Goy id="Drinks">Drinks</Goy>
+            <Goy id="Foods">Food </Goy>
+            <Goy id="At Home Coffee">At Home Coffee</Goy>
+            <Goy id="Merchandise">Merchandise </Goy>
           </div>
         </div>
       </MaxWidthWrapper>

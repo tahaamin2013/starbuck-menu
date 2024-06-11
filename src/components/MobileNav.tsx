@@ -17,6 +17,7 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
+import Goy from "./goy";
 
 const MobileNav = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
@@ -53,29 +54,25 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent className="text-left">
           <div className="mt-4 text-lg flex flex-col gap-4">
-            <span
-              className="border-black border-b w-fit"
-              onClick={() => handleNavigation("/about")}
-            >
-              Drinks
+            <span className="border-black border-b w-fit">
+              <Goy id="Drinks" onClick={closeSidebar}>
+                Drinks
+              </Goy>
             </span>
-            <span
-              className="border-black border-b w-fit"
-              onClick={() => handleNavigation("/portfolio")}
-            >
-              Foods
+            <span className="border-black border-b w-fit">
+              <Goy id="Foods" onClick={closeSidebar}>
+                Foods
+              </Goy>
             </span>
-            <span
-              className="border-black border-b w-fit"
-              onClick={() => handleNavigation("/careers")}
-            >
-              At Home Coffee
+            <span className="border-black border-b w-fit">
+              <Goy id="At Home Coffee" onClick={closeSidebar}>
+                At Home Coffee
+              </Goy>
             </span>
-            <span
-              className="border-black border-b w-fit"
-              onClick={() => handleNavigation("/tools")}
-            >
-              Merchandise
+            <span className="border-black border-b w-fit">
+              <Goy id="Merchandise" onClick={closeSidebar}>
+                Merchandise
+              </Goy>
             </span>
           </div>
         </SheetContent>

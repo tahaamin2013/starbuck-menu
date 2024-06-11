@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Sidebar from "@/components/sidebar";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,7 +34,9 @@ export default function Home() {
 function CategorySection({ category }: any) {
   return (
     <div className="mt-[36px]">
-      <h1 className="font-bold text-2xl mb-4">{category.category}</h1>
+      <h1 className="font-bold text-2xl mb-4" id={category.category}>
+        {category.category}
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 border-t pt-6 gap-y-[50px]">
         {category.items.map((item: any, idx: any) => (
           <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
@@ -49,6 +51,20 @@ function AnimatedLink({ item, delay }: any) {
     triggerOnce: true,
     threshold: 0.1,
   });
+  const [scrollMargin, setScrollMargin] = useState(0);
+
+  const handleButtonClick = (e: any, myelement: string) => {
+    const newScrollMargin = 60;
+    setScrollMargin(newScrollMargin);
+
+    const element = document.getElementById(myelement);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - newScrollMargin,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <motion.div
