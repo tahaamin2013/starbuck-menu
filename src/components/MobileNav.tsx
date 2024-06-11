@@ -53,7 +53,7 @@ const MobileNav = () => {
           </button>
         </SheetTrigger>
         <SheetContent className="text-left">
-          <div className="mt-4 text-lg flex flex-col gap-4">
+          <div className="mt-4 text-lg flex flex-col gap-4">  
             <span className="border-black border-b w-fit">
               <Goy id="Drinks" onClick={closeSidebar}>
                 Drinks

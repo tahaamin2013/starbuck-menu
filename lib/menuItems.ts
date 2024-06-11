@@ -100,7 +100,7 @@ export const menuItems = [
       {
         name: "Cold Cups",
         image: "/Cold Cups.avif",
-        link: "",
+        link: "cold-cups",
       },
       {
         name: "Tumblers",
@@ -1678,23 +1678,15 @@ export const Yougurt = [
       {
         name: "Rolled & Steel-Cut Oatmeal",
         image: "/Oatmeal & Yogurt.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 160,
+        price: "$4.65",
         link: "",
       },
       {
         name: "Berry Trio Parfait",
         image: "/Berry Trio Parfait.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 240,
+        price: "$4.25",
         link: "",
       },
     ],
@@ -2139,6 +2131,59 @@ export const HotBreakFasts = [
         image: "/Egg White & Roasted Red Pepper Egg Bites.avif",
         calories: 170,
         price: "$5.95",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const ColdCupss = [
+  {
+    category: "Cold Cups",
+    items: [
+      {
+        name: "White Siren Bling Plastic Cold Cup - 16 fl oz",
+        image: "/White Siren Bling Plastic Cold Cup - 16 fl oz.avif",
+        price: "$19.95",
+        link: "",
+      },
+      {
+        name: "White Siren Bling Plastic Cold Cup - 24 fl oz",
+        image: "/White Siren Bling Plastic Cold Cup - 24 fl oz.avif",
+        price: "$22.95",
+        link: "",
+      },
+      {
+        name: "UV Color - Changing Plastic Reusable Cold Cup with straw - 24 fl oz",
+        image:
+          "/UV Color-Changing Plastic Reusable Cold Cup with Straw - 24 fl oz.avif",
+        price: "$4.95",
+        link: "",
+      },
+      {
+        name: "Sky Blue Soft - Touch Stainless - Steel Vacuum Cold Cup - 24 fl oz",
+        image:
+          "/Sky Blue Soft-Touch Stainless-Steel Vacuum Cold Cup - 24 fl oz.avif",
+        price: "$59.95",
+        link: "",
+      },
+      {
+        name: "Multicolor Plastic Reusable Cold cup with Dome Lid, 5-Pack - 24 fl oz",
+        image:
+          "/Multicolor Plastic Reusable Cold cup with Dome Lid, 5-Pack - 24 fl oz.avif",
+        price: "$22.95",
+        link: "",
+      },
+      {
+        name: "Plastic Reusable Cold Cup with Lid & Straw - 24 fl oz",
+        image: "/Plastic Reusable Cold Cup with Lid & Straw - 24 fl oz.avif",
+        price: "$3.00",
+        link: "",
+      },
+      {
+        name: "Siren Logo Plastic Cold Cup - 24 fl oz",
+        image: "/Siren Logo Plastic Cold Cup - 24 fl oz.avif",
+        price: "$14.95",
         link: "",
       },
     ],

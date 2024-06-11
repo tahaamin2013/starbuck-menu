@@ -1,13 +1,25 @@
 "use client";
-
 import React, { useState } from "react";
-import { Yougurt } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
+import { ColdCupss } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
 import Image from "next/image";
 import Link from "next/link";
 import SubMenu from "@/components/subMenu";
 import Sidebar from "@/components/sidebar";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+
+const variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 },
+};
+
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -17,25 +29,12 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
 import { ChevronsDown, Slash } from "lucide-react";
 
-const variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 },
-};
-
-const OatmealandYougurt = () => {
+const ColdCups = () => {
   return (
     <div>
       <SubMenu />
-
       <div className="flex px-5 md:px-[90px] my-9">
         <Sidebar />
         <div className="ml-5 w-full">
@@ -48,13 +47,12 @@ const OatmealandYougurt = () => {
                 <Slash />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/owatmeal-and-yougurt">
-                  Oatmeal & Yogurt
-                </BreadcrumbLink>
+                <BreadcrumbLink href="/cold-cups">Cold Cups</BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          {Yougurt.map((category, index) => (
+          <h1 className="font-bold text-2xl">Cold Cups</h1>
+          {ColdCupss.map((category, index) => (
             <CategorySection key={index} category={category} />
           ))}
         </div>
@@ -81,6 +79,7 @@ function AnimatedLink({ item, delay }: any) {
     triggerOnce: true,
     threshold: 0.1,
   });
+
   return (
     <motion.div
       ref={ref}
@@ -108,14 +107,11 @@ function AnimatedLink({ item, delay }: any) {
         </Link>
         <div>
           <h1 className="text-xl mb-1 w-full md:w-[340px]">{item.name}</h1>
-          <div className="w-44 flex gap-6 items-center">
+          <div className="w-44 flex gap-3 items-center">
             <div className="h-full gap-1 font-bold flex justify-between flex-col">
-              <h1>Calories:</h1>
               <h1>Price:</h1>
             </div>
             <div className="flex flex-col mt-1 gap-1 ">
-              {" "}
-              <p>{item.calories}</p>
               <p>{item.price}</p>
               <p></p>
             </div>
@@ -126,4 +122,4 @@ function AnimatedLink({ item, delay }: any) {
   );
 }
 
-export default OatmealandYougurt;
+export default ColdCups;
