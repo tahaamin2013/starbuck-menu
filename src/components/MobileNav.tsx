@@ -52,90 +52,30 @@ const MobileNav = () => {
           </button>
         </SheetTrigger>
         <SheetContent className="text-left">
-          <SheetHeader className="w-full text-left">
-            <SheetTitle>Our Services</SheetTitle>
-          </SheetHeader>
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1">
-              <AccordionTrigger>Services</AccordionTrigger>
-              <AccordionContent className="flex flex-col gap-3">
-                <span
-                  className="border-black border-b w-fit"
-                  onClick={() => handleNavigation("/uIUXDesign-For-web")}
-                >
-                  UI/UX Design For Web
-                </span>
-                <span
-                  className="border-black border-b w-fit"
-                  onClick={() => handleNavigation("//UIUX-Design-For-Mobile")}
-                >
-                  UI/UX Design For Mobile
-                </span>
-                <span
-                  className="border-black border-b w-fit"
-                  onClick={() => handleNavigation("/website-development")}
-                >
-                  Website Development
-                </span>
-                <span
-                  className="border-black border-b w-fit"
-                  onClick={() =>
-                    handleNavigation("/mobile-application-devlopment")
-                  }
-                >
-                  Mobile Application Development
-                </span>
-                <span
-                  className="border-black border-b w-fit"
-                  onClick={() => handleNavigation("/graphicDesigns")}
-                >
-                  Graphic Design
-                </span>
-                <span
-                  className="border-black border-b w-fit"
-                  onClick={() => handleNavigation("/digital-marketing")}
-                >
-                  Digital Marketing
-                </span>
-                <span
-                  className="border-black border-b w-fit"
-                  onClick={() => handleNavigation("/VideoEditing")}
-                >
-                  Video Editing
-                </span>
-                <span
-                  className="border-black border-b w-fit"
-                  onClick={() => handleNavigation("/quickbooks")}
-                >
-                  QuickBooks
-                </span>
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-          <div className="mt-4 flex flex-col gap-4">
+          <div className="mt-4 text-lg flex flex-col gap-4">
             <span
               className="border-black border-b w-fit"
               onClick={() => handleNavigation("/about")}
             >
-              About Us
+              Drinks
             </span>
             <span
               className="border-black border-b w-fit"
               onClick={() => handleNavigation("/portfolio")}
             >
-              Portfolio
+              Foods
             </span>
             <span
               className="border-black border-b w-fit"
               onClick={() => handleNavigation("/careers")}
             >
-              Careers
+              At Home Coffee
             </span>
             <span
               className="border-black border-b w-fit"
               onClick={() => handleNavigation("/tools")}
             >
-              Tools
+              Merchandise
             </span>
           </div>
         </SheetContent>

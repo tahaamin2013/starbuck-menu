@@ -672,24 +672,10 @@ const Navbar = () => {
           </Link>
           <MobileNav />
           <div className="hidden text-lg gap-5 items-center space-x-4 sm:flex">
-            <Link
-              href="/"
-
-            >
-              Menu
-            </Link>
-            <Link
-              href="/cold-cofees"
-
-            >
-              Cold Cofees{" "}
-            </Link>
-            <Link
-              href="/hot-cofees"
-
-            >
-              Hot Cofees
-            </Link>
+            <Link href="/">Drinks</Link>
+            <Link href="/cold-cofees">Food </Link>
+            <Link href="/cold-cofees">At Home Cofee</Link>
+            <Link href="/cold-cofees">Merchandise </Link>
           </div>
         </div>
       </MaxWidthWrapper>
