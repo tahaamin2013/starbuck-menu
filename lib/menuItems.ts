@@ -11,19 +11,19 @@ export const menuItems = [
 
       {
         name: "Cold Coffees",
-        image: "/cold cofee.avif",
+        image: "/Vanilla Sweet Cream Cold Brew.avif",
         link: "cold-cofees",
       },
 
       {
         name: "Starbucks Refreshers® Beverages",
-        image: "/Starbucks Refreshers® Beverages.avif",
+        image: "/Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
         link: "starbucks-refreshers-beverages",
       },
 
       {
         name: "Frappuccino® Blended Beverages",
-        image: "/Frappuccino® Blended Beverages.avif",
+        image: "/Strawberry Crème Frappuccino® Blended Beverage.avif",
         link: "frappuccino-Blended-Beverages",
       },
       {
@@ -63,13 +63,13 @@ export const menuItems = [
       },
       {
         name: "Bakery",
-        image: "/Bakery.avif",
+        image: "/Pineapple Cloud Cake.avif",
         link: "bakery",
       },
       {
         name: "Lunch",
         image: "/Lunch.avif",
-        link: "",
+        link: "lunch",
       },
       {
         name: "Snacks & Sweets",
@@ -1479,7 +1479,7 @@ export const HotTeas = [
       },
       {
         name: "Teavana London Fog Tea Latte",
-        image: "/Teavana London Fog Tea Latte.avif",
+        image: "/Teavana® London Fog Tea Latte.avif",
         sizes: [
           { size: "Short", price: "$4.85", calories: 90, size2: "8 fl oz" },
           { size: "Tall", price: "$4.95", calories: 140, size2: "12 fl oz" },
@@ -1806,34 +1806,22 @@ export const Bakerys = [
       {
         name: "Plain Bagel",
         image: "/Plain Bagel.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 290,
+        price: "$3.25",
         link: "",
       },
       {
         name: "Everything Bagel",
         image: "/Everything Bagel.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 290,
+        price: "$3.25",
         link: "",
       },
       {
         name: "Avocado Spread",
         image: "/Avocado Spread.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 90,
+        price: "$1.45",
         link: "",
       },
     ],
@@ -1845,45 +1833,29 @@ export const Bakerys = [
       {
         name: "Orange Cream Cake Pop",
         image: "/Orange Cream Cake Pop.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 140,
+        price: "$4.25",
         link: "",
       },
       {
         name: "Cookies & Cream Cake Pop",
         image: "/Cookies & Cream Cake Pop.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 140,
+        price: "$3.95",
         link: "",
       },
       {
         name: "Birthday Cake Pop",
         image: "/Birthday Cake Pop.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 160,
+        price: "$3.95",
         link: "",
       },
       {
         name: "Chocolate Cake Pop",
         image: "/Chocolate Cake Pop.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 150,
+        price: "$3.95",
         link: "",
       },
     ],
@@ -1895,34 +1867,22 @@ export const Bakerys = [
       {
         name: "Double Chocolate Brownie",
         image: "/Double Chocolate Brownie.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 480,
+        price: "$4.25",
         link: "",
       },
       {
         name: "Chocolate Chip Cookie",
         image: "/Chocolate Chip Cookie.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 370,
+        price: "$2.95",
         link: "",
       },
       {
         name: "Marshmallow Dream Bar",
         image: "/Marshmallow Dream Bar.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 230,
+        price: "$2.50",
         link: "",
       },
     ],
@@ -1933,34 +1893,22 @@ export const Bakerys = [
       {
         name: "Ham & Swiss Croissant",
         image: "/Ham & Swiss Croissant.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 320,
+        price: "$4.95",
         link: "",
       },
       {
         name: "Butter Croissant",
         image: "/Butter Croissant.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 250,
+        price: "$3.65",
         link: "",
       },
       {
         name: "Chocolate Croissant",
         image: "/Chocolate Croissant.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 300,
+        price: "$3.95",
         link: "",
       },
     ],
@@ -1971,57 +1919,37 @@ export const Bakerys = [
       {
         name: "Pineapple Cloud Cake",
         image: "/Pineapple Cloud Cake.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 240,
+        price: "$3.65",
         link: "",
       },
 
       {
         name: "Cinnamon Coffee Cake",
         image: "/Cinnamon Coffee Cake.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 380,
+        price: "$3.95",
         link: "",
       },
       {
         name: "Iced Lemon Loaf",
         image: "/Iced Lemon Loaf.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-      {
-        name: "Pumpkin & Pepita Loaf",
-        image: "/Pumpkin & Pepita Loaf.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 450,
+        price: "$4.25",
         link: "",
       },
       {
         name: "Banana Walnut & Pecan Loaf",
         image: "/Banana Walnut & Pecan Loaf.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 410,
+        price: "$4.25",
+        link: "",
+      },
+      {
+        name: "Pumpkin & Pepita Loaf",
+        image: "/Pumpkin & Pepita Loaf.avif",
+        calories: 390,
+        price: "$4.25",
         link: "",
       },
     ],
@@ -2030,60 +1958,118 @@ export const Bakerys = [
   {
     category: "Danishes & Doughnuts",
     items: [
+      // do this
       {
         name: "Vanilla Bean Custard Danish",
         image: "/Vanilla Bean Custard Danish.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
-        link: "",
-      },
-
-      {
-        name: "Cheese Danish",
-        image: "/Cheese Danish.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 44,
+        price: "$3.25",
         link: "",
       },
       {
         name: "Glazed Doughnut",
         image: "/Glazed Doughnut.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        calories: 440,
+        price: "$3.25",
         link: "",
       },
       {
-        name: "Pumpkin & Pepita Loaf",
-        image: "/Pumpkin & Pepita Loaf.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        name: "Cheese Danish",
+        image: "/Cheese Danish.avif",
+        calories: 290,
+        price: "$3.65",
         link: "",
       },
       {
-        name: "Banana Walnut & Pecan Loaf",
-        image: "/Banana Walnut & Pecan Loaf.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        name: "Blueberry Scone",
+        image: "/Blueberry Scone.avif",
+        calories: 410,
+        price: "$3.45",
+        link: "",
+      },
+
+      {
+        name: "Petite Vanilla Bean Scone",
+        image: "/Petite Vanilla Bean Scone.avif",
+        calories: 130,
+        price: "$2.25",
+        link: "",
+      },
+      {
+        name: "Blueberry Muffin",
+        image: "/Blueberry Muffin.avif",
+        calories: 330,
+        price: "$3.65",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const Lunchs = [
+  {
+    category: "Warm Sandwiches",
+    items: [
+      {
+        name: "Crispy Grilled Cheese on Sourdough",
+        image: "/Crispy Grilled Cheese on Sourdough.avif",
+        calories: 520,
+        price: "$7.45",
+        link: "",
+      },
+      {
+        name: "Ham & Swiss on Baguette",
+        image: "/Ham & Swiss on Baguette.avif",
+        calories: 500,
+        price: "$7.85",
+        link: "",
+      },
+      {
+        name: "Turkey, Provolone & Pesto on Ciabatta",
+        image: "/Turkey, Provolone & Pesto on Ciabatta.avif",
+        calories: 520,
+        price: "$7.45",
+        link: "",
+      },
+      {
+        name: "Tomato & Mozzarella on Facoccia",
+        image: "/Tomato & Mozzarella on Focaccia.avif",
+        calories: 360,
+        price: "$6.95",
+        link: "",
+      },
+      {
+        name: "Avocado Spread",
+        image: "/Avocado Spread.avif",
+        calories: 90,
+        price: "$1.45",
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Protein Boxes",
+    items: [
+      {
+        name: "Eggs & Cheddar Protein Box",
+        image: "/Eggs & Cheddar Protein Box.avif",
+        calories: 460,
+        price: "$6.95",
+        link: "",
+      },
+      {
+        name: "PB&J Protein Box",
+        image: "/PB&J Protein Box.avif",
+        calories: 520,
+        price: "$6.75",
+        link: "",
+      },
+      {
+        name: "Cheese & Fruit Protein Box",
+        image: "/Cheese & Fruit Protein Box.avif",
+        calories: 470,
+        price: "$6.75",
         link: "",
       },
     ],

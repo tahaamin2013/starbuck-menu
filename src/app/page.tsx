@@ -75,7 +75,7 @@ function AnimatedLink({ item, delay }: any) {
             className="rounded-full"
           />
           <div>
-            <h1 className="text-xl">{item.name}</h1>
+            <h1 className="text-xl w-full md:w-[310px]">{item.name}</h1>
           </div>
         </motion.div>
       </Link>

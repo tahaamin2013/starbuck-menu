@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Bakerys } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
+import { Lunchs } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
 import Image from "next/image";
 import Link from "next/link";
 import SubMenu from "@/components/subMenu";
@@ -31,7 +31,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { ChevronsDown, Slash } from "lucide-react";
 
-const Bakery = () => {
+const Lunch = () => {
   return (
     <div>
       <SubMenu />
@@ -47,12 +47,12 @@ const Bakery = () => {
                 <Slash />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/bakery">Bakery</BreadcrumbLink>
+                <BreadcrumbLink href="/lunch">Lunch</BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          <h1 className="font-bold text-2xl">Bakery</h1>
-          {Bakerys.map((category, index) => (
+          <h1 className="font-bold text-2xl">Lunch</h1>
+          {Lunchs.map((category, index) => (
             <CategorySection key={index} category={category} />
           ))}
         </div>
@@ -124,4 +124,4 @@ function AnimatedLink({ item, delay }: any) {
   );
 }
 
-export default Bakery;
+export default Lunch;
