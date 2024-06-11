@@ -85,12 +85,12 @@ export const menuItems = [
       {
         name: "Whole Bean",
         image: "/Whole Bean.avif",
-        link: "",
+        link: "whole-bean",
       },
       {
         name: "VIA® Instant",
         image: "/VIA® Instant.avif",
-        link: "",
+        link: "via-instant",
       },
     ],
   },
@@ -2131,6 +2131,182 @@ export const HotBreakFasts = [
         image: "/Egg White & Roasted Red Pepper Egg Bites.avif",
         calories: 170,
         price: "$5.95",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const WholeBeans = [
+  {
+    category: "Blonde Roast",
+    items: [
+      {
+        name: "Starbucks® Green Apron Blend™",
+        image: "/Starbucks® Green Apron Blend™.avif",
+        size: "1ss",
+        price: "$19.95",
+        link: "",
+      },
+      {
+        name: "Veranda Blend",
+        image: "/VIA® Veranda Blend™.avif",
+        size: "1ss",
+        price: "$22.95",
+        link: "",
+      },
+      {
+        name: "Starbucks Blonde Espresso Roast",
+        image: "/Starbucks® Blonde Espresso Roast.avif",
+        size: "1ss",
+        price: "$4.95",
+        link: "",
+      },
+    ],
+  },
+  {
+    category: "Medium Roast",
+    items: [
+      {
+        name: "Starbucks Siren's Blend",
+        image: "/Starbucks Siren’s Blend™.avif",
+        size: "1ss",
+        price: "$59.95",
+        link: "",
+      },
+      {
+        name: "Guatemala Antigua",
+        image: "/Guatemala Antigua.avif",
+        size: "1ss",
+        price: "$22.95",
+        link: "",
+      },
+      {
+        name: "Pike Place Roast",
+        image: "/Pike Place® Roast.avif",
+        size: "1ss",
+        price: "$3.00",
+        link: "",
+      },
+      {
+        name: "Organic Yukon Blend",
+        image: "/Organic Yukon Blend®.avif",
+        size: "1ss",
+        price: "$14.95",
+        link: "",
+      },
+      {
+        name: "Starbucks Odyssey Blend 2024",
+        image: "/Starbucks Odyssey Blend® 2024.avif",
+        size: "1ss",
+        price: "$14.95",
+        link: "",
+      },
+    ],
+  },
+  {
+    category: "Dark Roast",
+    items: [
+      {
+        name: "Starbucks Anniversary Blend 2024",
+        image: "/Starbucks® Anniversary Blend 2024.avif",
+        size: "1ss",
+        price: "$59.95",
+        link: "",
+      },
+      {
+        name: "Decaf Sumatra",
+        image: "/Decaf Sumatra.avif",
+        size: "1ss",
+        price: "$22.95",
+        link: "",
+      },
+      {
+        name: "Caffé Verona",
+        image: "/Caffè Verona®.avif",
+        size: "1ss",
+        price: "$3.00",
+        link: "",
+      },
+      {
+        name: "Espresso Roast",
+        image: "/Espresso Roast.avif",
+        size: "1ss",
+        price: "$14.95",
+        link: "",
+      },
+      {
+        name: "Italian Roast",
+        image: "/Italian Roast.avif",
+        size: "1ss",
+        price: "$14.95",
+        link: "",
+      },
+      {
+        name: "Komodo Dragon Blend",
+        image: "/Komodo Dragon Blend®.avif",
+        size: "1ss",
+        price: "$14.95",
+        link: "",
+      },
+      {
+        name: "Sumatra",
+        image: "/Sumatra.avif",
+        size: "1ss",
+        price: "$14.95",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const VIAInstant = [
+  {
+    category: "Flavored",
+    items: [
+      {
+        name: "VIA Sweetened Iced Coffee",
+        image: "/VIA Sweetened Iced Coffee.avif",
+        price: "$19.95",
+        link: "",
+      },
+    ],
+  },
+  {
+    category: "Blonde Roast",
+    items: [
+      {
+        name: "VIA Veranda Blend",
+        image: "/VIA Veranda Blend.avif",
+        price: "$19.95",
+        link: "",
+      },
+    ],
+  },
+  {
+    category: "Medium Roast",
+    items: [
+      {
+        name: "Starbucks VIA instant Pike Place Roast",
+        image: "/Starbucks VIA instant Pike Place Roast.avif",
+        price: "$19.95",
+        link: "",
+      },
+    ],
+  },
+  {
+    category: "Dark Roast",
+    items: [
+      {
+        name: "VIA Italian Roast",
+        image: "/VIA Italian Roast.avif",
+        price: "$19.95",
+        link: "",
+      },
+      {
+        name: "VIA Decaf Italian Roast",
+        image: "/VIA Decaf Italian Roast.avif",
+        price: "$19.95",
         link: "",
       },
     ],
