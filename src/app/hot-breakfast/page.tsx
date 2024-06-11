@@ -1,11 +1,25 @@
 "use client";
 import React, { useState } from "react";
-import { Mugss } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
+import { HotBreakFasts } from "../../../lib/menuItems"; // Adjust the path according to your directory structure
 import Image from "next/image";
 import Link from "next/link";
 import SubMenu from "@/components/subMenu";
 import Sidebar from "@/components/sidebar";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+const variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 },
+};
+
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,27 +29,12 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useInView } from "react-intersection-observer";
-
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
 import { ChevronsDown, Slash } from "lucide-react";
 
-const variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 },
-};
-
-const Mugs = () => {
+const HotBreakFast = () => {
   return (
     <div>
       <SubMenu />
-
       <div className="flex px-5 md:px-[90px] my-9">
         <Sidebar />
         <div className="ml-5 w-full">
@@ -48,11 +47,14 @@ const Mugs = () => {
                 <Slash />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/mugs">Mugs</BreadcrumbLink>
+                <BreadcrumbLink href="/hot-breakfast">
+                  Hot Breakfast
+                </BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          {Mugss.map((category, index) => (
+          <h1 className="font-bold text-2xl">Hot Breakfast</h1>
+          {HotBreakFasts.map((category, index) => (
             <CategorySection key={index} category={category} />
           ))}
         </div>
@@ -107,12 +109,14 @@ function AnimatedLink({ item, delay }: any) {
         </Link>
         <div>
           <h1 className="text-xl mb-1 w-full md:w-[340px]">{item.name}</h1>
-          <div className="w-44 flex gap-6 items-center">
-            <div className="h-full gap-4 font-bold flex flex-col">
+          <div className="w-44 flex gap-3 items-center">
+            <div className="h-full gap-1 font-bold flex justify-between flex-col">
               <h1>Price:</h1>
+              <h1>Calories:</h1>
             </div>
-            <div className="flex flex-col mt-1   gap-1 ">
+            <div className="flex flex-col mt-1 gap-1 ">
               <p>{item.price}</p>
+              <p>{item.calories}</p>
               <p></p>
             </div>
           </div>
@@ -122,4 +126,4 @@ function AnimatedLink({ item, delay }: any) {
   );
 }
 
-export default Mugs;
+export default HotBreakFast;

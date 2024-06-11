@@ -53,8 +53,8 @@ export const menuItems = [
     items: [
       {
         name: "Hot Breakfast",
-        image: "/Hot Breakfast.avif",
-        link: "",
+        image: "/Double-Smoked Bacon, Cheddar & Egg Sandwich.avif",
+        link: "hot-breakfast",
       },
       {
         name: "Oatmeal & Yogurt",
@@ -68,7 +68,7 @@ export const menuItems = [
       },
       {
         name: "Lunch",
-        image: "/Lunch.avif",
+        image: "/Tomato & Mozzarella on Focaccia.avif",
         link: "lunch",
       },
       {
@@ -1708,12 +1708,7 @@ export const Tumblerss = [
       {
         name: "Siren Logo Plastic Hot Cup - 16 fl oz",
         image: "/Tumblers.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        price: "$2.00",
         link: "",
       },
     ],
@@ -1727,12 +1722,8 @@ export const Mugss = [
       {
         name: "Glass Mug - 16 fl oz",
         image: "/Mugs.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+
+        price: "$16.95",
         link: "",
       },
     ],
@@ -1746,12 +1737,7 @@ export const WaterBottless = [
       {
         name: "Twist to Sip Stainless-Steel Water Bottle - 20 fl oz",
         image: "/Water Bottles.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        price: "$32.95",
         link: "",
       },
     ],
@@ -1765,34 +1751,19 @@ export const Others = [
       {
         name: "French Press",
         image: "/Other.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        price: "$24.95",
         link: "",
       },
       {
         name: "Pour Over",
         image: "/Pour Over.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        price: "$17.95",
         link: "",
       },
       {
         name: "Small Shopping Bag",
         image: "/Small Shopping Bag.avif",
-        sizes: [
-          { size: "Short", price: "$2.45", calories: 10, size2: "8 fl oz" },
-          { size: "Tall", price: "$2.95", calories: 15, size2: "12 fl oz" },
-          { size: "Grande", price: "$3.45", calories: 20, size2: "16 fl oz" },
-          { size: "Venti", price: "$3.95", calories: 25, size2: "20 fl oz" },
-        ],
+        price: "$0.00",
         link: "",
       },
     ],
@@ -2070,6 +2041,104 @@ export const Lunchs = [
         image: "/Cheese & Fruit Protein Box.avif",
         calories: 470,
         price: "$6.75",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const HotBreakFasts = [
+  {
+    category: "Breakfast Sandwiches & Wraps",
+    items: [
+      {
+        name: "Chicken, Maple Butter & Egg Sandwich",
+        image: "/Chicken, Maple Butter & Egg Sandwich.avif",
+        calories: 450,
+        price: "$6.45",
+        link: "",
+      },
+      {
+        name: "Bacon, Sausage & Egg Wrap",
+        image: "/Bacon, Sausage & Egg Wrap.avif",
+        calories: 640,
+        price: "$7.25",
+        link: "",
+      },
+      {
+        name: "Impossible Breakfast sandwich",
+        image: "/Impossible™ Breakfast Sandwich.avif",
+        calories: 420,
+        price: "$6.45",
+        link: "",
+      },
+      {
+        name: "Bacon, Gouda & Egg Sandwich",
+        image: "/Bacon, Gouda & Egg Sandwich.avif",
+        calories: 360,
+        price: "$6.25",
+        link: "",
+      },
+      {
+        name: "Double-Smoked Bacon, Cheddar & Egg Sandwich",
+        image: "/Double-Smoked Bacon, Cheddar & Egg Sandwich.avif",
+        calories: 500,
+        price: "$6.45",
+        link: "",
+      },
+      {
+        name: "Turkey Bacon, Cheddar & Egg White Sandwich",
+        image: "/Turkey Bacon, Cheddar & Egg White Sandwich.avif",
+        calories: 230,
+        price: "$5.65",
+        link: "",
+      },
+      {
+        name: "Sausage, Cheddar & Egg Sandwich",
+        image: "/Sausage, Cheddar & Egg Sandwich.avif",
+        calories: 480,
+        price: "$5.65",
+        link: "",
+      },
+      {
+        name: "Spinach, Feta & Egg White Wrap",
+        image: "/Spinach, Feta & Egg White Wrap.avif",
+        calories: 290,
+        price: "$5.95",
+        link: "",
+      },
+      {
+        name: "Avocado Spread",
+        image: "/Avocado Spread.avif",
+        calories: 90,
+        price: "$1.45",
+        link: "",
+      },
+    ],
+  },
+
+  {
+    category: "Bakes & Egg Bites",
+    items: [
+      {
+        name: "Kale & Mushroom Egg Bites",
+        image: "/Kale & Mushroom Egg Bites.avif",
+        calories: 230,
+        price: "$5.95",
+        link: "",
+      },
+      {
+        name: "Bacon & Gruyere Egg Bites",
+        image: "/Bacon & Gruyère Egg Bites.avif",
+        calories: 300,
+        price: "$5.95",
+        link: "",
+      },
+      {
+        name: "Egg White & Roasted Red Pepper Egg Bites",
+        image: "/Egg White & Roasted Red Pepper Egg Bites.avif",
+        calories: 170,
+        price: "$5.95",
         link: "",
       },
     ],
