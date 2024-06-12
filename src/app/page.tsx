@@ -36,35 +36,36 @@ const variants = {
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredMenuItems, setFilteredMenuItems] = useState(menuItems);
-  const filteredWaterBottles =
-    searchQuery === ""
-      ? []
-      : WaterBottless.filter((category) => {
-          return category.items.some((item) => {
-            return item.name.toLowerCase().includes(searchQuery);
-          });
-      });
-  const HotCofFees =
-    searchQuery === ""
-      ? []
-      : HotCofees.filter((category) => {
-          return category.items.some((item) => {
-            return item.name.toLowerCase().includes(searchQuery);
-          });
-        });
-  
-  
-    const ColdCupssfil =
-      searchQuery === ""
-        ? []
-        : ColdCupss.filter((category) => {
-            return category.items.some((item) => {
-              return item.name.toLowerCase().includes(searchQuery);
-            });
-        });
-  
 
-  const handleSearch = (event: any) => {
+  const filteredWaterBottles = WaterBottless.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredColdCups = ColdCupss.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredHotCoffees = HotCofees.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredColdCoffees = ColdCofees.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const handleSearch = (event) => {
     const query = event.target.value.toLowerCase();
     setSearchQuery(query);
     if (query === "") {
@@ -108,41 +109,45 @@ export default function Home() {
             </div>
           </div>
 
-          {filteredMenuItems.map((category, index) => (
-            <CategorySection key={index} category={category} />
-          ))}
+          {searchQuery === "" &&
+            filteredMenuItems.map((category, index) => (
+              <CategorySection key={index} category={category} />
+            ))}
+
           {searchQuery !== "" && filteredWaterBottles.length > 0 && (
-            <div className="mt-[36px]">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
-                {filteredWaterBottles.map((category, index) =>
-                  category.items.map((item, idx) => (
-                    <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
-                  ))
-                )}
-              </div>
-            </div>
+            <CategoryWithItems
+              category={{
+                category: "Water Bottles",
+                items: filteredWaterBottles[0].items,
+              }}
+            />
           )}
-          {searchQuery !== "" && ColdCupssfil.length > 0 && (
-            <div className="mt-[36px]">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
-                {ColdCupssfil.map((category, index) =>
-                  category.items.map((item, idx) => (
-                    <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
-                  ))
-                )}
-              </div>
-            </div>
+
+          {searchQuery !== "" && filteredColdCups.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Cold Cups",
+                items: filteredColdCups[0].items,
+              }}
+            />
           )}
-          {searchQuery !== "" && HotCofFees.length > 0 && (
-            <div className="mt-[36px]">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
-                {HotCofFees.map((category, index) =>
-                  category.items.map((item, idx) => (
-                    <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
-                  ))
-                )}
-              </div>
-            </div>
+
+          {searchQuery !== "" && filteredHotCoffees.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredHotCoffees[0].items,
+              }}
+            />
+          )}
+
+          {searchQuery !== "" && filteredColdCoffees.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Cold Coffees",
+                items: filteredColdCoffees[0].items,
+              }}
+            />
           )}
         </div>
       </div>
@@ -150,14 +155,14 @@ export default function Home() {
   );
 }
 
-function CategorySection({ category }: any) {
+function CategorySection({ category }) {
   return (
     <div className="mt-[36px]">
       <h1 className="font-bold text-2xl mb-4" id={category.category}>
         {category.category}
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 border-t pt-6 gap-y-[50px]">
-        {category.items.map((item: any, idx: any) => (
+        {category.items.map((item, idx) => (
           <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
         ))}
       </div>
@@ -165,7 +170,22 @@ function CategorySection({ category }: any) {
   );
 }
 
-function AnimatedLink({ item, delay }: any) {
+function CategoryWithItems({ category }) {
+  return (
+    <div className="mt-[36px]">
+      <h1 className="font-bold text-2xl mb-4" id={category.category}>
+        {category.category}
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
+        {category.items.map((item, idx) => (
+          <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function AnimatedLink({ item, delay }) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
