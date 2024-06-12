@@ -26,6 +26,7 @@ export default function Home() {
     return category.items.some((item) => {
       return item.name.toLowerCase().includes(searchQuery);
     });
+
   });
 
   return (
