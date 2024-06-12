@@ -3,7 +3,27 @@ import { useState } from "react";
 import Sidebar from "@/components/sidebar";
 import Image from "next/image";
 import Link from "next/link";
-import { menuItems } from "../../lib/menuItems"; // Adjust the path according to your directory structure
+import {
+  menuItems,
+  HotCofees,
+  ColdCofees,
+  StarbucksRefreshersBeberagese,
+  FrappuccinoBlendedBeveragess,
+  IcedTeaAndLemonades,
+  HotTeas,
+  MilkJuceMore,
+  Yougurt,
+  Tumblerss,
+  Mugss,
+  WaterBottless,
+  Others,
+  Bakerys,
+  Lunchs,
+  HotBreakFasts,
+  WholeBeans,
+  VIAInstants,
+  ColdCupss,
+} from "../../lib/menuItems";
 import SubMenu from "@/components/subMenu";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -16,8 +36,35 @@ const variants = {
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredMenuItems, setFilteredMenuItems] = useState(menuItems);
+  const filteredWaterBottles =
+    searchQuery === ""
+      ? []
+      : WaterBottless.filter((category) => {
+          return category.items.some((item) => {
+            return item.name.toLowerCase().includes(searchQuery);
+          });
+      });
+  const HotCofFees =
+    searchQuery === ""
+      ? []
+      : HotCofees.filter((category) => {
+          return category.items.some((item) => {
+            return item.name.toLowerCase().includes(searchQuery);
+          });
+        });
+  
+  
+    const ColdCupssfil =
+      searchQuery === ""
+        ? []
+        : ColdCupss.filter((category) => {
+            return category.items.some((item) => {
+              return item.name.toLowerCase().includes(searchQuery);
+            });
+        });
+  
 
-  const handleSearch = (event:any) => {
+  const handleSearch = (event: any) => {
     const query = event.target.value.toLowerCase();
     setSearchQuery(query);
     if (query === "") {
@@ -64,6 +111,39 @@ export default function Home() {
           {filteredMenuItems.map((category, index) => (
             <CategorySection key={index} category={category} />
           ))}
+          {searchQuery !== "" && filteredWaterBottles.length > 0 && (
+            <div className="mt-[36px]">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
+                {filteredWaterBottles.map((category, index) =>
+                  category.items.map((item, idx) => (
+                    <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
+                  ))
+                )}
+              </div>
+            </div>
+          )}
+          {searchQuery !== "" && ColdCupssfil.length > 0 && (
+            <div className="mt-[36px]">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
+                {ColdCupssfil.map((category, index) =>
+                  category.items.map((item, idx) => (
+                    <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
+                  ))
+                )}
+              </div>
+            </div>
+          )}
+          {searchQuery !== "" && HotCofFees.length > 0 && (
+            <div className="mt-[36px]">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
+                {HotCofFees.map((category, index) =>
+                  category.items.map((item, idx) => (
+                    <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
+                  ))
+                )}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </>
