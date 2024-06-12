@@ -1,12 +1,14 @@
 "use client";
+
 import { useState } from "react";
 import Sidebar from "@/components/sidebar";
 import Image from "next/image";
 import Link from "next/link";
-import { menuItems } from "../../lib/menuItems"; // Adjust the path according to your directory structure
+import { menuItems } from "../../lib/menuItems";
 import SubMenu from "@/components/subMenu";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { Input } from "@/components/ui/input";
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
@@ -40,13 +42,17 @@ export default function Home() {
                 value={searchQuery}
                 onChange={handleSearch}
                 placeholder="Search..."
-                className="px-5 outline-none py-2 border border-black rounded-xl"
+                className="outline-none border rounded-xl px-3 py-2 border-black/45 "
               />
             </div>
           </div>
 
           {filteredCategories.map((category, index) => (
-            <CategorySection key={index} category={category} searchQuery={searchQuery} />
+            <CategorySection
+              key={index}
+              category={category}
+              searchQuery={searchQuery}
+            />
           ))}
         </div>
       </div>
@@ -75,7 +81,7 @@ function CategorySection({ category, searchQuery }: any) {
   );
 }
 
-function AnimatedLink({ item }:any) {
+function AnimatedLink({ item }: any) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
