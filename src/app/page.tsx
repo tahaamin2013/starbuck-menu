@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Sidebar from "@/components/sidebar";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,16 +14,39 @@ const variants = {
 };
 
 export default function Home() {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (event: any) => {
+    setSearchQuery(event.target.value.toLowerCase());
+  };
+
+  const filteredCategories = menuItems.filter((category) => {
+    return category.items.some((item) => {
+      return item.name.toLowerCase().includes(searchQuery);
+    });
+  });
+
   return (
     <>
       <SubMenu />
       <div className="flex px-5 md:px-[90px] my-9">
         <Sidebar />
         <div className="ml-5 w-full">
-          <h1 className="font-bold text-2xl mb-9">Menu</h1>
+          <div className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
+            <h1 className="font-bold text-2xl mb-2">Menu</h1>
+            <div className="mb-5">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={handleSearch}
+                placeholder="Search..."
+                className="px-5 outline-none py-2 border border-black rounded-xl"
+              />
+            </div>
+          </div>
 
-          {menuItems.map((category, index) => (
-            <CategorySection key={index} category={category} />
+          {filteredCategories.map((category, index) => (
+            <CategorySection key={index} category={category} searchQuery={searchQuery} />
           ))}
         </div>
       </div>
@@ -31,40 +54,32 @@ export default function Home() {
   );
 }
 
-function CategorySection({ category }: any) {
+function CategorySection({ category, searchQuery }: any) {
+  const filteredItems = category.items.filter((item: any) => {
+    return item.name.toLowerCase().includes(searchQuery);
+  });
+
   return (
-    <div className="mt-[36px]">
+    <div className="mt-[10px]">
       <h1 className="font-bold text-2xl mb-4" id={category.category}>
         {category.category}
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 border-t pt-6 gap-y-[50px]">
-        {category.items.map((item: any, idx: any) => (
-          <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
-        ))}
-      </div>
+      {filteredItems.length > 0 && (
+        <div className="grid grid-cols-1 md:grid-cols-2 border-t pt-6 gap-y-[50px]">
+          {filteredItems.map((item: any, idx: any) => (
+            <AnimatedLink key={idx} item={item} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
 
-function AnimatedLink({ item, delay }: any) {
+function AnimatedLink({ item }:any) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
-  const [scrollMargin, setScrollMargin] = useState(0);
-
-  const handleButtonClick = (e: any, myelement: string) => {
-    const newScrollMargin = 60;
-    setScrollMargin(newScrollMargin);
-
-    const element = document.getElementById(myelement);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop - newScrollMargin,
-        behavior: "smooth",
-      });
-    }
-  };
 
   return (
     <motion.div
@@ -72,7 +87,7 @@ function AnimatedLink({ item, delay }: any) {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={variants}
-      transition={{ duration: 0.3, delay }}
+      transition={{ duration: 0.3 }}
       className="flex gap-8 flex-col md:flex-row"
     >
       <Link href={item.link} className="flex flex-row items-center gap-5">
@@ -80,7 +95,7 @@ function AnimatedLink({ item, delay }: any) {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={variants}
-          transition={{ duration: 0.3, delay }}
+          transition={{ duration: 0.3 }}
           className="flex flex-row items-center gap-5"
         >
           <Image
