@@ -1,32 +1,32 @@
 "use client";
-import { useState } from "react";
 import Sidebar from "@/components/sidebar";
-import Image from "next/image";
-import Link from "next/link";
-import {
-  menuItems,
-  HotCofees,
-  ColdCofees,
-  StarbucksRefreshersBeberagese,
-  FrappuccinoBlendedBeveragess,
-  IcedTeaAndLemonades,
-  HotTeas,
-  MilkJuceMore,
-  Yougurt,
-  Tumblerss,
-  Mugss,
-  WaterBottless,
-  Others,
-  Bakerys,
-  Lunchs,
-  HotBreakFasts,
-  WholeBeans,
-  VIAInstants,
-  ColdCupss,
-} from "../../lib/menuItems";
 import SubMenu from "@/components/subMenu";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 import { useInView } from "react-intersection-observer";
+import {
+  Bakerys,
+  ColdCofees,
+  ColdCupss,
+  FrappuccinoBlendedBeveragess,
+  HotBreakFasts,
+  HotCofees,
+  HotTeas,
+  IcedTeaAndLemonades,
+  Lunchs,
+  MilkJuceMore,
+  Mugss,
+  Others,
+  StarbucksRefreshersBeberagese,
+  Tumblerss,
+  VIAInstants,
+  WaterBottless,
+  WholeBeans,
+  Yougurt,
+  menuItems,
+} from "../../lib/menuItems";
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
@@ -57,6 +57,106 @@ export default function Home() {
       item.name.toLowerCase().includes(searchQuery.toLowerCase())
     ),
   })).filter((category) => category.items.length > 0);
+  const filteredHotTeas = HotTeas.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredMilkJuceMore = MilkJuceMore.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredVIAInstants = VIAInstants.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredWholeBeans = WholeBeans.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredHotBreakFasts = HotBreakFasts.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredLunchs = Lunchs.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredOthers = Others.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredBakerys = Bakerys.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredTumblerss = Tumblerss.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredMugss = Mugss.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredYougurt = Yougurt.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredIcedTeaAndLemonades = IcedTeaAndLemonades.map((category) => ({
+    ...category,
+    items: category.items.filter((item) =>
+      item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ),
+  })).filter((category) => category.items.length > 0);
+
+  const filteredStarbucksRefreshersBeberagese =
+    StarbucksRefreshersBeberagese.map((category) => ({
+      ...category,
+      items: category.items.filter((item) =>
+        item.name.toLowerCase().includes(searchQuery.toLowerCase())
+      ),
+    })).filter((category) => category.items.length > 0);
+
+  const filteredFrappuccinoBlendedBeveragess = FrappuccinoBlendedBeveragess.map(
+    (category) => ({
+      ...category,
+      items: category.items.filter((item) =>
+        item.name.toLowerCase().includes(searchQuery.toLowerCase())
+      ),
+    })
+  ).filter((category) => category.items.length > 0);
 
   const filteredColdCoffees = ColdCofees.map((category) => ({
     ...category,
@@ -108,12 +208,10 @@ export default function Home() {
               />
             </div>
           </div>
-
           {searchQuery === "" &&
             filteredMenuItems.map((category, index) => (
               <CategorySection key={index} category={category} />
             ))}
-
           {searchQuery !== "" && filteredWaterBottles.length > 0 && (
             <CategoryWithItems
               category={{
@@ -122,7 +220,6 @@ export default function Home() {
               }}
             />
           )}
-
           {searchQuery !== "" && filteredColdCups.length > 0 && (
             <CategoryWithItems
               category={{
@@ -131,7 +228,6 @@ export default function Home() {
               }}
             />
           )}
-
           {searchQuery !== "" && filteredHotCoffees.length > 0 && (
             <CategoryWithItems
               category={{
@@ -141,6 +237,120 @@ export default function Home() {
             />
           )}
 
+          {searchQuery !== "" && filteredMilkJuceMore.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredMilkJuceMore[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredHotTeas.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredHotTeas[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredOthers.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredOthers[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredBakerys.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredBakerys[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredTumblerss.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredTumblerss[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredMugss.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredMugss[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredLunchs.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredLunchs[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredYougurt.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredYougurt[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredWholeBeans.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredWholeBeans[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredVIAInstants.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredVIAInstants[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" && filteredHotBreakFasts.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredHotBreakFasts[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" &&
+            filteredFrappuccinoBlendedBeveragess.length > 0 && (
+              <CategoryWithItems
+                category={{
+                  category: "Hot Coffees",
+                  items: filteredFrappuccinoBlendedBeveragess[0].items,
+                }}
+              />
+            )}
+          {searchQuery !== "" && filteredIcedTeaAndLemonades.length > 0 && (
+            <CategoryWithItems
+              category={{
+                category: "Hot Coffees",
+                items: filteredIcedTeaAndLemonades[0].items,
+              }}
+            />
+          )}
+          {searchQuery !== "" &&
+            filteredStarbucksRefreshersBeberagese.length > 0 && (
+              <CategoryWithItems
+                category={{
+                  category: "Hot Coffees",
+                  items: filteredStarbucksRefreshersBeberagese[0].items,
+                }}
+              />
+            )}
           {searchQuery !== "" && filteredColdCoffees.length > 0 && (
             <CategoryWithItems
               category={{
@@ -155,7 +365,7 @@ export default function Home() {
   );
 }
 
-function CategorySection({ category }: any) {
+function CategorySection({ category }:any) {
   return (
     <div className="mt-[36px]">
       <h1 className="font-bold text-2xl mb-4" id={category.category}>
@@ -185,7 +395,7 @@ function CategoryWithItems({ category }: any) {
   );
 }
 
-function AnimatedLink({ item, delay }: any) {
+function AnimatedLink({ item, delay }) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
