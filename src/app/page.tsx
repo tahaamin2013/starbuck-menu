@@ -1,14 +1,12 @@
 "use client";
-
 import { useState } from "react";
 import Sidebar from "@/components/sidebar";
 import Image from "next/image";
 import Link from "next/link";
-import { menuItems } from "../../lib/menuItems";
+import { menuItems } from "../../lib/menuItems"; // Adjust the path according to your directory structure
 import SubMenu from "@/components/subMenu";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Input } from "@/components/ui/input";
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
@@ -17,17 +15,32 @@ const variants = {
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
+  const [filteredMenuItems, setFilteredMenuItems] = useState(menuItems);
 
-  const handleSearch = (event: any) => {
-    setSearchQuery(event.target.value.toLowerCase());
+  const handleSearch = (event) => {
+    const query = event.target.value.toLowerCase();
+    setSearchQuery(query);
+    if (query === "") {
+      setFilteredMenuItems(menuItems);
+    } else {
+      const filteredItems = menuItems
+        .map((category) => {
+          if (category.category.toLowerCase().includes(query)) {
+            return category;
+          }
+
+          const items = category.items.filter((item) =>
+            item.name.toLowerCase().includes(query)
+          );
+          return {
+            ...category,
+            items: items,
+          };
+        })
+        .filter((category) => category.items.length > 0);
+      setFilteredMenuItems(filteredItems);
+    }
   };
-
-  const filteredCategories = menuItems.filter((category) => {
-    return category.items.some((item) => {
-      return item.name.toLowerCase().includes(searchQuery);
-    });
-
-  });
 
   return (
     <>
@@ -48,12 +61,8 @@ export default function Home() {
             </div>
           </div>
 
-          {filteredCategories.map((category, index) => (
-            <CategorySection
-              key={index}
-              category={category}
-              searchQuery={searchQuery}
-            />
+          {filteredMenuItems.map((category, index) => (
+            <CategorySection key={index} category={category} />
           ))}
         </div>
       </div>
@@ -61,28 +70,22 @@ export default function Home() {
   );
 }
 
-function CategorySection({ category, searchQuery }: any) {
-  const filteredItems = category.items.filter((item: any) => {
-    return item.name.toLowerCase().includes(searchQuery);
-  });
-
+function CategorySection({ category }) {
   return (
-    <div className="mt-[10px]">
+    <div className="mt-[36px]">
       <h1 className="font-bold text-2xl mb-4" id={category.category}>
         {category.category}
       </h1>
-      {filteredItems.length > 0 && (
-        <div className="grid grid-cols-1 md:grid-cols-2 border-t pt-6 gap-y-[50px]">
-          {filteredItems.map((item: any, idx: any) => (
-            <AnimatedLink key={idx} item={item} />
-          ))}
-        </div>
-      )}
+      <div className="grid grid-cols-1 md:grid-cols-2 border-t pt-6 gap-y-[50px]">
+        {category.items.map((item, idx) => (
+          <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
+        ))}
+      </div>
     </div>
   );
 }
 
-function AnimatedLink({ item }: any) {
+function AnimatedLink({ item, delay }) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -94,7 +97,7 @@ function AnimatedLink({ item }: any) {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={variants}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.3, delay }}
       className="flex gap-8 flex-col md:flex-row"
     >
       <Link href={item.link} className="flex flex-row items-center gap-5">
@@ -102,7 +105,7 @@ function AnimatedLink({ item }: any) {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={variants}
-          transition={{ duration: 0.3 }}
+          transition={{ duration: 0.3, delay }}
           className="flex flex-row items-center gap-5"
         >
           <Image
