@@ -17,7 +17,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredMenuItems, setFilteredMenuItems] = useState(menuItems);
 
-  const handleSearch = (event) => {
+  const handleSearch = (event:any) => {
     const query = event.target.value.toLowerCase();
     setSearchQuery(query);
     if (query === "") {
@@ -70,14 +70,14 @@ export default function Home() {
   );
 }
 
-function CategorySection({ category }) {
+function CategorySection({ category }: any) {
   return (
     <div className="mt-[36px]">
       <h1 className="font-bold text-2xl mb-4" id={category.category}>
         {category.category}
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 border-t pt-6 gap-y-[50px]">
-        {category.items.map((item, idx) => (
+        {category.items.map((item: any, idx: any) => (
           <AnimatedLink key={idx} item={item} delay={idx * 0.1} />
         ))}
       </div>
@@ -85,7 +85,7 @@ function CategorySection({ category }) {
   );
 }
 
-function AnimatedLink({ item, delay }) {
+function AnimatedLink({ item, delay }: any) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
