@@ -1,4 +1,5 @@
 "use client";
+
 import Sidebar from "@/components/sidebar";
 import SubMenu from "@/components/subMenu";
 import { motion } from "framer-motion";
@@ -37,6 +38,34 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredMenuItems, setFilteredMenuItems] = useState(menuItems);
 
+  const handleSearch = (event: any) => {
+    const query = event.target.value.toLowerCase();
+    setSearchQuery(query);
+    if (query === "") {
+      setFilteredMenuItems(menuItems);
+    } else {
+      const filteredItems = menuItems
+        .map((category) => {
+          // Check if the category matches the query
+          if (category.category.toLowerCase().includes(query)) {
+            return category;
+          }
+
+          // Filter items within the category
+          const items = category.items.filter((item) =>
+            item.name.toLowerCase().includes(query)
+          );
+
+          // Return the category with the filtered items
+          return {
+            ...category,
+            items: items,
+          };
+        })
+        .filter((category) => category.items.length > 0); // Remove empty categories
+      setFilteredMenuItems(filteredItems);
+    }
+  };
   const filteredWaterBottles = WaterBottless.map((category) => ({
     ...category,
     items: category.items.filter((item) =>
@@ -165,31 +194,6 @@ export default function Home() {
     ),
   })).filter((category) => category.items.length > 0);
 
-  const handleSearch = (event: any) => {
-    const query = event.target.value.toLowerCase();
-    setSearchQuery(query);
-    if (query === "") {
-      setFilteredMenuItems(menuItems);
-    } else {
-      const filteredItems = menuItems
-        .map((category) => {
-          if (category.category.toLowerCase().includes(query)) {
-            return category;
-          }
-
-          const items = category.items.filter((item) =>
-            item.name.toLowerCase().includes(query)
-          );
-          return {
-            ...category,
-            items: items,
-          };
-        })
-        .filter((category) => category.items.length > 0);
-      setFilteredMenuItems(filteredItems);
-    }
-  };
-
   return (
     <>
       <SubMenu />
@@ -204,10 +208,13 @@ export default function Home() {
                 value={searchQuery}
                 onChange={handleSearch}
                 placeholder="Search..."
-                className="outline-none border rounded-xl px-3 py-2 border-black/45 "
+                className="outline-none border rounded-xl px-3 py-2 border-black/45"
               />
             </div>
           </div>
+          {filteredMenuItems.map((category, index) => (
+            <CategorySection key={index} category={category} />
+          ))}
           {searchQuery === "" &&
             filteredMenuItems.map((category, index) => (
               <CategorySection key={index} category={category} />
@@ -365,7 +372,7 @@ export default function Home() {
   );
 }
 
-function CategorySection({ category }:any) {
+function CategorySection({ category }: any) {
   return (
     <div className="mt-[36px]">
       <h1 className="font-bold text-2xl mb-4" id={category.category}>
@@ -379,7 +386,6 @@ function CategorySection({ category }:any) {
     </div>
   );
 }
-
 function CategoryWithItems({ category }: any) {
   return (
     <div className="mt-[36px]">
@@ -394,8 +400,7 @@ function CategoryWithItems({ category }: any) {
     </div>
   );
 }
-
-function AnimatedLink({ item, delay }) {
+function AnimatedLink({ item, delay }: any) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,

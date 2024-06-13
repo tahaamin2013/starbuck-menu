@@ -1,4 +1,3 @@
-// menuItems.js
 export const menuItems = [
   {
     category: "Drinks",
