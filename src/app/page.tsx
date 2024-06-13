@@ -28,7 +28,7 @@ import {
   Yougurt,
   menuItems,
 } from "../../lib/menuItems";
-import { Search } from "lucide-react";
+import { Search, X } from "lucide-react";
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
@@ -194,7 +194,10 @@ export default function Home() {
       item.name.toLowerCase().includes(searchQuery.toLowerCase())
     ),
   })).filter((category) => category.items.length > 0);
-
+  const clearSearch = () => {
+    setSearchQuery("");
+    setFilteredMenuItems(menuItems);
+  };
   return (
     <>
       <SubMenu />
@@ -204,15 +207,24 @@ export default function Home() {
           <div className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
             <h1 className="font-bold text-2xl mb-2">Menu</h1>
             <div className="mb-5">
-              <div className="outline-none items-center flex gap-2 border rounded-xl px-3 py-2 border-black/45">
+              <div className="flex items-center border rounded-xl px-3 py-2 border-gray-400 relative">
                 <input
                   type="text"
                   value={searchQuery}
                   onChange={handleSearch}
                   placeholder="Search..."
-                  className="outline-none"
+                  className="w-full md:w-[270px] outline-none px-2 py-1"
                 />
-                <Search size={21} />
+                {searchQuery.length > 0 ? (
+                  <button
+                    onClick={clearSearch}
+                    className="absolute right-3 top-1/2 transform -translate-y-1/2 outline-none focus:outline-none text-gray-500 hover:text-gray-700"
+                  >
+                    <X size={26} />
+                  </button>
+                ) : (
+                  <Search size={21} className="ml-2 text-gray-500" />
+                )}
               </div>
             </div>
           </div>
