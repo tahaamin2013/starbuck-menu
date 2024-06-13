@@ -28,6 +28,7 @@ import {
   Yougurt,
   menuItems,
 } from "../../lib/menuItems";
+import { Search } from "lucide-react";
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
@@ -203,22 +204,22 @@ export default function Home() {
           <div className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
             <h1 className="font-bold text-2xl mb-2">Menu</h1>
             <div className="mb-5">
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={handleSearch}
-                placeholder="Search..."
-                className="outline-none border rounded-xl px-3 py-2 border-black/45"
-              />
+              <div className="outline-none items-center flex gap-2 border rounded-xl px-3 py-2 border-black/45">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={handleSearch}
+                  placeholder="Search..."
+                  className="outline-none"
+                />
+                <Search size={21} />
+              </div>
             </div>
           </div>
           {filteredMenuItems.map((category, index) => (
             <CategorySection key={index} category={category} />
           ))}
-          {searchQuery === "" &&
-            filteredMenuItems.map((category, index) => (
-              <CategorySection key={index} category={category} />
-            ))}
+
           {searchQuery !== "" && filteredWaterBottles.length > 0 && (
             <CategoryWithItems
               category={{
@@ -247,7 +248,7 @@ export default function Home() {
           {searchQuery !== "" && filteredMilkJuceMore.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Milk, Juice & More",
                 items: filteredMilkJuceMore[0].items,
               }}
             />
@@ -255,7 +256,7 @@ export default function Home() {
           {searchQuery !== "" && filteredHotTeas.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Hot Teas",
                 items: filteredHotTeas[0].items,
               }}
             />
@@ -263,7 +264,7 @@ export default function Home() {
           {searchQuery !== "" && filteredOthers.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Others",
                 items: filteredOthers[0].items,
               }}
             />
@@ -271,7 +272,7 @@ export default function Home() {
           {searchQuery !== "" && filteredBakerys.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Bakery",
                 items: filteredBakerys[0].items,
               }}
             />
@@ -279,7 +280,7 @@ export default function Home() {
           {searchQuery !== "" && filteredTumblerss.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Tumblers",
                 items: filteredTumblerss[0].items,
               }}
             />
@@ -287,7 +288,7 @@ export default function Home() {
           {searchQuery !== "" && filteredMugss.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Mugs",
                 items: filteredMugss[0].items,
               }}
             />
@@ -295,7 +296,7 @@ export default function Home() {
           {searchQuery !== "" && filteredLunchs.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Lunch",
                 items: filteredLunchs[0].items,
               }}
             />
@@ -303,7 +304,7 @@ export default function Home() {
           {searchQuery !== "" && filteredYougurt.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Oatmeal & Yogurt",
                 items: filteredYougurt[0].items,
               }}
             />
@@ -311,7 +312,7 @@ export default function Home() {
           {searchQuery !== "" && filteredWholeBeans.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Whole Bean",
                 items: filteredWholeBeans[0].items,
               }}
             />
@@ -319,7 +320,7 @@ export default function Home() {
           {searchQuery !== "" && filteredVIAInstants.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "VIA Instant",
                 items: filteredVIAInstants[0].items,
               }}
             />
@@ -327,7 +328,7 @@ export default function Home() {
           {searchQuery !== "" && filteredHotBreakFasts.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Hot Breakfast",
                 items: filteredHotBreakFasts[0].items,
               }}
             />
@@ -336,7 +337,7 @@ export default function Home() {
             filteredFrappuccinoBlendedBeveragess.length > 0 && (
               <CategoryWithItems
                 category={{
-                  category: "Hot Coffees",
+                  category: "Frappuccino® Blended Beverages",
                   items: filteredFrappuccinoBlendedBeveragess[0].items,
                 }}
               />
@@ -344,7 +345,7 @@ export default function Home() {
           {searchQuery !== "" && filteredIcedTeaAndLemonades.length > 0 && (
             <CategoryWithItems
               category={{
-                category: "Hot Coffees",
+                category: "Iced Tea and Lemonade",
                 items: filteredIcedTeaAndLemonades[0].items,
               }}
             />
@@ -353,7 +354,7 @@ export default function Home() {
             filteredStarbucksRefreshersBeberagese.length > 0 && (
               <CategoryWithItems
                 category={{
-                  category: "Hot Coffees",
+                  category: "Starbucks Refreshers® Beverages",
                   items: filteredStarbucksRefreshersBeberagese[0].items,
                 }}
               />

@@ -50,11 +50,11 @@ const HotCofee = () => {
                 <Slash />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/hot-cofees">Hot Cofees</BreadcrumbLink>
+                <BreadcrumbLink href="/hot-cofees">Hot Coffees</BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          <h1 className="font-bold text-2xl">Hot Cofees</h1>
+          <h1 className="font-bold text-2xl">Hot Coffees</h1>
 
           {HotCofees.map((category, index) => (
             <CategorySection key={index} category={category} />
