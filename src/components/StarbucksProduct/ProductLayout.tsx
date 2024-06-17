@@ -26,22 +26,22 @@ const ProductLayout = ({ subItem, delay }: any) => {
   });
 
   return (
-    <motion.div
-      ref={ref}
-      initial="hidden"
-      animate={inView ? "visible" : "hidden"}
-      variants={variants}
-      transition={{ duration: 0.3, delay }}
-      className="flex gap-8 flex-col md:flex-row"
-    >
+    <Link href={subItem.link}>
       <motion.div
+        ref={ref}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
         transition={{ duration: 0.3, delay }}
-        className="flex flex-row items-center gap-5"
+        className="flex gap-8 flex-col md:flex-row"
       >
-        <Link href={subItem.link} className="flex flex-row items-center gap-5">
+        <motion.div
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          variants={variants}
+          transition={{ duration: 0.3, delay }}
+          className="flex flex-row items-center gap-5"
+        >
           <Image
             src={subItem.image}
             alt={`Starbucks menu with prices featuring a ${subItem.name}`}
@@ -49,11 +49,10 @@ const ProductLayout = ({ subItem, delay }: any) => {
             height={118}
             className="rounded-full max-w-[120rem] max-h-[118px]"
           />
-        </Link>
-        <div>
-          <h1 className="text-xl mb-1 w-full md:w-[340px]">{subItem.name}</h1>
-          <h1 className="text-xl mb-1 w-full md:w-[340px]">Product</h1>
-          {/* <div className="w-44 flex gap-6 justify-between items-center">
+          <div>
+            <h1 className="text-xl mb-1 w-full md:w-[340px]">{subItem.name}</h1>
+            <h1 className="text-xl mb-1 w-full md:w-[340px]">Product</h1>
+            {/* <div className="w-44 flex gap-6 justify-between items-center">
             <div className="h-full gap-1 font-bold flex justify-between flex-col">
               <h1>Size:</h1>
               <h1 className="text-white">.</h1>
@@ -74,7 +73,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
                   <DropdownMenuLabel>Size Options</DropdownMenuLabel>
                   <DropdownMenuSeparator />
                   <DropdownMenuRadioGroup
-                    value={selectedSize.size}
+                  value={selectedSize.size}
                     onValueChange={(size) =>
                       setSelectedSize(
                         subItem.sizes.find((s: any) => s.size === size)
@@ -98,9 +97,10 @@ const ProductLayout = ({ subItem, delay }: any) => {
               <p>{selectedSize.price}</p> 
             </div>
           </div>*/}
-        </div>
+          </div>
+        </motion.div>
       </motion.div>
-    </motion.div>
+    </Link>
   );
 };
 

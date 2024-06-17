@@ -142,6 +142,22 @@ const Footer = () => {
                     Iced Tea and Lemonade
                   </a>
                 </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Starbucks Refreshers® Beverages
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Frappuccino® Blended Beverages
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
@@ -152,7 +168,7 @@ const Footer = () => {
                     href="javascript:;"
                     className="text-gray-600 hover:text-gray-900"
                   >
-                    FAQs
+                    Hot Breakfast
                   </a>
                 </li>
                 <li className="mb-6">
@@ -160,7 +176,7 @@ const Footer = () => {
                     href="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
-                    Quick Start
+                    Oatmeal & Yogurt
                   </a>
                 </li>
                 <li className="mb-6">
@@ -168,17 +184,26 @@ const Footer = () => {
                     href="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
-                    Documentation
+                    Bakery
                   </a>
                 </li>
-                <li>
+                <li className="mb-6">
                   <a
                     href="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
-                    User Guide
+                    Lunch
                   </a>
                 </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Snacks & Sweets
+                  </a>
+                </li>
+                
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -17,15 +17,16 @@ const CategoryLayout = ({ item, delay }: any) => {
   });
 
   return (
-    <motion.div
-      ref={ref}
-      initial="hidden"
-      animate={inView ? "visible" : "hidden"}
-      variants={variants}
-      transition={{ duration: 0.3, delay }}
-      className="flex gap-8 flex-col md:flex-row"
-    >
-      {/* <Link href={item.link} className="flex flex-row items-center gap-5"> */}
+    <Link href={item.link} className="w-fit">
+      <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        variants={variants}
+        transition={{ duration: 0.3, delay }}
+        className="flex gap-8 flex-col md:flex-row"
+      >
+        {/* <Link href={item.link} className="flex flex-row items-center gap-5"> */}
         <motion.div
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
@@ -45,8 +46,9 @@ const CategoryLayout = ({ item, delay }: any) => {
             <p className="text-gray-600">{item.price}</p>
           </div>
         </motion.div>
-      {/* </Link> */}
-    </motion.div>
+        {/* </Link> */}
+      </motion.div>
+    </Link>
   );
 };
 
