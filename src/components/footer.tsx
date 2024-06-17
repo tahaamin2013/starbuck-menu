@@ -73,10 +73,7 @@ const Footer = () => {
               <h4 className=" text-white font-medium mb-4">.</h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <Link
-                    href="/"
-                    className=" text-gray-600 hover:text-gray-900"
-                  >
+                  <Link href="/" className=" text-gray-600 hover:text-gray-900">
                     Starbucks Menu
                   </Link>
                 </li>
@@ -95,7 +92,7 @@ const Footer = () => {
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/hot-coffees"
                     className="text-gray-600 hover:text-gray-900"
                   >
                     Hot Coffees
@@ -103,7 +100,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/cold-cofees"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Cold Coffees
@@ -111,7 +108,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/hot-teas"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Hot Teas
@@ -120,7 +117,7 @@ const Footer = () => {
 
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/bottle-beverages"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Bottled Beverages
@@ -128,7 +125,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/milk-juice-and-more"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Milk, Juice & More
@@ -136,7 +133,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/Iced-Tea-and-Lemonade"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Iced Tea and Lemonade
@@ -144,7 +141,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/starbucks-refreshers-beverages"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Starbucks Refreshers® Beverages
@@ -152,7 +149,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/frappuccino-Blended-Beverages"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Frappuccino® Blended Beverages
@@ -165,7 +162,7 @@ const Footer = () => {
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/hot-breakfast"
                     className="text-gray-600 hover:text-gray-900"
                   >
                     Hot Breakfast
@@ -173,7 +170,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/owatmeal-and-yougurt"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Oatmeal & Yogurt
@@ -181,7 +178,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/bakery"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Bakery
@@ -189,7 +186,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/lunch"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Lunch
@@ -197,7 +194,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/snack-and-sweets"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Snacks & Sweets
@@ -212,7 +209,7 @@ const Footer = () => {
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/whole-bean"
                     className="text-gray-600 hover:text-gray-900"
                   >
                     Whole Bean
@@ -220,7 +217,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="javascript:;"
+                    href="/via-instant"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     VIA® Instant
