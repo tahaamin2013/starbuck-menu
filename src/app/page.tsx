@@ -84,11 +84,6 @@ const MenuPage = () => {
 
   return (
     <>
-      <SubMenu />
-      <div className="flex px-5 md:px-[90px] my-9">
-        <Sidebar />
-
-        <div className="ml-5 w-full">
           <div className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
             <h1 className="font-bold text-2xl mb-2">Menu</h1>
             <div className="mb-5 relative">
@@ -142,8 +137,6 @@ const MenuPage = () => {
               </div>
             ))
           )}
-        </div>
-      </div>
     </>
   );
 };
