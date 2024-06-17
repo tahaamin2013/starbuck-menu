@@ -6,7 +6,7 @@ export const Menu = [
       {
         name: "Hot Coffees",
         image: "/hot cofee.avif",
-        link: "hot-cofees",
+        link: "hot-coffees",
         subItems: [
           {
             category: "Americanos",

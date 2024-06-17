@@ -6,7 +6,7 @@ const Sidebar = () => {
     <div className="hidden lg:block pr-[60px]">
       <h1 className="font-bold text-xl">Drinks</h1>
       <div className="flex flex-col gap-3 mt-2 text-zinc-700">
-        <Link href="/hot-cofees" className="text-sm">
+        <Link href="/hot-coffees" className="text-sm">
           Hot Cofees{" "}
         </Link>
         <Link href="/cold-cofees" className="text-sm">

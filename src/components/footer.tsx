@@ -9,9 +9,9 @@ import { GrYoutube } from "react-icons/gr";
 const Footer = () => {
   return (
     <>
-      <footer className="w-full mt-1">
+      <footer className="w-full border mt-1">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8 py-14 max-w-xs mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-full">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8 py-8 max-w-xs mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-full">
             <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
               <Link
                 href="/"
@@ -226,7 +226,6 @@ const Footer = () => {
                     VIA® Instant
                   </a>
                 </li>
-                
               </ul>
             </div>
           </div>
@@ -239,17 +238,22 @@ const Footer = () => {
               <ul className="flex items-center gap-9 mt-4 lg:mt-0">
                 <li>
                   <a href="javascript:;" className="text-sm text-gray-500">
-                    Terms
+                    Terms And Conditions
                   </a>
                 </li>
                 <li>
                   <a href="javascript:;" className="text-sm text-gray-500">
-                    Privacy
+                    Privacy Police
                   </a>
                 </li>
                 <li>
                   <a href="javascript:;" className="text-sm text-gray-500">
-                    Cookies
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;" className="text-sm text-gray-500">
+                    About Us
                   </a>
                 </li>
               </ul>
