@@ -74,7 +74,7 @@ const Footer = () => {
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
                   <Link
-                    href="/menu"
+                    href="/"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Starbucks Menu
