@@ -111,12 +111,12 @@ const MenuPage = () => {
       </div>
 
       {filteredMenu.length === 0 ? (
-        <p className="text-xl text-center mb-[600px]">No results found.</p>
+        <p className="text-xl text-center mb-[400px]">No results found.</p>
       ) : (
         filteredMenu.map((category: any) => (
           <div key={category.category}>
-            <h2 className="text-xl font-bold mb-2">{category.category}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
+            <h2 className="text-2xl font-bold mt-6 mb-3">{category.category}</h2>
+            <div className="grid grid-cols-1 border-t md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
               {category.items &&
                 category.items.length > 0 &&
                 category.items.map((item: any, idx: any) => (

@@ -235,7 +235,7 @@ const Footer = () => {
               <span className="text-sm text-gray-500 ">
                 ©Starbucks Menu With Prices 2024, All rights reserved.
               </span>
-              <ul className="flex items-center gap-9 mt-4 lg:mt-0">
+              <ul className="flex items-center text-center gap-9 mt-4 lg:mt-0">
                 <li>
                   <a href="javascript:;" className="text-sm text-gray-500">
                     Terms And Conditions
