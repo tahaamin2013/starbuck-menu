@@ -10,7 +10,7 @@ export const Menu = [
         subItems: [
           {
             category: "Americanos",
-            items: [
+            products: [
               {
                 name: "Caffè Americano",
                 image: "/to.avif",
@@ -47,7 +47,7 @@ export const Menu = [
 
           {
             category: "Brewed Coffees",
-            items: [
+            products: [
               {
                 name: "Veranda Blend® Clover Vertica™",
                 image: "/to.avif",
@@ -365,7 +365,7 @@ export const Menu = [
 
           {
             category: "Cappuccinos",
-            items: [
+            products: [
               {
                 name: "Cappuccino",
                 image: "/Cappuccino.avif",
@@ -402,7 +402,7 @@ export const Menu = [
 
           {
             category: "Espresso Shots",
-            items: [
+            products: [
               {
                 name: "Espresso",
                 image: "/Espresso.avif",
@@ -470,7 +470,7 @@ export const Menu = [
 
           {
             category: "Flat Whites",
-            items: [
+            products: [
               {
                 name: "Flat White",
                 image: "/Flat White.avif",
@@ -538,7 +538,7 @@ export const Menu = [
 
           {
             category: "Lattes",
-            items: [
+            products: [
               {
                 name: "Lavender Oatmilk Latte",
                 image: "/Lavender Oatmilk Latte.avif",
@@ -699,7 +699,7 @@ export const Menu = [
           },
           {
             category: "Macchiatos",
-            items: [
+            products: [
               {
                 name: "Caramel Macchiato",
                 image: "/Caramel Macchiato.avif",
@@ -735,7 +735,7 @@ export const Menu = [
           },
           {
             category: "Mochas",
-            items: [
+            products: [
               {
                 name: "Caffè Mocha",
                 image: "/Caffè Mocha.avif",
@@ -803,7 +803,7 @@ export const Menu = [
 
           {
             category: "Coffee Travelers",
-            items: [
+            products: [
               {
                 name: "Coffee Traveler - Veranda Blend®",
                 image: "/Box.avif",
@@ -868,7 +868,7 @@ export const Menu = [
         subItems: [
           {
             category: "Cold Brews",
-            items: [
+            products: [
               {
                 name: "White Chocolate Macadamia Cream Cold Brew",
                 image: "/White Chocolate Macadamia Cream Cold Brew.avif",
@@ -1062,7 +1062,7 @@ export const Menu = [
 
           {
             category: "Nitro Cold Brews",
-            items: [
+            products: [
               {
                 name: "Cinnamon Caramel Cream Nitro Cold Brew",
                 image: "/Cinnamon Caramel Cream Nitro Cold Brew.avif",
@@ -1127,7 +1127,7 @@ export const Menu = [
 
           {
             category: "Iced Americano",
-            items: [
+            products: [
               {
                 name: "Iced Caffè Americano",
                 image: "/Iced Caffè Americano.avif",
@@ -1158,7 +1158,7 @@ export const Menu = [
 
           {
             category: "Iced Coffees",
-            items: [
+            products: [
               {
                 name: "Starbucks® Iced Coffee Blend",
                 image: "/12.avif",
@@ -1257,7 +1257,7 @@ export const Menu = [
 
           {
             category: "Iced Shaken Espresso",
-            items: [
+            products: [
               {
                 name: "Iced Hazelnut Oatmilk Shaken Espresso",
                 image: "/Iced Hazelnut Oatmilk Shaken Espresso.avif",
@@ -1365,7 +1365,7 @@ export const Menu = [
 
           {
             category: "Iced Flat Whites",
-            items: [
+            products: [
               {
                 name: "Iced Flat White",
                 image: "/Iced Flat White.avif",
@@ -1422,7 +1422,7 @@ export const Menu = [
 
           {
             category: "Iced Lattes",
-            items: [
+            products: [
               {
                 name: "Iced Lavender Oatmilk Latte",
                 image: "/Iced Lavender Oatmilk Latte.avif",
@@ -1529,7 +1529,7 @@ export const Menu = [
 
           {
             category: "Iced Macchiatos",
-            items: [
+            products: [
               {
                 name: "Iced Caramel Macchiato",
                 image: "/Iced Caramel Macchiato.avif",
@@ -1560,7 +1560,7 @@ export const Menu = [
 
           {
             category: "Iced Mochas",
-            items: [
+            products: [
               {
                 name: "Iced White Chocolate Mocha",
                 image: "/Iced White Chocolate Mocha.avif",
@@ -1623,7 +1623,7 @@ export const Menu = [
         subItems: [
           {
             category: "Seasonal Exclusives",
-            items: [
+            products: [
               {
                 name: "Summer-Berry Lemonade Starbucks Refreshers® Beverage",
                 image:
@@ -1723,7 +1723,7 @@ export const Menu = [
           },
           {
             category: "Lemonades and Frozen",
-            items: [
+            products: [
               {
                 name: "Strawberry Açaí Lemonade Starbucks Refreshers® Beverage",
                 image:
@@ -1891,7 +1891,7 @@ export const Menu = [
 
           {
             category: "Coconutmilk Collection",
-            items: [
+            products: [
               {
                 name: "Pink Drink Starbucks Refreshers® Beverage",
                 image: "/Pink Drink Starbucks Refreshers® Beverage.avif",
@@ -2054,7 +2054,7 @@ export const Menu = [
 
           {
             category: "Classics",
-            items: [
+            products: [
               {
                 name: "Strawberry Açaí Starbucks Refreshers® Beverage",
                 image: "/Strawberry Açaí Starbucks Refreshers® Beverage.avif",
@@ -2161,7 +2161,7 @@ export const Menu = [
         subItems: [
           {
             category: "Coffee Frappuccino®",
-            items: [
+            products: [
               {
                 name: "Mocha Cookie Crumble Frappuccino®",
                 image: "/Mocha Cookie Crumble Frappuccino®.avif",
@@ -2395,7 +2395,7 @@ export const Menu = [
 
           {
             category: "Creme Frappuccino®",
-            items: [
+            products: [
               {
                 name: "Lavender Crème Frappuccino® Blended Beverage",
                 image: "/Lavender Crème Frappuccino® Blended Beverage.avif",
@@ -2636,7 +2636,7 @@ export const Menu = [
         subItems: [
           {
             category: "Iced Black Teas",
-            items: [
+            products: [
               {
                 name: "Iced Black Tea",
                 image: "/Iced Black Tea.avif",
@@ -2755,7 +2755,7 @@ export const Menu = [
 
           {
             category: "Iced Chai Teas",
-            items: [
+            products: [
               {
                 name: "Iced Chai Tea Latte",
                 image: "/Iced Chai Tea Latte.jpg",
@@ -2811,7 +2811,7 @@ export const Menu = [
 
           {
             category: "Iced Green Teas",
-            items: [
+            products: [
               {
                 name: "Iced Lavender Cream Oatmilk Matcha",
                 image: "/Iced Lavender Cream Oatmilk Matcha.avif",
@@ -3046,7 +3046,7 @@ export const Menu = [
           },
           {
             category: "Iced Herbal Teas",
-            items: [
+            products: [
               {
                 name: "Iced Passion Tango® Tea",
                 image: "/Iced Passion Tango® Tea.avif",
@@ -3113,7 +3113,7 @@ export const Menu = [
           },
           {
             category: "Lemonades",
-            items: [
+            products: [
               {
                 name: "Lemonade",
                 image: "/Lemonade.avif",
@@ -3188,7 +3188,7 @@ export const Menu = [
         subItems: [
           {
             category: "Chai Teas",
-            items: [
+            products: [
               {
                 name: "Chai Tea Latte",
                 image: "/Chai Tea Latte.avif",
@@ -3256,7 +3256,7 @@ export const Menu = [
 
           {
             category: "Black Teas",
-            items: [
+            products: [
               {
                 name: "Earl Grey Tea",
                 image: "/Earl Grey Tea.avif",
@@ -3386,7 +3386,7 @@ export const Menu = [
 
           {
             category: "Green Teas",
-            items: [
+            products: [
               {
                 name: "Emperor's Clouds & Mist",
                 image: "/Emperor’s Clouds & Mist®.avif",
@@ -3485,7 +3485,7 @@ export const Menu = [
 
           {
             category: "Herbal Teas",
-            items: [
+            products: [
               {
                 name: "Mint Majesty",
                 image: "/Chai Tea.avif",
@@ -3529,7 +3529,7 @@ export const Menu = [
         subItems: [
           {
             category: "Hot Chocolates",
-            items: [
+            products: [
               {
                 name: "Hot Chocolate",
                 image: "/Hot Chocolate.avif",
@@ -3584,7 +3584,7 @@ export const Menu = [
           },
           {
             category: "Juice",
-            items: [
+            products: [
               {
                 name: "Caramel Apple Spice",
                 image: "/Caramel Apple Spice.avif",
@@ -3664,7 +3664,7 @@ export const Menu = [
 
           {
             category: "Milk & Steamers",
-            items: [
+            products: [
               {
                 name: "Cold Milk",
                 image: "/Cold Milk.avif",
@@ -3777,7 +3777,7 @@ export const Menu = [
         subItems: [
           {
             category: "Water and Sparkling",
-            items: [
+            products: [
               {
                 name: "Spindrift Lemon Sparkling Water",
                 image: "/Spindrift Lemon Sparkling Water.avif",
@@ -3834,7 +3834,7 @@ export const Menu = [
           },
           {
             category: "Protein and Milk",
-            items: [
+            products: [
               {
                 name: "Koia Cacao Bean Protein Shake",
                 image: "/Koia Cacao Bean Protein Shake.avif",
@@ -3892,7 +3892,7 @@ export const Menu = [
 
           {
             category: "Juice",
-            items: [
+            products: [
               {
                 name: "Evolution Fresh Organic Defense up",
                 image: "/Evolution Fresh Organic Defense up.avif",
@@ -3963,7 +3963,7 @@ export const Menu = [
           },
           {
             category: "Kombucha",
-            items: [
+            products: [
               {
                 name: "Brew DR. Island Mango Kombucha",
                 image: "/Brew DR. Island Mango Kombucha.avif",
@@ -4008,7 +4008,7 @@ export const Menu = [
         subItems: [
           {
             category: "Breakfast Sandwiches & Wraps",
-            items: [
+            products: [
               {
                 name: "Chicken, Maple Butter & Egg Sandwich",
                 image: "/Chicken, Maple Butter & Egg Sandwich.avif",
@@ -4077,7 +4077,7 @@ export const Menu = [
 
           {
             category: "Bakes & Egg Bites",
-            items: [
+            products: [
               {
                 name: "Potato, Cheddar & Chive Bakes",
                 image: "/Potato, Cheddar & Chive Bakes.avif",
@@ -4118,7 +4118,7 @@ export const Menu = [
         subItems: [
           {
             category: "Oatmeal & Yogurt",
-            items: [
+            products: [
               {
                 name: "Rolled & Steel-Cut Oatmeal",
                 image: "/Oatmeal & Yogurt.avif",
@@ -4145,7 +4145,7 @@ export const Menu = [
         subItems: [
           {
             category: "Bagels",
-            items: [
+            products: [
               {
                 name: "Plain Bagel",
                 image: "/Plain Bagel.avif",
@@ -4172,7 +4172,7 @@ export const Menu = [
 
           {
             category: "Cake Pops",
-            items: [
+            products: [
               {
                 name: "Orange Cream Cake Pop",
                 image: "/Orange Cream Cake Pop.avif",
@@ -4206,7 +4206,7 @@ export const Menu = [
 
           {
             category: "Cookies, Brownies & Bars",
-            items: [
+            products: [
               {
                 name: "Double Chocolate Brownie",
                 image: "/Double Chocolate Brownie.avif",
@@ -4232,7 +4232,7 @@ export const Menu = [
           },
           {
             category: "Croissants",
-            items: [
+            products: [
               {
                 name: "Ham & Swiss Croissant",
                 image: "/Ham & Swiss Croissant.avif",
@@ -4258,7 +4258,7 @@ export const Menu = [
           },
           {
             category: "Loaves, Cakes & Buns",
-            items: [
+            products: [
               {
                 name: "Pineapple Cloud Cake",
                 image: "/Pineapple Cloud Cake.avif",
@@ -4300,7 +4300,7 @@ export const Menu = [
 
           {
             category: "Danishes & Doughnuts",
-            items: [
+            products: [
               // do this
               {
                 name: "Vanilla Bean Custard Danish",
@@ -4357,7 +4357,7 @@ export const Menu = [
         subItems: [
           {
             category: "Warm Sandwiches",
-            items: [
+            products: [
               {
                 name: "Crispy Grilled Cheese on Sourdough",
                 image: "/Crispy Grilled Cheese on Sourdough.avif",
@@ -4398,7 +4398,7 @@ export const Menu = [
 
           {
             category: "Protein Boxes",
-            items: [
+            products: [
               {
                 name: "Eggs & Cheddar Protein Box",
                 image: "/Eggs & Cheddar Protein Box.avif",
@@ -4432,7 +4432,7 @@ export const Menu = [
         subItems: [
           {
             category: "Biscotti & Cookies",
-            items: [
+            products: [
               {
                 name: "Madeleinese",
                 image: "/Madeleinese.avif",
@@ -4451,7 +4451,7 @@ export const Menu = [
           },
           {
             category: "Chocolates & Candy",
-            items: [
+            products: [
               {
                 name: "Salted Alomnd Chocolate Bites",
                 image: "/Salted Alomnd Chocolate Bites.avif",
@@ -4471,7 +4471,7 @@ export const Menu = [
 
           {
             category: "Fruit & Nuts",
-            items: [
+            products: [
               {
                 name: "Skinny Dipped Lemon Bliss Almonds",
                 image: "/Skinny Dipped Lemon Bliss Almonds.avif",
@@ -4497,7 +4497,7 @@ export const Menu = [
           },
           {
             category: "Gum & Mints",
-            items: [
+            products: [
               {
                 name: "Spearmint Gum",
                 image: "/Spearmint Gum.avif",
@@ -4509,7 +4509,7 @@ export const Menu = [
           },
           {
             category: "Popcorn & Chips",
-            items: [
+            products: [
               {
                 name: "Siete Lime Grain Free Tortilla Chips",
                 image: "/Siete Lime Grain Free Tortilla Chips.avif",
@@ -4542,7 +4542,7 @@ export const Menu = [
           },
           {
             category: "Meat & Cheese",
-            items: [
+            products: [
               {
                 name: "String Cheese",
                 image: "/String Cheese.avif",
@@ -4554,7 +4554,7 @@ export const Menu = [
           },
           {
             category: "Snack Bars",
-            items: [
+            products: [
               {
                 name: "Perfect Bar - Dark Chocolate Chip Peanut Butter",
                 image: "/Perfect Bar - Dark Chocolate Chip Peanut Butter.avif",
@@ -4581,7 +4581,7 @@ export const Menu = [
 
           {
             category: "Spreads",
-            items: [
+            products: [
               {
                 name: "Avocado Spread",
                 image: "/Avocado Spread.avif",
@@ -4607,7 +4607,7 @@ export const Menu = [
         subItems: [
           {
             category: "Blonde Roast",
-            items: [
+            products: [
               {
                 name: "Starbucks® Green Apron Blend™",
                 image: "/Starbucks® Green Apron Blend™.avif",
@@ -4633,7 +4633,7 @@ export const Menu = [
           },
           {
             category: "Medium Roast",
-            items: [
+            products: [
               {
                 name: "Starbucks Siren's Blend",
                 image: "/Starbucks Siren’s Blend™.avif",
@@ -4673,7 +4673,7 @@ export const Menu = [
           },
           {
             category: "Dark Roast",
-            items: [
+            products: [
               {
                 name: "Starbucks® Anniversary Blend 2024",
                 image: "/Starbucks® Anniversary Blend 2024.avif",
@@ -4734,7 +4734,7 @@ export const Menu = [
         subItems: [
           {
             category: "Flavored",
-            items: [
+            products: [
               {
                 name: "VIA® Sweetened Iced Coffee",
                 image: "/VIA® Sweetened Iced Coffee.avif",
@@ -4745,7 +4745,7 @@ export const Menu = [
           },
           {
             category: "Blonde Roast",
-            items: [
+            products: [
               {
                 name: "VIA® Veranda Blend™",
                 image: "/VIA® Veranda Blend™.avif",
@@ -4756,7 +4756,7 @@ export const Menu = [
           },
           {
             category: "Medium Roast",
-            items: [
+            products: [
               {
                 name: "Starbucks VIA® Instant Pike Place® Roast",
                 image: "/Starbucks VIA® Instant Pike Place® Roast.avif",
@@ -4767,7 +4767,7 @@ export const Menu = [
           },
           {
             category: "Dark Roast",
-            items: [
+            products: [
               {
                 name: "VIA® Italian Roast",
                 image: "/VIA® Italian Roast.avif",
@@ -4798,7 +4798,7 @@ export const Menu = [
         subItems: [
           {
             category: "Cold Cups",
-            items: [
+            products: [
               {
                 name: "White Siren Bling Plastic Cold Cup - 16 fl oz",
                 image: "/White Siren Bling Plastic Cold Cup - 16 fl oz.avif",
@@ -4856,7 +4856,7 @@ export const Menu = [
         subItems: [
           {
             category: "Tumblers",
-            items: [
+            products: [
               {
                 name: "Siren Logo Plastic Hot Cup - 16 fl oz",
                 image: "/Tumblers.avif",
@@ -4874,7 +4874,7 @@ export const Menu = [
         subItems: [
           {
             category: "Mugs",
-            items: [
+            products: [
               {
                 name: "Glass Mug - 16 fl oz",
                 image: "/Mugs.avif",
@@ -4893,7 +4893,7 @@ export const Menu = [
         subItems: [
           {
             category: "Water Bottles",
-            items: [
+            products: [
               {
                 name: "Twist to Sip Stainless-Steel Water Bottle - 20 fl oz",
                 image: "/Water Bottles.avif",
@@ -4911,7 +4911,7 @@ export const Menu = [
         subItems: [
           {
             category: "Water Bottles",
-            items: [
+            products: [
               {
                 name: "French Press",
                 image: "/Other.avif",

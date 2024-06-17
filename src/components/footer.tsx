@@ -1,0 +1,239 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { BsSpotify } from "react-icons/bs";
+import { FaFacebookF, FaPinterestP, FaYoutube } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import { GrYoutube } from "react-icons/gr";
+
+
+const Footer = () => {
+  return (
+    <>
+      <footer className="w-full mt-1">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8 py-14 max-w-xs mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-full">
+            <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
+              <Link
+                href="/"
+                className="flex justify-center items-center w-full md:w-fit text-2xl gap-4 z-40 font-bold"
+              >
+                <Image
+                  src="/icon.svg"
+                  alt="Starbucks icon"
+                  width={120}
+                  height={100}
+                  className="mt-1"
+                ></Image>
+              </Link>
+              <p className="text-sm pb-4 text-gray-500 lg:max-w-xl text-center lg:text-left">
+                Starbucks boasts a varied menu that features espresso, coffee,
+                tea, bakery items, and breakfast and lunch options. Besides
+                their specialty coffee beverages, they also offer an assortment
+                of snacks and baked goods for those looking for a quick treat.
+              </p>
+              <div className="flex mt-4 space-x-4 justify-center lg:justify-start sm:mt-0 ">
+                <Link
+                  href="https://open.spotify.com/user/starbucks"
+                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  target="_blank"
+                >
+                  <BsSpotify size={20} />
+                </Link>
+                <Link
+                  href="https://www.facebook.com/Starbucks/"
+                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  target="_blank"
+                >
+                  <FaFacebookF size={18} />
+                </Link>
+                <Link
+                  href="https://www.pinterest.com/starbucks/"
+                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  target="_blank"
+                >
+                  <FaPinterestP size={18} />
+                </Link>
+                <Link
+                  href="https://www.instagram.com/starbucks/"
+                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  target="_blank"
+                >
+                  <FiInstagram size={20} />
+                </Link>
+                <Link
+                  href="https://www.youtube.com/starbucks"
+                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  target="_blank"
+                >
+                  <GrYoutube size={20} />
+                </Link>
+              </div>
+            </div>
+            <div className="lg:mx-auto text-center sm:text-left">
+              <h4 className=" text-white font-medium mb-4">.</h4>
+              <ul className="text-sm  transition-all duration-500">
+                <li className="mb-6">
+                  <Link
+                    href="/menu"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Starbucks Menu
+                  </Link>
+                </li>
+                <li className="mb-6">
+                  <Link
+                    href="/featured"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Featured
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="lg:mx-auto text-center sm:text-left">
+              <h4 className="text-lg text-gray-900 font-medium mb-2">Drinks</h4>
+              <ul className="text-sm  transition-all duration-500">
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className="text-gray-600 hover:text-gray-900"
+                  >
+                    Figma UI System
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Icons Assets
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Responsive Blocks
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Components Library
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="lg:mx-auto text-center sm:text-left">
+              <h4 className="text-lg text-gray-900 font-medium mb-2">Foods</h4>
+              <ul className="text-sm  transition-all duration-500">
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className="text-gray-600 hover:text-gray-900"
+                  >
+                    FAQs
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Quick Start
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    User Guide
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="lg:mx-auto text-center sm:text-left">
+              <h4 className="text-lg text-gray-900 font-medium mb-2">
+                At Home Coffee
+              </h4>
+              <ul className="text-sm  transition-all duration-500">
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className="text-gray-600 hover:text-gray-900"
+                  >
+                    News
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Tips & Tricks
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    New Updates
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Events
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="py-7 border-t border-gray-200">
+            <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
+              <span className="text-sm text-gray-500 ">
+                ©Starbucks Menu With Prices 2024, All rights reserved.
+              </span>
+              <ul className="flex items-center gap-9 mt-4 lg:mt-0">
+                <li>
+                  <a href="javascript:;" className="text-sm text-gray-500">
+                    Terms
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;" className="text-sm text-gray-500">
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;" className="text-sm text-gray-500">
+                    Cookies
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+};
+
+export default Footer;

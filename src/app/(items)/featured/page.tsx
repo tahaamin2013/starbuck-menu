@@ -13,10 +13,9 @@ const Featured = () => {
         borderButton="#ececec"
         color="#ececec"
         direction="Left"
-        imageSrc="/1.jpg"
-        title="            New Summer-Berry Starbucks Refreshers® Beverages
-"
-        description="            Introducing the official drink of summer—a mix of berry 
+        imageSrc="/Starbucks New Summer Berry Starbucks Refreshers Beverages.jpg"
+        title="New Summer-Berry Starbucks Refreshers® Beverages"
+        description="Introducing the official drink of summer—a mix of berry 
             flavors over bursting raspberry flavored pearls, enjoyed alon
            or with lemonade or coconutmilk."
         bg="#0021db"
@@ -25,46 +24,36 @@ const Featured = () => {
         borderButton="#1e3932"
         color="#1e3932"
         direction="Right"
-        imageSrc="/2.webp"
-        title="            White Chocolate Macadamia Cream Cold Brew
-
-"
-        description="Smooth and lush, our White Chocolate Macadamia Cream Cold Brew is topped with toasted cookie crumbles.
-"
+        imageSrc="/Starbucks White Chocolate Macadamia Cream Cold Brew.webp"
+        title="White Chocolate Macadamia Cream Cold Brew"
+        description="Smooth and lush, our White Chocolate Macadamia Cream Cold Brew is topped with toasted cookie crumbles."
         bg="#d6e342"
       />
       <Feetured
         borderButton="#1e3932"
         color="#1e3932"
         direction="Left"
-        imageSrc="/3.webp"
-        title="            Caramel Ribbon Crunch Frappuccino® Blended Beverage
-
-"
-        description="Caramel syrup blended with coffee, milk and ice, topped with a dark caramel drizzle.
-"
+        imageSrc="/Starbucks Caramel Ribbon Crunch Frappuccino Blended Beverage.webp"
+        title="Caramel Ribbon Crunch Frappuccino® Blended Beverage"
+        description="Caramel syrup blended with coffee, milk and ice, topped with a dark caramel drizzle."
         bg="#f8cdd1"
       />
       <Feetured
         borderButton="#ececec"
         color="#ececec"
         direction="Right"
-        imageSrc="/4.jpg"
+        imageSrc="/Starbucks New Orange Cream Cake Pop.jpg"
         title="New Orange Cream Cake Pop"
-        description="A mix of orange cream cake and buttercream, dipped in white-chocolaty icing with an orange slice design.
-"
+        description="A mix of orange cream cake and buttercream, dipped in white-chocolaty icing with an orange slice design."
         bg="#0021db"
       />
       <Feetured
         borderButton="#1e3932"
         color="#1e3932"
         direction="Left"
-        imageSrc="/5.webp"
-        title="            New Pineapple Cloud Cake
-
-"
-        description="           An airy cake layered with lightweight pineapple cream and pineapple spread with whole fruit pieces.
-"
+        imageSrc="/Starbucks New Pineapple Cloud Cake.webp"
+        title="New Pineapple Cloud Cake"
+        description="An airy cake layered with lightweight pineapple cream and pineapple spread with whole fruit pieces."
         bg="#fad4aa"
       />
     </div>

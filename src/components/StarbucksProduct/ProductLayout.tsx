@@ -25,21 +25,6 @@ const ProductLayout = ({ subItem, delay }: any) => {
     threshold: 0.1,
   });
 
-  // Define a default state for selectedSize
-  const defaultSize = subItem?.items?.[0]?.sizes?.[0] || null;
-  const [selectedSize, setSelectedSize] = useState(defaultSize);
-
-  // Check if subItem.items exists and has at least one item
-  if (!subItem || !subItem.items || subItem.items.length === 0) {
-    return null; // or return some fallback UI
-  }
-
-  const item = subItem.items[0];
-
-  if (!selectedSize) {
-    return null; // or return some fallback UI
-  }
-
   return (
     <motion.div
       ref={ref}
@@ -56,18 +41,19 @@ const ProductLayout = ({ subItem, delay }: any) => {
         transition={{ duration: 0.3, delay }}
         className="flex flex-row items-center gap-5"
       >
-        <Link href={item.link} className="flex flex-row items-center gap-5">
+        <Link href={subItem.link} className="flex flex-row items-center gap-5">
           <Image
-            src={item.image}
-            alt={item.name}
+            src={subItem.image}
+            alt={`Starbucks menu with prices featuring a ${subItem.name}`}
             width={118}
             height={118}
             className="rounded-full max-w-[120rem] max-h-[118px]"
           />
         </Link>
         <div>
-          <h1 className="text-xl mb-1 w-full md:w-[340px]">{item.name}</h1>
-          <div className="w-44 flex gap-6 justify-between items-center">
+          <h1 className="text-xl mb-1 w-full md:w-[340px]">{subItem.name}</h1>
+          <h1 className="text-xl mb-1 w-full md:w-[340px]">Product</h1>
+          {/* <div className="w-44 flex gap-6 justify-between items-center">
             <div className="h-full gap-1 font-bold flex justify-between flex-col">
               <h1>Size:</h1>
               <h1 className="text-white">.</h1>
@@ -91,11 +77,11 @@ const ProductLayout = ({ subItem, delay }: any) => {
                     value={selectedSize.size}
                     onValueChange={(size) =>
                       setSelectedSize(
-                        item.sizes.find((s: any) => s.size === size)
+                        subItem.sizes.find((s: any) => s.size === size)
                       )
                     }
                   >
-                    {item.sizes.map((sizeOption: any, index: any) => (
+                    {subItem.sizes.map((sizeOption: any, index: any) => (
                       <DropdownMenuRadioItem
                         className="cursor-pointer outline-none"
                         key={index}
@@ -107,12 +93,11 @@ const ProductLayout = ({ subItem, delay }: any) => {
                   </DropdownMenuRadioGroup>
                 </DropdownMenuContent>
               </DropdownMenu>
-              <span>{selectedSize.size2}</span>
+               <span>{selectedSize.size2}</span>
               <p>{selectedSize.calories}</p>
-              <p>{selectedSize.price}</p>
-              <p></p>
+              <p>{selectedSize.price}</p> 
             </div>
-          </div>
+          </div>*/}
         </div>
       </motion.div>
     </motion.div>
