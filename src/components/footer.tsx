@@ -234,7 +234,10 @@ const Footer = () => {
               </span>
               <ul className="flex items-center text-center gap-9 mt-4 lg:mt-0">
                 <li>
-                  <a href="/terms-and-conditons" className="text-sm text-gray-500">
+                  <a
+                    href="/terms-and-conditions"
+                    className="text-sm text-gray-500"
+                  >
                     Terms And Conditions
                   </a>
                 </li>
