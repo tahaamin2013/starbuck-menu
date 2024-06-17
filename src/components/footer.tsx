@@ -234,22 +234,22 @@ const Footer = () => {
               </span>
               <ul className="flex items-center text-center gap-9 mt-4 lg:mt-0">
                 <li>
-                  <a href="javascript:;" className="text-sm text-gray-500">
+                  <a href="/terms-and-conditons" className="text-sm text-gray-500">
                     Terms And Conditions
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:;" className="text-sm text-gray-500">
+                  <a href="/privacy-police" className="text-sm text-gray-500">
                     Privacy Police
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:;" className="text-sm text-gray-500">
+                  <a href="/contact-us" className="text-sm text-gray-500">
                     Contact Us
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:;" className="text-sm text-gray-500">
+                  <a href="/about-us" className="text-sm text-gray-500">
                     About Us
                   </a>
                 </li>
