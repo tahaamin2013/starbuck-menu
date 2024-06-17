@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../../globals.css";
+import "./globals.csscss";
 import Navbar from "@/components";
 import SubMenu from "@/components/subMenu";
 import Loader from "@/components/Loader";
@@ -27,10 +27,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <meta name='theme-color' content="#0b7555" />
+      <meta name="theme-color" content="#0b7555" />
       <body className={inter.className}>
         <Loader>
-              {children}
+          <Navbar />
+          {children}
+          <Footer />
         </Loader>
       </body>
     </html>
