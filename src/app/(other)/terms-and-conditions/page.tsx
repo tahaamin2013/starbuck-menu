@@ -15,7 +15,7 @@ const TermsAndConditions = () => {
   return (
     <div className="container mx-auto px-[20px] md:px-[100px] py-8 prose">
       <h1 className="text-center font-bold text-3xl mb-3">
-        Starbucks Menu with Prices - Terms and Conditions
+        Terms and Conditions
       </h1>
       <p>Welcome to the Starbucks Menu with Prices website!</p>
       <p className="mb-4">
