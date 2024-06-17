@@ -20,7 +20,8 @@ const TermsAndConditions = () => {
       <p>Welcome to the Starbucks Menu with Prices website!</p>
       <p className="mb-4">
         By accessing or using this website, you agree to be bound by these terms
-        and conditions ("Terms") and all applicable laws and regulations.
+        and conditions (&quot;Terms&quot;) and all applicable laws and
+        regulations.
       </p>
 
       <h3 className="text-xl font-bold">Information Provided</h3>
