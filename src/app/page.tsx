@@ -131,11 +131,12 @@ const MenuPage = () => {
                   {category.subItems &&
                     category.subItems.length > 0 &&
                     category.subItems.map((subItem: any, subIdx: any) => (
-                      <ProductLayout
-                        key={subIdx}
-                        subItem={subItem}
-                        delay={subIdx * 0.1}
-                      />
+                      // <ProductLayout
+                      //   key={subIdx}
+                      //   subItem={subItem}
+                      //   delay={subIdx * 0.1}
+                      // />
+                      <div>fds</div>
                     ))}
                 </div>
               </div>
