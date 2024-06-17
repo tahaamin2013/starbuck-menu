@@ -1,8 +1,7 @@
-
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import {
   DropdownMenu,
@@ -26,17 +25,16 @@ const ProductLayout = ({ subItem, delay }: any) => {
     threshold: 0.1,
   });
 
+  // Define a default state for selectedSize
+  const defaultSize = subItem?.items?.[0]?.sizes?.[0] || null;
+  const [selectedSize, setSelectedSize] = useState(defaultSize);
+
   // Check if subItem.items exists and has at least one item
   if (!subItem || !subItem.items || subItem.items.length === 0) {
     return null; // or return some fallback UI
   }
 
   const item = subItem.items[0];
-
-  // Ensure item.sizes exists and has at least one size
-  const [selectedSize, setSelectedSize] = useState(
-    item.sizes && item.sizes.length > 0 ? item.sizes[0] : null
-  );
 
   if (!selectedSize) {
     return null; // or return some fallback UI
@@ -66,7 +64,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
             height={118}
             className="rounded-full max-w-[120rem] max-h-[118px]"
           />
-        </Link> 
+        </Link>
         <div>
           <h1 className="text-xl mb-1 w-full md:w-[340px]">{item.name}</h1>
           <div className="w-44 flex gap-6 justify-between items-center">
