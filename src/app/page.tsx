@@ -111,7 +111,7 @@ const MenuPage = () => {
       </div>
 
       {filteredMenu.length === 0 ? (
-        <p className="text-xl text-center">No results found.</p>
+        <p className="text-xl text-center mb-[600px]">No results found.</p>
       ) : (
         filteredMenu.map((category: any) => (
           <div key={category.category}>
