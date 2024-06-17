@@ -6,7 +6,6 @@ import { FaFacebookF, FaPinterestP, FaYoutube } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { GrYoutube } from "react-icons/gr";
 
-
 const Footer = () => {
   return (
     <>
@@ -99,7 +98,7 @@ const Footer = () => {
                     href="javascript:;"
                     className="text-gray-600 hover:text-gray-900"
                   >
-                    Figma UI System
+                    Hot Coffees
                   </a>
                 </li>
                 <li className="mb-6">
@@ -107,7 +106,7 @@ const Footer = () => {
                     href="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
-                    Icons Assets
+                    Cold Coffees
                   </a>
                 </li>
                 <li className="mb-6">
@@ -115,15 +114,32 @@ const Footer = () => {
                     href="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
-                    Responsive Blocks
+                    Hot Teas
                   </a>
                 </li>
-                <li>
+
+                <li className="mb-6">
                   <a
                     href="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
-                    Components Library
+                    Bottled Beverages
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Milk, Juice & More
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a
+                    href="javascript:;"
+                    className=" text-gray-600 hover:text-gray-900"
+                  >
+                    Iced Tea and Lemonade
                   </a>
                 </li>
               </ul>
