@@ -35,8 +35,7 @@ export async function POST(req: NextRequest) {
         <p style="font-size: 16px; color: #666;"><strong>Message:</strong> ${message}</p>
       </div>
       <footer style="background-color: #f5f5f5; padding: 10px; text-align: center;">
-        <p style="font-size: 14px; color: #999; margin: 0;">&copy; ${new Date().getFullYear()}                 ©Starbucks Menu With Prices 2024, All rights reserved.
-</p>
+        <p style="font-size: 14px; color: #999; margin: 0;">&copy; ${new Date().getFullYear()} Starbucks Menu With Prices 2024, All rights reserved.</p>
       </footer>
     </div>
       `,

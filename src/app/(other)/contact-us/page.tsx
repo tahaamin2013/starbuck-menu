@@ -53,54 +53,62 @@ export default function ContactForm() {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="w-full max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg"
-    >
-      <div className="mb-6">
-        <Label htmlFor="name" className="block text-gray-700 font-medium mb-2">
-          Name
-        </Label>
-        <Input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <div className="mb-6">
-        <Label htmlFor="email" className="block text-gray-700 font-medium mb-2">
-          Email
-        </Label>
-        <Input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <div className="mb-6">
-        <Label
-          htmlFor="message"
-          className="block text-gray-700 font-medium mb-2"
-        >
-          Message
-        </Label>
-        <Textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></Textarea>
-      </div>
-      <Button type="submit" className="w-full">
-        Send Message
-      </Button>
-    </form>
+    <div className="mx-4 overflow-x-hidden">
+      <form
+        onSubmit={handleSubmit}
+        className="w-full border max-w-md md:mx-auto bg-white my-5  p-5 md:p-6 rounded-lg shadow-lg"
+      >
+        <div className="mb-6">
+          <Label
+            htmlFor="name"
+            className="block text-gray-700 font-medium mb-2"
+          >
+            Name
+          </Label>
+          <Input
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="mb-6">
+          <Label
+            htmlFor="email"
+            className="block text-gray-700 font-medium mb-2"
+          >
+            Email
+          </Label>
+          <Input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="mb-6">
+          <Label
+            htmlFor="message"
+            className="block text-gray-700 font-medium mb-2"
+          >
+            Message
+          </Label>
+          <Textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></Textarea>
+        </div>
+        <Button type="submit" className="w-full text-white">
+          Send Message
+        </Button>
+      </form>
+    </div>
   );
 }

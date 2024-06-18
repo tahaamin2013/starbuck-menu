@@ -91,69 +91,69 @@ const Footer = () => {
               <h4 className="text-lg text-gray-900 font-medium mb-4">Drinks</h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/hot-coffees"
                     className="text-gray-600 hover:text-gray-900"
                   >
                     Hot Coffees
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/cold-cofees"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Cold Coffees
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/hot-teas"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Hot Teas
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/bottle-beverages"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Bottled Beverages
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/milk-juice-and-more"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Milk, Juice & More
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/Iced-Tea-and-Lemonade"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Iced Tea and Lemonade
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/starbucks-refreshers-beverages"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Starbucks Refreshers® Beverages
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/frappuccino-Blended-Beverages"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Frappuccino® Blended Beverages
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -161,44 +161,44 @@ const Footer = () => {
               <h4 className="text-lg text-gray-900 font-medium mb-4">Foods</h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/hot-breakfast"
                     className="text-gray-600 hover:text-gray-900"
                   >
                     Hot Breakfast
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/owatmeal-and-yougurt"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Oatmeal & Yogurt
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/bakery"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Bakery
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/lunch"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Lunch
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/snack-and-sweets"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Snacks & Sweets
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -208,20 +208,20 @@ const Footer = () => {
               </h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/whole-bean"
                     className="text-gray-600 hover:text-gray-900"
                   >
                     Whole Bean
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/via-instant"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     VIA® Instant
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -234,27 +234,27 @@ const Footer = () => {
               </span>
               <ul className="flex items-center text-center gap-9 mt-4 lg:mt-0">
                 <li>
-                  <a
+                  <Link
                     href="/terms-and-conditions"
                     className="text-sm text-gray-500"
                   >
                     Terms And Conditions
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/privacy-policy" className="text-sm text-gray-500">
+                  <Link href="/privacy-policy" className="text-sm text-gray-500">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contact-us" className="text-sm text-gray-500">
+                  <Link href="/contact-us" className="text-sm text-gray-500">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/about-us" className="text-sm text-gray-500">
+                  <Link href="/about-us" className="text-sm text-gray-500">
                     About Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

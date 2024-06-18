@@ -37,7 +37,9 @@ export default function RootLayout({
             <SubMenu />
             <div className="flex px-5 md:px-[90px] my-9">
               <Sidebar />
-              <div className="ml-5 w-full">{children}</div>
+              <div className="ml-5 w-full">
+                
+                {children}</div>
             </div>
           </main>
           <Footer />
