@@ -15,6 +15,7 @@ const Sidebar = () => {
               category.items.length > 0 &&
               category.items.map((item: any, idx: any) => (
                 <Link
+                key={idx}
                   href={`/${item.link}`}
                   className="text-gray-600 hover:text-gray-900"
                 >
