@@ -141,8 +141,8 @@ const MenuPage = () => {
                       subItem={product}
                       delay={prodIdx * 0.1}
                       />
-                      </div>
                     ))}
+                  </div>
                   </div>
                 ))}
             </div>
