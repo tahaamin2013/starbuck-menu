@@ -39,14 +39,14 @@ const ProductLayout = ({ subItem, delay }: any) => {
         animate={inView ? "visible" : "hidden"}
         variants={variants}
         transition={{ duration: 0.3, delay }}
-        className="flex gap-8 flex-col mb-[38px] md:flex-row"
+        className="flex gap-8 flex-col mb-8 md:flex-row "
       >
         <motion.div
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={variants}
           transition={{ duration: 0.3, delay }}
-          className="flex flex-row items-center gap-5"
+          className="flex flex-row mb-6 items-center gap-5"
         >
           <Image
             src={subItem.image}
@@ -58,15 +58,13 @@ const ProductLayout = ({ subItem, delay }: any) => {
           <div>
             <h1 className="text-xl mb-1 w-full md:w-[340px]">{subItem.name}</h1>
             <div className="w-44 flex gap-6 justify-between items-center">
-              <div className="h-full gap-1  font-bold flex justify-between flex-col">
+              <div className="h-full gap-1 font-bold flex justify-between flex-col">
                 {hasSizes && (
                   <>
-                    <h1>Size:</h1>{" "}
+                    <h1>Size:</h1>
+                    <h1 className="text-white">.</h1>
                   </>
                 )}
-                {hasSizes || subItem.price !== undefined ? (
-                  <h1 className="text-white">.</h1>
-                ) : null}
                 {hasSizes || subItem.calories !== undefined ? (
                   <h1>Calories:</h1>
                 ) : null}
@@ -109,22 +107,20 @@ const ProductLayout = ({ subItem, delay }: any) => {
                     </DropdownMenuContent>
                   </DropdownMenu>
                 ) : null}
-                <span>
-                  {hasSizes && selectedSize ? selectedSize.size2 : ""}
-                </span>
-                <span>
-                  {hasSizes && selectedSize ? selectedSize.size2 : ""}
-                </span>
-                <span>
-                  {hasSizes && selectedSize ? selectedSize.size2 : ""}
-                </span>
-
-                {subItem.calories !== undefined ? (
-                  <p>{hasSizes ? selectedSize.calories : subItem.calories}</p>
-                ) : null}
-                {subItem.price !== undefined ? (
-                  <p>{hasSizes ? selectedSize.price : subItem.price}fsdfds</p>
-                ) : null}
+                {hasSizes && selectedSize ? (
+                  <>
+                    <span>{selectedSize.size2}</span>
+                    <p>{selectedSize.calories}</p>
+                    <p>{selectedSize.price}</p>
+                  </>
+                ) : (
+                  <>
+                    {subItem.calories !== undefined && (
+                      <p>{subItem.calories}</p>
+                    )}
+                    {subItem.price !== undefined && <p>{subItem.price}</p>}
+                  </>
+                )}
               </div>
             </div>
           </div>
