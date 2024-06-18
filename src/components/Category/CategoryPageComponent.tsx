@@ -154,7 +154,7 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
           {searchQuery == "" ? (
             <>
               {hotCoffees?.subItems.map((subItem, index) => (
-                <div className="flex flex-col">
+                <div key={index} className="flex flex-col">
                   {subItem.category == name ? null : (
                     <h3 className="font-semibold text-2xl border-b pb-1 mb-5">
                     {subItem.category}
