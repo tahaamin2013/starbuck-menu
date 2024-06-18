@@ -34,35 +34,35 @@ const Footer = () => {
               <div className="flex mt-4 space-x-4 justify-center lg:justify-start sm:mt-0 ">
                 <Link
                   href="https://open.spotify.com/user/starbucks"
-                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  className="rounded-full px-3 py-2 bg-primary hover:bg-[#179B74] transition-all duration-400 flex justify-center items-center text-white"
                   target="_blank"
                 >
                   <BsSpotify size={20} />
                 </Link>
                 <Link
                   href="https://www.facebook.com/Starbucks/"
-                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  className="rounded-full px-3 py-2 bg-primary hover:bg-[#179B74] transition-all duration-400 flex justify-center items-center text-white"
                   target="_blank"
                 >
                   <FaFacebookF size={18} />
                 </Link>
                 <Link
                   href="https://www.pinterest.com/starbucks/"
-                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  className="rounded-full px-3 py-2 bg-primary hover:bg-[#179B74] transition-all duration-400 flex justify-center items-center text-white"
                   target="_blank"
                 >
                   <FaPinterestP size={18} />
                 </Link>
                 <Link
                   href="https://www.instagram.com/starbucks/"
-                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  className="rounded-full px-3 py-2 bg-primary hover:bg-[#179B74] transition-all duration-400 flex justify-center items-center text-white"
                   target="_blank"
                 >
                   <FiInstagram size={20} />
                 </Link>
                 <Link
                   href="https://www.youtube.com/starbucks"
-                  className="rounded-full px-3 py-2 bg-primary flex justify-center items-center text-white"
+                  className="rounded-full px-3 py-2 bg-primary hover:bg-[#179B74] transition-all duration-400 flex justify-center items-center text-white"
                   target="_blank"
                 >
                   <GrYoutube size={20} />

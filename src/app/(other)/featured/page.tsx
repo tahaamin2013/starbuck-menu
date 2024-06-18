@@ -56,6 +56,7 @@ const Featured = () => {
         description="An airy cake layered with lightweight pineapple cream and pineapple spread with whole fruit pieces."
         bg="#fad4aa"
       />
+      <div className="mb-9"></div>
     </div>
   );
 };
