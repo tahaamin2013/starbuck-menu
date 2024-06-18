@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
     const mailOptions = {
       from: email,
       to: process.env.EMAIL_USER,
-      subject: `New Message come from `,
+      subject: `${name} Message come from StarBucks Menu with Prices`,
       html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
       <header style="background-color: #f5f5f5; padding: 20px; text-align: center;">
