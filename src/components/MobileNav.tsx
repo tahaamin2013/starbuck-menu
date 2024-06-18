@@ -11,12 +11,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { useState, useEffect } from "react";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from "@/components/ui/accordion";
 import Goy from "./goy";
 
 const MobileNav = () => {
