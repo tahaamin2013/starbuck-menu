@@ -1,8 +1,8 @@
 import CategoryPageComponent from '@/components/Category/CategoryPageComponent';
 import React from 'react'
 
-const page = () => {
+const Bakery = () => {
   return <CategoryPageComponent name="Bakery" link="/bakery" />;
 }
 
-export default page
+export default Bakery

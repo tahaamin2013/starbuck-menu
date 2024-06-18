@@ -1,22 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuLabel,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import SubMenu from "@/components/subMenu";
-import Sidebar from "@/components/sidebar";
 import { Menu } from "../../../lib/menuItems";
 import {
   Breadcrumb,
@@ -25,9 +9,10 @@ import {
   BreadcrumbList,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { ChevronDown, Search, X } from "lucide-react";
-import { ChevronsDown, Slash } from "lucide-react";
+import { Slash, Search, X } from "lucide-react";
 import CategoryLayout from "@/components/StarbucksProduct/CategoryLayout";
+import { Input } from "../ui/input";
+import ProductLayout from "../StarbucksProduct/ProductLayout";
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
@@ -139,10 +124,9 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
       </Breadcrumb>
       <div>
         <div className="flex w-full justify-between">
-          <h1 className="font-bold text-2xl mb-10 capitalize">{name}</h1>
-          <div className="flex justify-between items-center border-b mb-3 flex-col md:flex-row">
-            <h1 className="font-bold text-2xl mb-2">Menu</h1>
-            <div className="mb-5 relative">
+          <div className="flex mb-10 pb-3 justify-between w-full  items-center border-b flex-col md:flex-row">
+            <h1 className="font-bold text-2xl capitalize">{name}</h1>
+            <div className="relative bottom-1">
               <Input
                 type="text"
                 value={searchQuery}
@@ -167,18 +151,62 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
           </div>
         </div>
         <div className="flex flex-col gap-12">
-          {hotCoffees?.subItems.map((subItem, index) => (
-            <div className="flex flex-col">
-              <h3 className="font-semibold text-xl border-b pb-1 mb-5">
-                {subItem.category}
-              </h3>
-              <div className="w-full block sm:grid grid-cols-2 gap-7">
-                {subItem.products.map((product, productIndex) => (
-                  <CategoryLayout key={index} item={product} />
-                ))}
-              </div>
-            </div>
-          ))}
+          {searchQuery == "" ? (
+            <>
+              {hotCoffees?.subItems.map((subItem, index) => (
+                <div className="flex flex-col">
+                  {subItem.category == name ? null : (
+                    <h3 className="font-semibold text-2xl border-b pb-1 mb-5">
+                    {subItem.category}
+                  </h3>
+                  )}
+                  <div className="w-full block sm:grid grid-cols-2 gap-7">
+                    {subItem.products.map((product, productIndex) => (
+                      <CategoryLayout key={index} item={product} />
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </>
+          ) : (
+            <>
+              {filteredMenu.length === 0 ? (
+                <p className="text-xl text-center mb-[400px]">
+                  No results found.
+                </p>
+              ) : (
+                filteredMenu.map((category: any) => (
+                  <div key={category.category}>
+                    <h2 className="text-2xl font-bold mt-6 mb-3">
+                      {category.category}
+                    </h2>
+                    <div className="grid grid-cols-1 border-t md:grid-cols-2 gap-x-[50px] w-full bg-blue pt-6 gap-y-[50px]">
+                      {category.items &&
+                        category.items.length > 0 &&
+                        category.items.map((item: any, idx: any) => (
+                          <CategoryLayout
+                            key={idx}
+                            item={item}
+                            delay={idx * 0.1}
+                          />
+                        ))}
+                      {category.subItems &&
+                        category.subItems.length > 0 &&
+                        category.subItems.map((subItem: any, subIdx: any) =>
+                          subItem.products.map((product: any, prodIdx: any) => (
+                            <ProductLayout
+                              key={prodIdx}
+                              subItem={product}
+                              delay={prodIdx * 0.1}
+                            />
+                          ))
+                        )}
+                    </div>
+                  </div>
+                ))
+              )}
+            </>
+          )}
         </div>
       </div>
     </div>

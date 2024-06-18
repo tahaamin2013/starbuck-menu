@@ -50,9 +50,9 @@ const ProductLayout = ({ subItem, delay }: any) => {
             className="rounded-full max-w-[120rem] max-h-[118px]"
           />
           <div>
+            <h1 className="text-sm mb-1 w-full md:w-[340px]">Product</h1>
             <h1 className="text-xl mb-1 w-full md:w-[340px]">{subItem.name}</h1>
-            <h1 className="text-xl mb-1 w-full md:w-[340px]">Product</h1>
-            {/* <div className="w-44 flex gap-6 justify-between items-center">
+            <div className="w-44 flex gap-6 justify-between items-center">
             <div className="h-full gap-1 font-bold flex justify-between flex-col">
               <h1>Size:</h1>
               <h1 className="text-white">.</h1>
@@ -96,7 +96,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
               <p>{selectedSize.calories}</p>
               <p>{selectedSize.price}</p> 
             </div>
-          </div>*/}
+          </div>
           </div>
         </motion.div>
       </motion.div>
