@@ -26,7 +26,8 @@
     "github-slugger": "^2.0.0",
     "reading-time": "^1.5.0",
     "rehype-slug": "^5.1.0",
-
+    "next-contentlayer": "^0.3.4",
+    "next-sitemap": "^4.2.2",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.10.3",
