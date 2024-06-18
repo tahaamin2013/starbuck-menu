@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between border-zinc-200">
           <Link href="/" className="flex text-2xl gap-4 z-40 font-bold">
             <Image
-              src="/icon.svg"
+              src="/logo.svg"
               alt="Starbucks icon"
               width={80}
               height={80}
