@@ -25,7 +25,7 @@ import {
   BreadcrumbList,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Search, X } from "lucide-react";
 import { ChevronsDown, Slash } from "lucide-react";
 import CategoryLayout from "@/components/StarbucksProduct/CategoryLayout";
 

@@ -114,7 +114,6 @@ const Footer = () => {
                     Hot Teas
                   </Link>
                 </li>
-
                 <li className="mb-4">
                   <Link
                     href="/bottle-beverages"
@@ -154,7 +153,7 @@ const Footer = () => {
                   >
                     Frappuccino® Blended Beverages
                   </Link>
-                </li>
+                </li> 
               </ul>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
