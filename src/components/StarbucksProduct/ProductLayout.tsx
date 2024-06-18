@@ -27,6 +27,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
     threshold: 0.1,
   });
 
+  const hasSize = subItem.size;
   const hasSizes = subItem.sizes && subItem.sizes.length > 0;
   const initialSize = hasSizes ? subItem.sizes[0] : null;
   const [selectedSize, setSelectedSize] = useState(initialSize);
@@ -39,7 +40,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
         animate={inView ? "visible" : "hidden"}
         variants={variants}
         transition={{ duration: 0.3, delay }}
-        className="flex gap-8 flex-col mb-8 md:flex-row "
+        className="flex gap-8 flex-col mb-8 md:mb-1 md:flex-row "
       >
         <motion.div
           initial="hidden"
@@ -65,12 +66,15 @@ const ProductLayout = ({ subItem, delay }: any) => {
                     <h1 className="text-white">.</h1>
                   </>
                 )}
-                {hasSizes || subItem.calories !== undefined ? (
+                {(hasSize || subItem.size !== undefined) && (
+                  <h1>Size:</h1>
+                )}
+                {(hasSizes || subItem.calories !== undefined) && (
                   <h1>Calories:</h1>
-                ) : null}
-                {hasSizes || subItem.price !== undefined ? (
+                )}
+                {(hasSizes || subItem.price !== undefined) && (
                   <h1>Price:</h1>
-                ) : null}
+                )}
               </div>
               <div className="flex flex-col gap-1">
                 {hasSizes ? (
@@ -118,6 +122,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
                     {subItem.calories !== undefined && (
                       <p>{subItem.calories}</p>
                     )}
+                    {subItem.size !== undefined && <p>{subItem.size}</p>}
                     {subItem.price !== undefined && <p>{subItem.price}</p>}
                   </>
                 )}

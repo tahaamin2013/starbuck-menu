@@ -157,8 +157,8 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
                 <div key={index} className="flex flex-col">
                   {subItem.category == name ? null : (
                     <h3 className="font-semibold text-2xl border-b pb-1 mb-5">
-                    {subItem.category}
-                  </h3>
+                      {subItem.category}
+                    </h3>
                   )}
                   <div className="w-full block sm:grid grid-cols-2 gap-7">
                     {subItem.products.map((product) => (
@@ -192,15 +192,22 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
                         ))}
                       {category.subItems &&
                         category.subItems.length > 0 &&
-                        category.subItems.map((subItem: any, subIdx: any) =>
-                          subItem.products.map((product: any, prodIdx: any) => (
-                            <ProductLayout
-                              key={prodIdx}
-                              subItem={product}
-                              delay={prodIdx * 0.1}
-                            />
-                          ))
-                        )}
+                        category.subItems.map((subItem: any, subIdx: any) => (
+                          <div className="grid-cols-1">
+                            <h3 className="text-xl font-bold mt-4 mb-2">
+                              {subItem.category}
+                            </h3>
+                            {subItem.products.map(
+                              (product: any, prodIdx: any) => (
+                                <ProductLayout
+                                  key={prodIdx}
+                                  subItem={product}
+                                  delay={prodIdx * 0.1}
+                                />
+                              )
+                            )}
+                          </div>
+                        ))}
                     </div>
                   </div>
                 ))

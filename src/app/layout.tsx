@@ -4,9 +4,9 @@ import "./globals.css";
 import Navbar from "@/components";
 import SubMenu from "@/components/subMenu";
 import Loader from "@/components/Loader";
-import footer from "@/components/footer";
 import Footer from "@/components/footer";
 import Sidebar from "@/components/sidebar";
+import GoTopButton from "@/components/TopButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-          <meta name="theme-color" content="#0b7555" />
+        <meta name="theme-color" content="#0b7555" />
       </head>
       <body className={inter.className}>
         <Loader>
@@ -37,13 +37,12 @@ export default function RootLayout({
             <SubMenu />
             <div className="flex px-5 md:px-[90px] my-9">
               <Sidebar />
-              <div className="ml-5 w-full">
-                
-                {children}</div>
+              <div className="ml-5 w-full">{children}</div>
             </div>
           </main>
           <Footer />
         </Loader>
+        <GoTopButton />
       </body>
     </html>
   );

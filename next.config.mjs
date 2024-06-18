@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
 
-export default nextConfig;
+const {withContentlayer} = require("next-contentlayer")
+
+const nextConfig = {
+    compiler:{
+        removeConsole: true,
+    }
+};
+
+module.exports = withContentlayer({ ...nextConfig });
