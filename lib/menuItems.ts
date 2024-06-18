@@ -3773,7 +3773,7 @@ export const Menu = [
       {
         name: "Bottled Beverages",
         image: "/Bottled Beverages.avif",
-        link: "",
+        link: "bottle-beverages",
         subItems: [
           {
             category: "Water and Sparkling",
@@ -4428,7 +4428,7 @@ export const Menu = [
       {
         name: "Snacks & Sweets",
         image: "/Snacks & Sweets.avif",
-        link: "",
+        link: "snack-and-sweets",
         subItems: [
           {
             category: "Biscotti & Cookies",
