@@ -125,7 +125,7 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
       <div>
         <div className="flex w-full justify-between">
           <div className="flex mb-10 pb-3 justify-between w-full  items-center border-b flex-col md:flex-row">
-            <h1 className="font-bold text-2xl capitalize">{name}</h1>
+            <h1 className="font-bold mb-2 text-2xl capitalize">{name}</h1>
             <div className="relative bottom-1">
               <Input
                 type="text"
