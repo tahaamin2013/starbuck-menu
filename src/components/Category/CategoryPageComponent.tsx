@@ -161,8 +161,8 @@ const CategoryPageComponent: React.FC<{ name: string; link: string }> = ({
                   </h3>
                   )}
                   <div className="w-full block sm:grid grid-cols-2 gap-7">
-                    {subItem.products.map((product, productIndex) => (
-                      <CategoryLayout key={index} item={product} />
+                    {subItem.products.map((product) => (
+                      <ProductLayout key={index} subItem={product} />
                     ))}
                   </div>
                 </div>
