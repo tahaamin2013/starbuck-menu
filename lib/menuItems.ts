@@ -3773,7 +3773,7 @@ export const Menu = [
       {
         name: "Bottled Beverages",
         image: "/Bottled Beverages.avif",
-        link: "bottle-beverages",
+        link: "bottled-beverages",
         subItems: [
           {
             category: "Water and Sparkling",
