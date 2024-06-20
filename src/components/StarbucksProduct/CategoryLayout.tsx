@@ -10,14 +10,14 @@ const variants = {
   visible: { opacity: 1, y: 0 },
 };
 
-const CategoryLayout = ({ item, delay }: any) => {
+const CategoryLayout = ({ item, delay, key }: any) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
 
   return (
-    <Link href={item.link} className="w-fit">
+    <Link href={item.link} key={key} className="w-fit">
       <motion.div
         ref={ref}
         initial="hidden"

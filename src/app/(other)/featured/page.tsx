@@ -1,4 +1,4 @@
-import Feetured from "@/components/Featured";
+import Feetured from "@/src/components/Featured";
 import Image from "next/image";
 import React from "react";
 

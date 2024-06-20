@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components";
-import SubMenu from "@/components/subMenu";
-import Loader from "@/components/Loader";
-import Footer from "@/components/footer";
-import Sidebar from "@/components/sidebar";
-import GoTopButton from "@/components/TopButton";
-import siteMetadata from "@/utils/siteMetaData";
+import Navbar from "../components";
+import SubMenu from "../components/subMenu";
+import Loader from "../components/Loader";
+import Footer from "../components/footer";
+import Sidebar from "../components/sidebar";
+import GoTopButton from "../components/TopButton";
+import siteMetadata from "../utils/siteMetaData";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,12 +38,12 @@ export default function RootLayout({
             <SubMenu />
             <div className="flex px-5 md:px-[90px] my-9">
               <Sidebar />
-              <div className="ml-5 w-full">{children}</div>
+              <div className="w-full">{children}</div>
             </div>
           </main>
           <Footer />
         </Loader>
-        <GoTopButton />
+        {/* <GoTopButton /> */}
       </body>
     </html>
   );

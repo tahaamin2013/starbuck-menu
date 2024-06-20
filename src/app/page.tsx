@@ -1,13 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import { Menu } from "../../lib/menuItems";
-import SubMenu from "@/components/subMenu";
-import Sidebar from "@/components/sidebar";
+import { Menu } from "@/lib/menuItems";
 import { Search, X } from "lucide-react";
-import CategoryLayout from "@/components/StarbucksProduct/CategoryLayout";
-import { Input } from "@/components/ui/input";
-import ProductLayout from "@/components/StarbucksProduct/ProductLayout";
+import CategoryLayout from "../components/StarbucksProduct/CategoryLayout";
+import { Input } from "@/src/components/ui/input";
+import ProductLayout from "../components/StarbucksProduct/ProductLayout";
 
 const MenuPage = () => {
   const [searchQuery, setSearchQuery] = useState<string>("");

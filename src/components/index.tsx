@@ -1,6 +1,6 @@
 "use client";
-import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import { Button, buttonVariants } from "@/components/ui/button";
+import MaxWidthWrapper from "@/src/components/MaxWidthWrapper";
+import { Button, buttonVariants } from "@/src/components/ui/button";
 import Link from "next/link";
 import MobileNav from "./MobileNav";
 import { ChevronDown, MessagesSquare } from "lucide-react";
@@ -11,7 +11,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/src/components/ui/dropdown-menu";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";

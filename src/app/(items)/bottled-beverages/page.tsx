@@ -1,10 +1,10 @@
-import CategoryPageComponent from '@/components/Category/CategoryPageComponent'
-import React from 'react'
+import CategoryPageComponent from "@/src/components/Category/CategoryPageComponent";
+import React from "react";
 
 const BottleBeverages = () => {
   return (
-    <CategoryPageComponent name="Bottled Beverages" link='/bottled-beverages' />
-  )
-}
+    <CategoryPageComponent name="Bottled Beverages" link="/bottled-beverages" />
+  );
+};
 
-export default BottleBeverages
+export default BottleBeverages;

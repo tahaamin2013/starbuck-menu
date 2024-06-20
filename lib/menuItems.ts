@@ -1,4 +1,39 @@
-export const Menu = [
+export type Size = {
+  size: string;
+  calories: number;
+  price: string;
+  size2: string;
+};
+
+export type Product = {
+  name: string;
+  image: string;
+  link: string;
+  sizes?: Size[];
+  size?: string;
+  calories?: number;
+  price?: string;
+};
+
+export type SubItem = {
+  category: string;
+  products: Product[];
+};
+
+export type Item = {
+  name: string;
+  image: string;
+  link: string;
+  subItems: SubItem[];
+};
+
+export type Category = {
+  category: string;
+  items: Item[];
+};
+// lib/utils.ts
+
+export const Menu: Category[] = [
   // Drinks
   {
     category: "Drinks",
@@ -14,7 +49,7 @@ export const Menu = [
               {
                 name: "Caffè Americano",
                 image: "/to.avif",
-                link: "",
+                link: "caffe-americano",
                 sizes: [
                   {
                     size: "Short",
@@ -3779,8 +3814,8 @@ export const Menu = [
             category: "Water and Sparkling",
             products: [
               {
-                name: "Spindrift Lemon Sparkling Water",
-                image: "/Spindrift Lemon Sparkling Water.avif",
+                name: "Spindrift® Lemon Sparkling Water",
+                image: "/Spindrift® Lemon Sparkling Water.avif",
                 sizes: [
                   {
                     size: "Tall",
@@ -3792,8 +3827,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Spindrift Raspberry Lime Sparkling Water",
-                image: "/Spindrift Raspberry Lime Sparkling Water.avif",
+                name: "Spindrift® Raspberry Lime Sparkling Water",
+                image: "/Spindrift® Raspberry Lime Sparkling Water.avif",
                 sizes: [
                   {
                     size: "Tall",
@@ -3805,8 +3840,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Spindrift Grapefruit Sparkling Water",
-                image: "/Spindrift Grapefuit Sparkling Water.avif",
+                name: "Spindrift® Grapefruit Sparkling Water",
+                image: "/Spindrift® Grapefruit Sparkling Water.jpg",
                 sizes: [
                   {
                     size: "Tall",
@@ -3818,8 +3853,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Ethos Bottled Water",
-                image: "/Ethos Bottled Water.avif",
+                name: "Ethos® Bottled Water",
+                image: "/Ethos® Bottled Water.avif",
                 sizes: [
                   {
                     size: "Tall",
@@ -3836,8 +3871,8 @@ export const Menu = [
             category: "Protein and Milk",
             products: [
               {
-                name: "Koia Cacao Bean Protein Shake",
-                image: "/Koia Cacao Bean Protein Shake.avif",
+                name: "Koia® Cacao Bean Protein Shake",
+                image: "/Koia® Cacao Bean Protein Shake.avif",
                 sizes: [
                   {
                     size: "Tall",
@@ -3849,8 +3884,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Koia Vanilla Bean Protein Shake",
-                image: "/Koia Vanilla Bean Protein Shake.avif",
+                name: "Koia® Vanilla Bean Protein Shake",
+                image: "/Koia® Vanilla Bean Protein Shake.avif",
                 sizes: [
                   {
                     size: "Tall",
@@ -3862,8 +3897,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Horizon Chocolate Organic Milk",
-                image: "/Horizon Chocolate Organic Milk.avif",
+                name: "Horizon® Chocolate Organic Milk",
+                image: "/Horizon® Chocolate Organic Milk.avif",
                 sizes: [
                   {
                     size: "Short",
@@ -3875,8 +3910,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Horizon Organic Lowfat Milk Box",
-                image: "/Horizon Organic Lowfat Milk Box.avif",
+                name: "Horizon® Organic Lowfat Milk Box",
+                image: "/Horizon® Organic Lowfat Milk Box.avif",
                 sizes: [
                   {
                     size: "Short",
@@ -3894,8 +3929,8 @@ export const Menu = [
             category: "Juice",
             products: [
               {
-                name: "Evolution Fresh Organic Defense up",
-                image: "/Evolution Fresh Organic Defense up.avif",
+                name: "Evolution Fresh® Organic Defense Up®",
+                image: "/Evolution Fresh® Organic Defense Up®.avif",
                 sizes: [
                   {
                     size: "11 fl oz",
@@ -3907,8 +3942,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Evolution Fresh Orange",
-                image: "/Evolution Fresh Orange.avif",
+                name: "Evolution Fresh® Orange",
+                image: "/Evolution Fresh® Orange.avif",
                 sizes: [
                   {
                     size: "11 fl oz",
@@ -3920,8 +3955,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Evolution Fresh Organic Super Fruit Greens",
-                image: "/Evolution Fresh Organic Super Fruit Greens.avif",
+                name: "Evolution Fresh® Organic Super Fruit Greens",
+                image: "/Evolution Fresh® Organic Super Fruit Greens.avif",
                 sizes: [
                   {
                     size: "11 fl oz",
@@ -3947,8 +3982,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Starbucks Baya Energy Raspberry LIme",
-                image: "/Starbucks Baya Energy Raspberry LIme.avif",
+                name: "Starbucks™ Baya Energy Raspberry Lime",
+                image: "/Starbucks™ Baya Energy Raspberry Lime.avif",
                 sizes: [
                   {
                     size: "Tall",
@@ -4434,8 +4469,8 @@ export const Menu = [
             category: "Biscotti & Cookies",
             products: [
               {
-                name: "Madeleinese",
-                image: "/Madeleinese.avif",
+                name: "Madeleines",
+                image: "/Madeleines.avif",
                 calories: 220,
                 price: "$2.45",
                 link: "",
@@ -4453,8 +4488,8 @@ export const Menu = [
             category: "Chocolates & Candy",
             products: [
               {
-                name: "Salted Alomnd Chocolate Bites",
-                image: "/Salted Alomnd Chocolate Bites.avif",
+                name: "Salted Almond Chocolate Bites",
+                image: "/Salted Almond Chocolate Bites.avif",
                 calories: 300,
                 price: "$2.75",
                 link: "",
@@ -4473,22 +4508,22 @@ export const Menu = [
             category: "Fruit & Nuts",
             products: [
               {
-                name: "Skinny Dipped Lemon Bliss Almonds",
-                image: "/Skinny Dipped Lemon Bliss Almonds.avif",
+                name: "SkinnyDipped Lemon Bliss Almonds",
+                image: "/SkinnyDipped Lemon Bliss Almonds.avif",
                 calories: 170,
                 price: "$2.95",
                 link: "",
               },
               {
                 name: "Skinny Dipped Dark Chocolate Cocoa Almonds",
-                image: "/Skinny Dipped Dark Chocolate Cocoa Almonds.avif",
+                image: "/SkinnyDipped Dark Chocolate Cocoa Almonds.avif",
                 calories: 170,
                 price: "$2.95",
                 link: "",
               },
               {
-                name: "Peter Rabbit Organics Stawberry Banana",
-                image: "/Peter Rabbit Organics Stawberry Banana.avif",
+                name: "Peter Rabbit™ Organics Strawberry Banana",
+                image: "/Peter Rabbit™ Organics Strawberry Banana.avif",
                 calories: 80,
                 price: "$2.25",
                 link: "",
@@ -4511,8 +4546,8 @@ export const Menu = [
             category: "Popcorn & Chips",
             products: [
               {
-                name: "Siete Lime Grain Free Tortilla Chips",
-                image: "/Siete Lime Grain Free Tortilla Chips.avif",
+                name: "Siete Sea Salt Kettle Cooked Potato Chips",
+                image: "/Siete Sea Salt Kettle Cooked Potato Chips.avif",
                 calories: 210,
                 price: "$2.55",
                 link: "",
@@ -4525,8 +4560,8 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Starbucks button popcorn",
-                image: "/Starbucks button popcorn.avif",
+                name: "Starbucks Butter Popcorn",
+                image: "/Starbucks Butter Popcorn.avif",
                 calories: 150,
                 price: "$1.50",
                 link: "",
@@ -4545,7 +4580,7 @@ export const Menu = [
             products: [
               {
                 name: "String Cheese",
-                image: "/String Cheese.avif",
+                image: "/String Cheese.jpg",
                 calories: 0,
                 price: "$2.25",
                 link: "",
@@ -4556,22 +4591,22 @@ export const Menu = [
             category: "Snack Bars",
             products: [
               {
-                name: "Perfect Bar - Dark Chocolate Chip Peanut Butter",
-                image: "/Perfect Bar - Dark Chocolate Chip Peanut Butter.avif",
+                name: "Perfect Bar® - Dark Chocolate Chip Peanut Butter",
+                image: "/Perfect Bar® - Dark Chocolate Chip Peanut Butter.avif",
                 calories: 320,
                 price: "$3.95",
                 link: "",
               },
               {
-                name: "Perfect Bar Peanut Butter",
-                image: "/Perfect Bar Peanut Butter.avif",
+                name: "SPerfect Bar® Peanut Butter",
+                image: "/SPerfect Bar® Peanut Butter.avif",
                 calories: 330,
                 price: "$3.95",
                 link: "",
               },
               {
-                name: "KIND Salted Caramel & Dark Chocolate Nut Bar",
-                image: "/KIND Salted Caramel & Dark Chocolate Nut Bar.avif",
+                name: "KIND® Salted Caramel & Dark Chocolate Nut Bar",
+                image: "/KIND® Salted Caramel & Dark Chocolate Nut Bar.avif",
                 calories: 200,
                 price: "$2.25",
                 link: "",
@@ -4826,9 +4861,9 @@ export const Menu = [
                 link: "",
               },
               {
-                name: "Multicolor Plastic Reusable Cold cup with Dome Lid, 5-Pack - 24 fl oz",
+                name: "Multicolor Plastic Reusable Cold Cup with Dome Lid, 5-Pack - 24 fl oz",
                 image:
-                  "/Multicolor Plastic Reusable Cold cup with Dome Lid, 5-Pack - 24 fl oz.avif",
+                  "/Multicolor Plastic Reusable Cold Cup with Dome Lid, 5-Pack - 24 fl oz.avif",
                 price: "$22.95",
                 link: "",
               },

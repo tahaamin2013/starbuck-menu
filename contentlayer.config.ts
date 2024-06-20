@@ -7,7 +7,7 @@ import remarkGfm from "remark-gfm";
 import GithubSlugger from "github-slugger"
 
 const Blog = defineDocumentType(() => ({
-  name: "Products",
+  name: "Blog",
   filePathPattern: "**/**/*.mdx",
   contentType: "mdx",
   fields: {
@@ -47,7 +47,7 @@ const Blog = defineDocumentType(() => ({
   computedFields: {
     url: {
       type: "string",
-      resolve: (doc) => `/product/${doc._raw.flattenedPath}`,
+      resolve: (doc) => `/articles/${doc._raw.flattenedPath}`,
     },
     readingTime: {
       type: "json",

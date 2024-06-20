@@ -1,10 +1,8 @@
-import CategoryPageComponent from '@/components/Category/CategoryPageComponent'
-import React from 'react'
+import CategoryPageComponent from "@/src/components/Category/CategoryPageComponent";
+import React from "react";
 
 const HotCoffees = () => {
-  return (
-    <CategoryPageComponent name="Hot Coffees" link='/hot-coffee' />
-  )
-}
+  return <CategoryPageComponent name="Hot Coffees" link="/hot-coffee" />;
+};
 
-export default HotCoffees
+export default HotCoffees;

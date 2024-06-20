@@ -1,16 +1,16 @@
 "use client";
 
 import React, { useState } from "react";
-import { Menu } from "../../../lib/menuItems";
+import { Menu } from "@/lib/menuItems";
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
+} from "@/src/components/ui/breadcrumb";
 import { Slash, Search, X } from "lucide-react";
-import CategoryLayout from "@/components/StarbucksProduct/CategoryLayout";
+import CategoryLayout from "@/src/components/StarbucksProduct/CategoryLayout";
 import { Input } from "../ui/input";
 import ProductLayout from "../StarbucksProduct/ProductLayout";
 

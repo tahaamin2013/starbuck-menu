@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { Menu } from "../../lib/menuItems";
+import { Menu } from "@/lib/menuItems";
 
 const Sidebar = () => {
   return (

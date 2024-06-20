@@ -18,7 +18,7 @@ const Footer = () => {
                 className="flex justify-center items-center w-full md:w-fit text-2xl gap-4 z-40 font-bold"
               >
                 <Image
-                  src="/icon.svg"
+                  src="/logo.svg"
                   alt="Starbucks icon"
                   width={120}
                   height={100}
@@ -70,11 +70,11 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:mx-auto text-center sm:text-left">
-              <h4 className=" text-white font-medium mb-4">.</h4>
+              <h4 className="font-medium mb-5">Menus</h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-4">
                   <Link href="/" className=" text-gray-600 hover:text-gray-900">
-                    Starbucks Menu
+                  Full Starbucks Menu
                   </Link>
                 </li>
                 <li className="mb-4">
@@ -82,7 +82,7 @@ const Footer = () => {
                     href="/featured"
                     className=" text-gray-600 hover:text-gray-900"
                   >
-                    Featured
+                    Featured Menu
                   </Link>
                 </li>
               </ul>

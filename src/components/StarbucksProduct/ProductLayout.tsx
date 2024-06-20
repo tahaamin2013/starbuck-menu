@@ -33,7 +33,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
   const [selectedSize, setSelectedSize] = useState(initialSize);
 
   return (
-    <Link href={subItem.link}>
+    <Link href={`/articles/${subItem.link}`}>
       <motion.div
         ref={ref}
         initial="hidden"
@@ -57,7 +57,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
             className="rounded-full max-w-[120rem] max-h-[118px]"
           />
           <div>
-            <h1 className="text-xl mb-1 w-full md:w-[340px]">{subItem.name}</h1>
+            <h1 className="text-xl mb-1 w-full md:w-[260px]">{subItem.name}</h1>
             <div className="w-44 flex gap-6 justify-between items-center">
               <div className="h-full gap-1 font-bold flex justify-between flex-col">
                 {hasSizes && (
