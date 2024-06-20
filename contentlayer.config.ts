@@ -32,9 +32,6 @@ const Blog = defineDocumentType(() => ({
       type: "boolean",
       default: true,
     },
-    jfkFeatured: {
-      type: "boolean",
-    },
     author: {
       type: "string",
       required: true,

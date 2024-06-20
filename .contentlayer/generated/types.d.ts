@@ -19,7 +19,6 @@ export type Blog = {
   description: string
   image?: ImageFieldData | undefined
   isPublished: boolean
-  jfkFeatured?: boolean | undefined
   author: string
   tags?: string[] | undefined
   /** MDX file body */
