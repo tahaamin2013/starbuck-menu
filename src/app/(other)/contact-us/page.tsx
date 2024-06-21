@@ -6,7 +6,7 @@ import { Label } from "@/src/components/ui/label";
 import { Textarea } from "@/src/components/ui/textarea";
 import { Button } from "@/src/components/ui/button";
 
-export default function ContactForm() {
+const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -112,3 +112,5 @@ export default function ContactForm() {
     </div>
   );
 }
+
+export default ContactForm;
