@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev && Welcome, To the Starbucks Menu With Prices",
-    "build": "next build",
+    "build": "npm install --legacy-peer-deps && next build",
     "postbuild": "next-sitemap --next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint"
