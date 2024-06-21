@@ -34,7 +34,7 @@ const BlogReading = ({ parmy, blogy }: { parmy: any; blogy: any }) => {
           <div className="flex flex-col gap-7 md:flex-row">
             <div className="flex flex-col gap-2 items-center justify-center">
               {/* <BlogReaderImage parmy={parmy} /> */}
-              <Product productName="Caffè Americano" />
+              <Product productName={blog.ProductName} />
             </div>
             <div className="w-full md:w-[800px] mt-1">
               <RenderMdx blog={blogy} />

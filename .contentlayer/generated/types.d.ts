@@ -14,6 +14,7 @@ export type Blog = {
   _raw: Local.RawDocumentData
   type: 'Blog'
   title: string
+  ProductName: string
   publishedAt: IsoDateTimeString
   updatedAt: IsoDateTimeString
   description: string

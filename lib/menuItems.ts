@@ -86,7 +86,7 @@ export const Menu: Category[] = [
               {
                 name: "Veranda Blend® Clover Vertica™",
                 image: "/to.avif",
-                link: "",
+                link: "Veranda-Blend-Clover-Vertica",
                 sizes: [
                   {
                     size: "Short",
