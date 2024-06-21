@@ -37,7 +37,7 @@ const Categories: React.FC<CategoriesProps> = ({
           />
         </CarouselItem>
         {categories.map((cat: any) => (
-          <CarouselItem className="flex w-fit basis-auto">
+          <CarouselItem  key={cat} className="flex w-fit basis-auto">
             <Category
               key={cat}
               link={`/categories/${cat}`}
