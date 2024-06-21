@@ -46,6 +46,11 @@
     "tailwindcss-animate": "^1.0.7",
     "tailwindcss-typography": "^3.1.0"
   },
+  "overrides": {
+    "next-contentlayer": {
+      "next": "$next"
+    }
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/nodemailer": "^6.4.15",
