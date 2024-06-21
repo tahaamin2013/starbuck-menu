@@ -1,6 +1,5 @@
 import { allBlogs, Blog } from "@/.contentlayer/generated";
 import Search from "@/src/components/Blog/search";
-import Footer from "@/src/components/Footer";
 import GithubSlugger from "github-slugger";
 
 const slugger = new GithubSlugger();
@@ -41,7 +40,6 @@ const CategoryPage = ({ params }: { params: { slug: string } }) => {
   return (
     <article className="mt-6 flex gap-5 flex-col text-white px-5 sm:px-10 md:px-24 sxl:px-32">
       <Search parmy={params} />
-      <Footer />
     </article>
   );
 };
