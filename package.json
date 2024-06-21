@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev && Welcome, To the Starbucks Menu With Prices",
-    "build": "npm install --legacy-peer-deps && next build",
+    "dev": "next dev",
+    "build": "npm i -force && next build",
     "postbuild": "next-sitemap --next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint"
