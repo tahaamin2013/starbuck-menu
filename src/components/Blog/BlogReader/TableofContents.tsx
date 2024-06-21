@@ -1,30 +1,29 @@
-'use client'
+"use client";
 
 import { allBlogs } from "contentlayer/generated";
 import { ChevronRight } from "lucide-react";
 import { useState } from "react";
 
 const TableofContents = ({ parmy }: { parmy: any }) => {
+  const [scrollMargin, setScrollMargin] = useState(0);
+
   const blog = allBlogs.find((blog) => blog._raw.flattenedPath === parmy.slug);
   if (!blog) {
     return <div>Blog not found</div>;
   }
-    
-    const [scrollMargin, setScrollMargin] = useState(0);
 
-    const handleButtonClick = (e: any, myelement: string) => {
-      const newScrollMargin = 60;
-      setScrollMargin(newScrollMargin);
-  
-      const element = document.getElementById(myelement);
-      if (element) {
-        window.scrollTo({
-          top: element.offsetTop - newScrollMargin,
-          behavior: 'smooth',
-        });
-      }
-    };
+  const handleButtonClick = (e: any, myelement: string) => {
+    const newScrollMargin = 60;
+    setScrollMargin(newScrollMargin);
 
+    const element = document.getElementById(myelement);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - newScrollMargin,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <details

@@ -127,7 +127,7 @@ const MenuPage = () => {
               {category.subItems &&
                 category.subItems.length > 0 &&
                 category.subItems.map((subItem: any, subIdx: any) => (
-                  <div className="grid-cols-1">
+                  <div key={subIdx} className="grid-cols-1">
                     <h3 className="text-xl border-b pb-1 font-bold mt-4 mb-2">
                       {subItem.category}
                     </h3>
