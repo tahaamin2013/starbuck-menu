@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "contentlayer/generated": ["./.contentlayer/generated"],
+      "@/*": ["./src/*"],  // Example: Maps @/* to ./src/*
+      "contentlayer/generated": ["./.contentlayer/generated"]
     }
   }
 }
